@@ -1,0 +1,325 @@
+col_X,pattern_X,match_type_X,col_Y,pattern_Y,match_type_Y,confidence,n_matching_X,n_valid,n_violations,epsilon,generalized_from
+ZIP,6,startswith,COUNTRY,United States,exact,1.0,2509,2509,0,0.1,1
+PHONE,3,startswith,COUNTRY,United States,exact,1.0,1978,1978,0,0.1,1
+EMPLOYER_ID,4,startswith,COUNTRY,United States,exact,1.0,1876,1876,0,0.1,1
+FAX,3,startswith,COUNTRY,United States,exact,1.0,1459,1459,0,0.1,1
+EMPLOYER_ID,1,startswith,ACTIVE,Y,exact,1.0,734,734,0,0.1,1
+PHONE,2,startswith,COUNTRY,United States,exact,1.0,381,381,0,0.1,1
+NAME,C,startswith,COUNTRY,United States,exact,1.0,345,345,0,0.1,1
+CITY,N,startswith,COUNTRY,United States,exact,1.0,316,316,0,0.1,1
+NAME,S,startswith,ACTIVE,Y,exact,1.0,312,312,0,0.1,1
+NAME,S,startswith,COUNTRY,United States,exact,1.0,312,312,0,0.1,1
+EMPLOYER_ID,7,startswith,ACTIVE,Y,exact,1.0,311,311,0,0.1,1
+NAME,M,startswith,ACTIVE,Y,exact,1.0,295,295,0,0.1,1
+NAME,M,startswith,COUNTRY,United States,exact,1.0,295,295,0,0.1,1
+ZIP,10,startswith,STATE,NY,exact,1.0,285,285,0,0.1,8
+FAX,2,startswith,COUNTRY,United States,exact,1.0,244,244,0,0.1,1
+CREATED_DATE,1,startswith,ACTIVE,Y,exact,1.0,239,239,0,0.1,1
+ADDRESS_1,5,startswith,ACTIVE,Y,exact,1.0,238,238,0,0.1,1
+ADDRESS_1,5,startswith,COUNTRY,United States,exact,1.0,238,238,0,0.1,1
+NAME,J,startswith,ACTIVE,Y,exact,1.0,228,228,0,0.1,1
+NAME,J,startswith,COUNTRY,United States,exact,1.0,228,228,0,0.1,1
+PHONE,6,startswith,COUNTRY,United States,exact,1.0,227,227,0,0.1,1
+NAME,A,startswith,COUNTRY,United States,exact,1.0,218,218,0,0.1,1
+NAME,T,startswith,ACTIVE,Y,exact,1.0,207,207,0,0.1,1
+EMPLOYER_ID,6,startswith,ACTIVE,Y,exact,1.0,179,179,0,0.1,1
+EMPLOYER_ID,6,startswith,COUNTRY,United States,exact,1.0,179,179,0,0.1,1
+ADDRESS_1,4,startswith,COUNTRY,United States,exact,1.0,173,173,0,0.1,1
+NAME,R,startswith,ACTIVE,Y,exact,1.0,173,173,0,0.1,1
+NAME,R,startswith,COUNTRY,United States,exact,1.0,173,173,0,0.1,1
+NAME,B,startswith,COUNTRY,United States,exact,1.0,165,165,0,0.1,1
+NAME,K,startswith,ACTIVE,Y,exact,1.0,158,158,0,0.1,1
+NAME,K,startswith,COUNTRY,United States,exact,1.0,158,158,0,0.1,1
+NAME,G,startswith,ACTIVE,Y,exact,1.0,148,148,0,0.1,1
+NAME,G,startswith,COUNTRY,United States,exact,1.0,148,148,0,0.1,1
+NAME,L,startswith,ACTIVE,Y,exact,1.0,146,146,0,0.1,1
+NAME,D,startswith,COUNTRY,United States,exact,1.0,144,144,0,0.1,1
+NAME,U,startswith,ACTIVE,Y,exact,1.0,143,143,0,0.1,1
+ADDRESS_1,6,startswith,COUNTRY,United States,exact,1.0,141,141,0,0.1,1
+NAME,F,startswith,ACTIVE,Y,exact,1.0,137,137,0,0.1,1
+NAME,F,startswith,COUNTRY,United States,exact,1.0,137,137,0,0.1,1
+NAME,I,startswith,ACTIVE,Y,exact,1.0,136,136,0,0.1,1
+ZIP,2,startswith,COUNTRY,United States,exact,1.0,136,136,0,0.1,1
+CITY,W,startswith,COUNTRY,United States,exact,1.0,131,131,0,0.1,1
+PHONE,(,startswith,ACTIVE,Y,exact,1.0,123,123,0,0.1,1
+PHONE,(,startswith,COUNTRY,United States,exact,1.0,123,123,0,0.1,1
+EMPLOYER_ID,8,startswith,ACTIVE,Y,exact,1.0,122,122,0,0.1,1
+FAX,8,startswith,COUNTRY,United States,exact,1.0,122,122,0,0.1,1
+PHONE,4,startswith,ACTIVE,Y,exact,1.0,116,116,0,0.1,1
+CITY,S,startswith,ACTIVE,Y,exact,1.0,115,115,0,0.1,1
+CITY,S,startswith,COUNTRY,United States,exact,1.0,115,115,0,0.1,1
+NAME,N,startswith,ACTIVE,Y,exact,1.0,112,112,0,0.1,1
+STATE,C,startswith,ACTIVE,Y,exact,1.0,109,109,0,0.1,1
+STATE,C,startswith,COUNTRY,United States,exact,1.0,109,109,0,0.1,1
+ACTIVE,N,startswith,COUNTRY,United States,exact,1.0,106,106,0,0.1,1
+EMPLOYER_ID,9,startswith,ACTIVE,Y,exact,1.0,106,106,0,0.1,1
+STATE,M,startswith,ACTIVE,Y,exact,1.0,101,101,0,0.1,1
+STATE,M,startswith,COUNTRY,United States,exact,1.0,101,101,0,0.1,1
+ZIP,0,startswith,COUNTRY,United States,exact,1.0,96,96,0,0.1,1
+NAME,W,startswith,ACTIVE,Y,exact,1.0,95,95,0,0.1,1
+NAME,W,startswith,COUNTRY,United States,exact,1.0,95,95,0,0.1,1
+NAME,P,startswith,ACTIVE,Y,exact,1.0,91,91,0,0.1,1
+NAME,P,startswith,COUNTRY,United States,exact,1.0,91,91,0,0.1,1
+ADDRESS_1,8,startswith,ACTIVE,Y,exact,1.0,88,88,0,0.1,1
+ADDRESS_1,8,startswith,COUNTRY,United States,exact,1.0,88,88,0,0.1,1
+STATE,D,startswith,COUNTRY,United States,exact,1.0,88,88,0,0.1,1
+ZIP,4,startswith,ACTIVE,Y,exact,1.0,88,88,0,0.1,1
+ZIP,4,startswith,COUNTRY,United States,exact,1.0,88,88,0,0.1,1
+CITY,M,startswith,COUNTRY,United States,exact,1.0,84,84,0,0.1,1
+ADDRESS_1,9,startswith,ACTIVE,Y,exact,1.0,83,83,0,0.1,1
+ADDRESS_1,9,startswith,COUNTRY,United States,exact,1.0,83,83,0,0.1,1
+ZIP,9,startswith,ACTIVE,Y,exact,1.0,80,80,0,0.1,1
+ZIP,9,startswith,COUNTRY,United States,exact,1.0,80,80,0,0.1,1
+CITY,P,startswith,ACTIVE,Y,exact,1.0,77,77,0,0.1,1
+CITY,A,startswith,COUNTRY,United States,exact,1.0,77,77,0,0.1,1
+CITY,P,startswith,COUNTRY,United States,exact,1.0,77,77,0,0.1,1
+ADDRESS_1,O,startswith,COUNTRY,United States,exact,1.0,76,76,0,0.1,1
+FAX,84,startswith,STATE,IL,exact,1.0,74,74,0,0.1,1
+FAX,4,startswith,ACTIVE,Y,exact,1.0,73,73,0,0.1,1
+NAME,Chicago,startswith,STATE,IL,exact,1.0,70,70,0,0.1,1
+ADDRESS_1,203,startswith,STATE,IL,exact,1.0,68,68,0,0.1,1
+NAME,H,startswith,ACTIVE,Y,exact,1.0,68,68,0,0.1,1
+NAME,H,startswith,COUNTRY,United States,exact,1.0,68,68,0,0.1,1
+PHONE,9,startswith,COUNTRY,United States,exact,1.0,68,68,0,0.1,1
+NAME,E,startswith,ACTIVE,Y,exact,1.0,67,67,0,0.1,1
+CITY,D,startswith,ACTIVE,Y,exact,1.0,63,63,0,0.1,1
+STATE,O,startswith,ACTIVE,Y,exact,1.0,63,63,0,0.1,1
+STATE,O,startswith,COUNTRY,United States,exact,1.0,63,63,0,0.1,1
+ADDRESS_1,33 ,startswith,STATE,IL,exact,1.0,62,62,0,0.1,1
+ZIP,5,startswith,ACTIVE,Y,exact,1.0,62,62,0,0.1,1
+ZIP,5,startswith,COUNTRY,United States,exact,1.0,62,62,0,0.1,1
+ZIP,8,startswith,ACTIVE,Y,exact,1.0,61,61,0,0.1,1
+ZIP,8,startswith,COUNTRY,United States,exact,1.0,61,61,0,0.1,1
+CITY,B,startswith,ACTIVE,Y,exact,1.0,59,59,0,0.1,1
+CITY,B,startswith,COUNTRY,United States,exact,1.0,59,59,0,0.1,1
+ZIP,3,startswith,COUNTRY,United States,exact,1.0,58,58,0,0.1,1
+PHONE,708,startswith,STATE,IL,exact,1.0,57,57,0,0.1,1
+CITY,L,startswith,COUNTRY,United States,exact,1.0,49,49,0,0.1,1
+NAME,Lo,startswith,STATE,IL,exact,1.0,48,48,0,0.1,1
+CITY,O,startswith,ACTIVE,Y,exact,1.0,47,47,0,0.1,1
+CITY,O,startswith,COUNTRY,United States,exact,1.0,47,47,0,0.1,1
+FAX,708,startswith,STATE,IL,exact,1.0,47,47,0,0.1,1
+PHONE,(312),startswith,STATE,IL,exact,1.0,46,46,0,0.1,1
+NAME,SE,startswith,CITY,Chicago,exact,1.0,45,45,0,0.1,1
+ZIP,7,startswith,COUNTRY,United States,exact,1.0,45,45,0,0.1,1
+NAME,Wi,startswith,STATE,IL,exact,1.0,44,44,0,0.1,1
+PHONE,64,startswith,STATE,NY,exact,1.0,44,44,0,0.1,1
+STATE,T,startswith,COUNTRY,United States,exact,1.0,44,44,0,0.1,1
+NAME,Ne,startswith,STATE,IL,exact,1.0,43,43,0,0.1,1
+ADDRESS_2,#,startswith,ACTIVE,Y,exact,1.0,42,42,0,0.1,1
+ADDRESS_2,#,startswith,COUNTRY,United States,exact,1.0,42,42,0,0.1,1
+CITY,E,startswith,COUNTRY,United States,exact,1.0,41,41,0,0.1,1
+FAX,(,startswith,ACTIVE,Y,exact,1.0,41,41,0,0.1,1
+FAX,(,startswith,COUNTRY,United States,exact,1.0,41,41,0,0.1,1
+CITY,R,startswith,ACTIVE,Y,exact,1.0,39,39,0,0.1,1
+CITY,R,startswith,COUNTRY,United States,exact,1.0,39,39,0,0.1,1
+CITY,Sa,startswith,STATE,CA,exact,1.0,39,39,0,0.1,2
+NAME,Sch,startswith,CITY,Chicago,exact,1.0,39,39,0,0.1,1
+NAME,Sch,startswith,STATE,IL,exact,1.0,39,39,0,0.1,1
+ADDRESS_1,158,startswith,CITY,New York,exact,1.0,38,38,0,0.1,2
+ADDRESS_1,158,startswith,STATE,NY,exact,1.0,38,38,0,0.1,1
+ADDRESS_1,158,startswith,ZIP,10036,exact,1.0,38,38,0,0.1,2
+CITY,I,startswith,ACTIVE,Y,exact,1.0,38,38,0,0.1,1
+CITY,I,startswith,COUNTRY,United States,exact,1.0,38,38,0,0.1,1
+PHONE,217,startswith,STATE,IL,exact,1.0,38,38,0,0.1,1
+STATE,P,startswith,ACTIVE,Y,exact,1.0,36,36,0,0.1,1
+STATE,P,startswith,COUNTRY,United States,exact,1.0,36,36,0,0.1,1
+ZIP,44,startswith,STATE,OH,exact,1.0,36,36,0,0.1,3
+STATE,A,startswith,ACTIVE,Y,exact,1.0,35,35,0,0.1,1
+ADDRESS_1,1 N,startswith,STATE,IL,exact,1.0,34,34,0,0.1,1
+NAME,Te,startswith,STATE,IL,exact,1.0,34,34,0,0.1,1
+ZIP,55,startswith,STATE,MN,exact,1.0,34,34,0,0.1,2
+NAME,DL,startswith,CITY,Chicago,exact,1.0,33,33,0,0.1,1
+NAME,Key,startswith,CITY,Cleveland,exact,1.0,33,33,0,0.1,1
+NAME,DL,startswith,STATE,IL,exact,1.0,33,33,0,0.1,1
+NAME,Key,startswith,STATE,OH,exact,1.0,33,33,0,0.1,1
+NAME,Key,startswith,ZIP,44114,exact,1.0,33,33,0,0.1,1
+NAME,Schain,startswith,ZIP,60602,exact,1.0,33,33,0,0.1,1
+PHONE,(21,startswith,CITY,New York,exact,1.0,33,33,0,0.1,1
+PHONE,(21,startswith,STATE,NY,exact,1.0,33,33,0,0.1,1
+ZIP,80,startswith,STATE,CO,exact,1.0,33,33,0,0.1,1
+CITY,Sp,startswith,STATE,IL,exact,1.0,32,32,0,0.1,1
+NAME,Fr,startswith,STATE,IL,exact,1.0,32,32,0,0.1,1
+EMPLOYER_ID,443,startswith,CITY,Chicago,exact,1.0,31,31,0,0.1,1
+EMPLOYER_ID,40,startswith,STATE,IL,exact,1.0,31,31,0,0.1,1
+EMPLOYER_ID,443,startswith,STATE,IL,exact,1.0,31,31,0,0.1,1
+NAME,ComEd,startswith,ZIP,60605,exact,1.0,31,31,0,0.1,1
+PHONE,612,startswith,STATE,MN,exact,1.0,31,31,0,0.1,1
+ADDRESS_1,1 E,startswith,STATE,IL,exact,1.0,30,30,0,0.1,1
+ADDRESS_1,3 ,startswith,STATE,NY,exact,1.0,30,30,0,0.1,1
+ADDRESS_1,3 ,startswith,ZIP,10016,exact,1.0,30,30,0,0.1,2
+ADDRESS_1,1 E,startswith,ZIP,60601,exact,1.0,30,30,0,0.1,1
+CITY,Min,startswith,STATE,MN,exact,1.0,30,30,0,0.1,2
+CITY,C,startswith,COUNTRY,United States,exact,0.999555,2249,2248,1,0.1,1
+STATE,I,startswith,COUNTRY,United States,exact,0.998806,2513,2510,3,0.1,1
+ADDRESS_1,2,startswith,COUNTRY,United States,exact,0.998663,748,747,1,0.1,1
+CREATED_DATE,0,startswith,ACTIVE,Y,exact,0.998565,1394,1392,2,0.1,1
+ADDRESS_2,S,startswith,ACTIVE,Y,exact,0.997938,485,484,1,0.1,1
+ADDRESS_1,1,startswith,COUNTRY,United States,exact,0.997517,1208,1205,3,0.1,1
+PHONE,7,startswith,COUNTRY,United States,exact,0.997126,348,347,1,0.1,1
+ACTIVE,Y,startswith,COUNTRY,United States,exact,0.996466,3396,3384,12,0.1,1
+Year,2,startswith,COUNTRY,United States,exact,0.996387,3321,3309,12,0.1,9
+ADDRESS_1,3,startswith,COUNTRY,United States,exact,0.996016,502,500,2,0.1,1
+FAX,7,startswith,COUNTRY,United States,exact,0.995833,240,239,1,0.1,1
+CREATED_DATE,1,startswith,COUNTRY,United States,exact,0.995816,239,238,1,0.1,1
+NAME,T,startswith,COUNTRY,United States,exact,0.995169,207,206,1,0.1,1
+EMPLOYER_ID,1,startswith,COUNTRY,United States,exact,0.99455,734,730,4,0.1,1
+ADDRESS_2,S,startswith,COUNTRY,United States,exact,0.993814,485,482,3,0.1,1
+NAME,L,startswith,COUNTRY,United States,exact,0.993151,146,145,1,0.1,1
+CREATED_DATE,0,startswith,COUNTRY,United States,exact,0.992109,1394,1383,11,0.1,1
+ADDRESS_1,3,startswith,ACTIVE,Y,exact,0.992032,502,498,4,0.1,1
+EMPLOYER_ID,8,startswith,COUNTRY,United States,exact,0.991803,122,121,1,0.1,1
+PHONE,7,startswith,ACTIVE,Y,exact,0.991379,348,345,3,0.1,1
+NAME,N,startswith,COUNTRY,United States,exact,0.991071,112,111,1,0.1,1
+EMPLOYER_ID,9,startswith,COUNTRY,United States,exact,0.990566,106,105,1,0.1,1
+ZIP,1,startswith,COUNTRY,United States,exact,0.988701,354,350,4,0.1,1
+EMPLOYER_ID,5,startswith,ACTIVE,Y,exact,0.988506,174,172,2,0.1,1
+EMPLOYER_ID,5,startswith,COUNTRY,United States,exact,0.988506,174,172,2,0.1,1
+PHONE,8,startswith,ACTIVE,Y,exact,0.988235,170,168,2,0.1,1
+FAX,7,startswith,ACTIVE,Y,exact,0.9875,240,237,3,0.1,1
+EMPLOYER_ID,7,startswith,COUNTRY,United States,exact,0.987138,311,307,4,0.1,1
+STATE,N,startswith,COUNTRY,United States,exact,0.987047,386,381,5,0.1,1
+FAX,6,startswith,COUNTRY,United States,exact,0.986928,153,151,2,0.1,1
+STATE,DC,startswith,CITY,Washington,exact,0.986842,76,75,1,0.1,1
+NAME,I,startswith,COUNTRY,United States,exact,0.985294,136,134,2,0.1,1
+NAME,Il,startswith,STATE,IL,exact,0.984375,64,63,1,0.1,1
+FAX,8,startswith,ACTIVE,Y,exact,0.983607,122,120,2,0.1,1
+ZIP,606,startswith,CITY,Chicago,exact,0.982637,2131,2094,37,0.1,13
+PHONE,8,startswith,COUNTRY,United States,exact,0.982353,170,167,3,0.1,1
+ADDRESS_1,44,startswith,CITY,Chicago,exact,0.982143,56,55,1,0.1,1
+ADDRESS_1,44,startswith,STATE,IL,exact,0.982143,56,55,1,0.1,1
+STATE,Il,startswith,CITY,Chicago,exact,0.981481,54,53,1,0.1,1
+ADDRESS_1,70 ,startswith,CITY,Chicago,exact,0.980769,52,51,1,0.1,1
+ADDRESS_1,70 ,startswith,STATE,IL,exact,0.980769,52,51,1,0.1,1
+ADDRESS_1,70 ,startswith,ZIP,60602,exact,0.980769,52,51,1,0.1,1
+FAX,212,startswith,STATE,NY,exact,0.980392,102,100,2,0.1,1
+FAX,202,startswith,STATE,DC,exact,0.98,50,49,1,0.1,1
+ADDRESS_1,40,startswith,ACTIVE,Y,exact,0.979167,48,47,1,0.1,1
+PHONE,212,startswith,STATE,NY,exact,0.978378,185,181,4,0.1,1
+PHONE,(312),startswith,CITY,Chicago,exact,0.978261,46,45,1,0.1,1
+NAME,Ge,startswith,STATE,IL,exact,0.97619,42,41,1,0.1,1
+ADDRESS_1,1,startswith,ACTIVE,Y,exact,0.975993,1208,1179,29,0.1,1
+PHONE,4,startswith,COUNTRY,United States,exact,0.974138,116,113,3,0.1,1
+CITY,A,startswith,ACTIVE,Y,exact,0.974026,77,75,2,0.1,1
+ADDRESS_1,O,startswith,ACTIVE,Y,exact,0.973684,76,74,2,0.1,1
+PHONE,5,startswith,ACTIVE,Y,exact,0.973333,75,73,2,0.1,1
+FAX,4,startswith,COUNTRY,United States,exact,0.972603,73,71,2,0.1,1
+ADDRESS_1,20 ,startswith,CITY,Chicago,exact,0.971429,35,34,1,0.1,1
+FAX,77,startswith,STATE,IL,exact,0.971223,139,135,4,0.1,1
+CITY,Ne,startswith,STATE,NY,exact,0.970909,275,267,8,0.1,2
+ZIP,6,startswith,STATE,IL,exact,0.970905,2509,2436,73,0.1,21
+ADDRESS_1,203,startswith,CITY,Chicago,exact,0.970588,68,66,2,0.1,1
+ADDRESS_1,127,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,1
+ADDRESS_1,127,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,1
+ADDRESS_1,127,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,1
+CITY,Cl,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,3
+CITY,Cl,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,3
+PHONE,216,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,1
+PHONE,216,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,1
+PHONE,216,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,1
+NAME,E,startswith,COUNTRY,United States,exact,0.970149,67,65,2,0.1,1
+STATE,I,startswith,ACTIVE,Y,exact,0.969757,2513,2437,76,0.1,1
+ZIP,6,startswith,ACTIVE,Y,exact,0.969709,2509,2433,76,0.1,1
+COUNTRY,U,startswith,ACTIVE,Y,exact,0.969628,3490,3384,106,0.1,4
+CITY,C,startswith,ACTIVE,Y,exact,0.96932,2249,2180,69,0.1,1
+Year,2,startswith,ACTIVE,Y,exact,0.968985,3321,3218,103,0.1,9
+PHONE,77,startswith,STATE,IL,exact,0.968889,225,218,7,0.1,1
+FAX,5,startswith,ACTIVE,Y,exact,0.96875,64,62,2,0.1,1
+PHONE,63,startswith,STATE,IL,exact,0.968421,95,92,3,0.1,1
+PHONE,84,startswith,STATE,IL,exact,0.968085,94,91,3,0.1,1
+PHONE,212,startswith,CITY,New York,exact,0.967568,185,179,6,0.1,1
+ADDRESS_1,7,startswith,COUNTRY,United States,exact,0.967033,182,176,6,0.1,1
+ZIP,02,startswith,STATE,MA,exact,0.966667,30,29,1,0.1,1
+PHONE,3,startswith,ACTIVE,Y,exact,0.966127,1978,1911,67,0.1,1
+ZIP,1,startswith,ACTIVE,Y,exact,0.966102,354,342,12,0.1,1
+CITY,N,startswith,ACTIVE,Y,exact,0.96519,316,305,11,0.1,1
+NAME,U,startswith,COUNTRY,United States,exact,0.965035,143,138,5,0.1,1
+PHONE,6,startswith,ACTIVE,Y,exact,0.964758,227,219,8,0.1,1
+NAME,Com,startswith,STATE,IL,exact,0.963636,55,53,2,0.1,1
+STATE,N,startswith,ACTIVE,Y,exact,0.96114,386,371,15,0.1,1
+FAX,212,startswith,CITY,New York,exact,0.960784,102,98,4,0.1,1
+FAX,202,startswith,CITY,Washington,exact,0.96,50,48,2,0.1,1
+NAME,Mi,startswith,STATE,IL,exact,0.96,50,48,2,0.1,1
+FAX,3,startswith,ACTIVE,Y,exact,0.959561,1459,1400,59,0.1,1
+ZIP,0,startswith,ACTIVE,Y,exact,0.958333,96,92,4,0.1,1
+PHONE,202,startswith,STATE,DC,exact,0.957746,71,68,3,0.1,1
+NAME,SE,startswith,STATE,IL,exact,0.955556,45,43,2,0.1,1
+ZIP,7,startswith,ACTIVE,Y,exact,0.955556,45,43,2,0.1,1
+ADDRESS_1,2,startswith,ACTIVE,Y,exact,0.951872,748,712,36,0.1,1
+CITY,E,startswith,ACTIVE,Y,exact,0.95122,41,39,2,0.1,1
+ADDRESS_1,6,startswith,ACTIVE,Y,exact,0.950355,141,134,7,0.1,1
+PHONE,2,startswith,ACTIVE,Y,exact,0.950131,381,362,19,0.1,1
+CITY,Wa,startswith,STATE,DC,exact,0.95,80,76,4,0.1,3
+ZIP,20,startswith,STATE,DC,exact,0.95,80,76,4,0.1,3
+ZIP,2,startswith,ACTIVE,Y,exact,0.948529,136,129,7,0.1,1
+FAX,64,startswith,STATE,NY,exact,0.945946,37,35,2,0.1,1
+NAME,Nea,startswith,CITY,Chicago,exact,0.945946,37,35,2,0.1,1
+ADDRESS_1,7,startswith,ACTIVE,Y,exact,0.945055,182,172,10,0.1,1
+EMPLOYER_ID,4,startswith,ACTIVE,Y,exact,0.944563,1876,1772,104,0.1,1
+NAME,D,startswith,ACTIVE,Y,exact,0.944444,144,136,8,0.1,1
+FAX,3,startswith,CITY,Chicago,exact,0.943797,1459,1377,82,0.1,1
+PHONE,202,startswith,CITY,Washington,exact,0.943662,71,67,4,0.1,1
+FAX,646,startswith,CITY,New York,exact,0.942857,35,33,2,0.1,1
+STATE,A,startswith,COUNTRY,United States,exact,0.942857,35,33,2,0.1,1
+CITY,W,startswith,ACTIVE,Y,exact,0.938931,131,123,8,0.1,1
+FAX,3,startswith,STATE,IL,exact,0.938314,1459,1369,90,0.1,1
+ZIP,20,startswith,CITY,Washington,exact,0.9375,80,75,5,0.1,3
+ADDRESS_1,22,startswith,STATE,IL,exact,0.93722,223,209,14,0.1,1
+ZIP,10,startswith,CITY,New York,exact,0.936842,285,267,18,0.1,7
+NAME,Ch,startswith,CITY,Chicago,exact,0.93578,109,102,7,0.1,1
+EMPLOYER_ID,40,startswith,CITY,Chicago,exact,0.935484,31,29,2,0.1,1
+PHONE,612,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,1
+ZIP,554,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,1
+FAX,2,startswith,ACTIVE,Y,exact,0.934426,244,228,16,0.1,1
+PHONE,5,startswith,COUNTRY,United States,exact,0.933333,75,70,5,0.1,1
+ADDRESS_1,1 E,startswith,CITY,Chicago,exact,0.933333,30,28,2,0.1,1
+EMPLOYER_ID,426,startswith,CITY,Chicago,exact,0.933333,30,28,2,0.1,1
+EMPLOYER_ID,426,startswith,STATE,IL,exact,0.933333,30,28,2,0.1,1
+ADDRESS_1,30 ,startswith,CITY,Chicago,exact,0.930233,43,40,3,0.1,1
+ADDRESS_1,30 ,startswith,STATE,IL,exact,0.930233,43,40,3,0.1,1
+CITY,C,startswith,STATE,IL,exact,0.928857,2249,2089,160,0.1,1
+CITY,M,startswith,ACTIVE,Y,exact,0.928571,84,78,6,0.1,1
+ADDRESS_1,35,startswith,STATE,IL,exact,0.928571,56,52,4,0.1,1
+ADDRESS_1,55,startswith,CITY,Chicago,exact,0.928571,42,39,3,0.1,1
+ADDRESS_1,55,startswith,STATE,IL,exact,0.928571,42,39,3,0.1,1
+NAME,Ge,startswith,CITY,Chicago,exact,0.928571,42,39,3,0.1,1
+NAME,La,startswith,STATE,IL,exact,0.926829,41,38,3,0.1,1
+ADDRESS_1,203,startswith,ZIP,60601,exact,0.926471,68,63,5,0.1,1
+PHONE,9,startswith,ACTIVE,Y,exact,0.926471,68,63,5,0.1,1
+PHONE,3,startswith,STATE,IL,exact,0.926188,1978,1832,146,0.1,1
+FAX,63,startswith,STATE,IL,exact,0.925926,81,75,6,0.1,1
+ADDRESS_1,33,startswith,CITY,Chicago,exact,0.925234,107,99,8,0.1,1
+FAX,5,startswith,COUNTRY,United States,exact,0.921875,64,59,5,0.1,1
+ADDRESS_1,60,startswith,STATE,IL,exact,0.921053,38,35,3,0.1,1
+NAME,Cit,startswith,CITY,New York,exact,0.921053,38,35,3,0.1,2
+NAME,Cit,startswith,STATE,NY,exact,0.921053,38,35,3,0.1,2
+FAX,77,startswith,CITY,Chicago,exact,0.920863,139,128,11,0.1,1
+CITY,D,startswith,COUNTRY,United States,exact,0.920635,63,58,5,0.1,1
+ADDRESS_1,205,startswith,STATE,IL,exact,0.92,50,46,4,0.1,1
+PHONE,773,startswith,CITY,Chicago,exact,0.918182,220,202,18,0.1,1
+PHONE,3,startswith,CITY,Chicago,exact,0.917594,1978,1815,163,0.1,1
+ZIP,44,startswith,CITY,Cleveland,exact,0.916667,36,33,3,0.1,3
+FAX,6,startswith,ACTIVE,Y,exact,0.915033,153,140,13,0.1,1
+NAME,The,startswith,STATE,IL,exact,0.914894,47,43,4,0.1,1
+ZIP,62,startswith,CITY,Springfield,exact,0.914286,35,32,3,0.1,2
+ZIP,3,startswith,ACTIVE,Y,exact,0.913793,58,53,5,0.1,1
+NAME,C,startswith,ACTIVE,Y,exact,0.913043,345,315,30,0.1,1
+NAME,Ro,startswith,CITY,Chicago,exact,0.913043,46,42,4,0.1,1
+ZIP,9,startswith,STATE,CA,exact,0.9125,80,73,7,0.1,2
+STATE,D,startswith,ACTIVE,Y,exact,0.909091,88,80,8,0.1,1
+NAME,Th,startswith,CITY,Chicago,exact,0.909091,77,70,7,0.1,1
+NAME,Com,startswith,CITY,Chicago,exact,0.909091,55,50,5,0.1,1
+NAME,Jo,startswith,STATE,IL,exact,0.909091,55,50,5,0.1,1
+NAME,Wi,startswith,CITY,Chicago,exact,0.909091,44,40,4,0.1,1
+ADDRESS_1,77,startswith,STATE,IL,exact,0.909091,33,30,3,0.1,1
+NAME,DL,startswith,FAX,312-236-7516,exact,0.909091,33,30,3,0.1,2
+NAME,DL,startswith,ZIP,60601,exact,0.909091,33,30,3,0.1,2
+ADDRESS_1,22,startswith,CITY,Chicago,exact,0.90583,223,202,21,0.1,1
+ADDRESS_1,205,startswith,CITY,Chicago,exact,0.9,50,45,5,0.1,1
+EMPLOYER_ID,78,startswith,STATE,IL,exact,0.9,40,36,4,0.1,1
+NAME,No,startswith,STATE,IL,exact,0.9,40,36,4,0.1,1
+EMPLOYER_ID,460,startswith,CITY,Chicago,exact,0.9,30,27,3,0.1,1
+EMPLOYER_ID,73,startswith,CREATED_DATE,01/15/2013,exact,0.9,30,27,3,0.1,1
+EMPLOYER_ID,73,startswith,STATE,IL,exact,0.9,30,27,3,0.1,1
+EMPLOYER_ID,460,startswith,STATE,IL,exact,0.9,30,27,3,0.1,1
+NAME,Citigroup,startswith,ZIP,10013,exact,0.9,30,27,3,0.1,1

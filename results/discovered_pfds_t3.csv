@@ -1,0 +1,109 @@
+col_X,pattern_X,match_type_X,col_Y,pattern_Y,match_type_Y,confidence,n_matching_X,n_valid,n_violations,epsilon,generalized_from
+Zip,2,startswith,State,MD,exact,1.0,1076,1076,0,0.1,27
+Channel Type,O,startswith,State,MD,exact,1.0,1075,1075,0,0.1,9
+Licensee Number,B,startswith,State,MD,exact,1.0,625,625,0,0.1,1
+Location,1,startswith,State,MD,exact,1.0,401,401,0,0.1,1
+Street,1,startswith,State,MD,exact,1.0,401,401,0,0.1,1
+City,S,startswith,State,MD,exact,1.0,272,272,0,0.1,1
+City,G,startswith,State,MD,exact,1.0,231,231,0,0.1,1
+City,R,startswith,State,MD,exact,1.0,208,208,0,0.1,1
+City,B,startswith,State,MD,exact,1.0,186,186,0,0.1,1
+Licensee Number,A,startswith,Channel Type,Off Premise,exact,1.0,161,161,0,0.1,7
+Licensee Number,A,startswith,State,MD,exact,1.0,161,161,0,0.1,1
+Zip,20814,startswith,City,BETHESDA,exact,1.0,137,137,0,0.1,1
+Licensee Number,H,startswith,State,MD,exact,1.0,131,131,0,0.1,1
+Location,2,startswith,State,MD,exact,1.0,126,126,0,0.1,1
+Location,8,startswith,State,MD,exact,1.0,126,126,0,0.1,1
+Street,2,startswith,State,MD,exact,1.0,126,126,0,0.1,1
+Street,8,startswith,State,MD,exact,1.0,126,126,0,0.1,1
+Zip,20910,startswith,City,SILVER SPRING,exact,1.0,125,125,0,0.1,1
+Location,7,startswith,State,MD,exact,1.0,110,110,0,0.1,1
+Street,7,startswith,State,MD,exact,1.0,110,110,0,0.1,1
+Account Name,C,startswith,State,MD,exact,1.0,101,101,0,0.1,1
+Account Name,S,startswith,State,MD,exact,1.0,99,99,0,0.1,1
+Licensee Number,D,startswith,State,MD,exact,1.0,97,97,0,0.1,1
+Location,4,startswith,State,MD,exact,1.0,97,97,0,0.1,1
+Street,4,startswith,State,MD,exact,1.0,97,97,0,0.1,1
+Account Name,M,startswith,State,MD,exact,1.0,94,94,0,0.1,1
+Licensee Name,S,startswith,State,MD,exact,1.0,91,91,0,0.1,1
+Licensee Name,T,startswith,State,MD,exact,1.0,90,90,0,0.1,1
+Licensee Name,B,startswith,State,MD,exact,1.0,86,86,0,0.1,1
+Licensee Name,C,startswith,State,MD,exact,1.0,86,86,0,0.1,1
+Location,9,startswith,State,MD,exact,1.0,81,81,0,0.1,1
+Street,9,startswith,State,MD,exact,1.0,81,81,0,0.1,1
+Licensee Name,M,startswith,State,MD,exact,1.0,78,78,0,0.1,1
+Account Name,B,startswith,State,MD,exact,1.0,72,72,0,0.1,1
+Licensee Name,L,startswith,State,MD,exact,1.0,71,71,0,0.1,1
+Account Name,T,startswith,State,MD,exact,1.0,66,66,0,0.1,1
+Account Name,A,startswith,State,MD,exact,1.0,66,66,0,0.1,1
+Licensee Name,P,startswith,State,MD,exact,1.0,58,58,0,0.1,1
+Licensee Name,A,startswith,State,MD,exact,1.0,58,58,0,0.1,1
+Account Name,R,startswith,State,MD,exact,1.0,54,54,0,0.1,1
+Zip,20877,startswith,City,GAITHERSBURG,exact,1.0,51,51,0,0.1,1
+Account Name,P,startswith,State,MD,exact,1.0,49,49,0,0.1,1
+Account Name,G,startswith,State,MD,exact,1.0,49,49,0,0.1,1
+Account Name,L,startswith,State,MD,exact,1.0,49,49,0,0.1,1
+Licensee Name,G,startswith,State,MD,exact,1.0,49,49,0,0.1,1
+Licensee Name,R,startswith,State,MD,exact,1.0,48,48,0,0.1,1
+Account Name,J,startswith,State,MD,exact,1.0,47,47,0,0.1,1
+Location,5,startswith,State,MD,exact,1.0,47,47,0,0.1,1
+Street,5,startswith,State,MD,exact,1.0,47,47,0,0.1,1
+Licensee Name,N,startswith,State,MD,exact,1.0,44,44,0,0.1,1
+Licensee Name,H,startswith,State,MD,exact,1.0,43,43,0,0.1,1
+Location,6,startswith,State,MD,exact,1.0,43,43,0,0.1,1
+Street,6,startswith,State,MD,exact,1.0,43,43,0,0.1,1
+Location,3,startswith,State,MD,exact,1.0,42,42,0,0.1,1
+Street,3,startswith,State,MD,exact,1.0,42,42,0,0.1,1
+Licensee Number,C,startswith,Channel Type,On Premise,exact,1.0,41,41,0,0.1,1
+Licensee Number,C,startswith,State,MD,exact,1.0,41,41,0,0.1,1
+City,C,startswith,State,MD,exact,1.0,40,40,0,0.1,1
+Licensee Name,W,startswith,State,MD,exact,1.0,39,39,0,0.1,1
+Account Name,N,startswith,State,MD,exact,1.0,38,38,0,0.1,1
+Licensee Name,F,startswith,State,MD,exact,1.0,38,38,0,0.1,1
+Zip,20874,startswith,City,GERMANTOWN,exact,1.0,37,37,0,0.1,1
+Licensee Name,E,startswith,State,MD,exact,1.0,36,36,0,0.1,1
+Location,49,startswith,City,BETHESDA,exact,1.0,36,36,0,0.1,1
+Location,49,startswith,Zip,20814.0,exact,1.0,36,36,0,0.1,1
+Street,49,startswith,City,BETHESDA,exact,1.0,36,36,0,0.1,1
+Street,49,startswith,Zip,20814.0,exact,1.0,36,36,0,0.1,1
+Account Name,H,startswith,State,MD,exact,1.0,35,35,0,0.1,1
+Account Name,K,startswith,State,MD,exact,1.0,34,34,0,0.1,1
+Zip,20879,startswith,City,GAITHERSBURG,exact,1.0,34,34,0,0.1,1
+Account Name,W,startswith,State,MD,exact,1.0,33,33,0,0.1,1
+Account Name,E,startswith,State,MD,exact,1.0,33,33,0,0.1,1
+Account Name,D,startswith,State,MD,exact,1.0,32,32,0,0.1,1
+City,P,startswith,State,MD,exact,1.0,32,32,0,0.1,1
+Licensee Name,D,startswith,State,MD,exact,1.0,26,26,0,0.1,1
+City,CH,startswith,Zip,20815.0,exact,1.0,25,25,0,0.1,4
+City,POT,startswith,Zip,20854.0,exact,1.0,25,25,0,0.1,3
+Licensee Name,K,startswith,State,MD,exact,1.0,24,24,0,0.1,1
+Account Name,F,startswith,State,MD,exact,1.0,23,23,0,0.1,1
+City,O,startswith,State,MD,exact,1.0,23,23,0,0.1,1
+City,O,startswith,Zip,20832.0,exact,1.0,23,23,0,0.1,5
+City,D,startswith,State,MD,exact,1.0,21,21,0,0.1,1
+Licensee Name,O,startswith,State,MD,exact,1.0,21,21,0,0.1,1
+Licensee Number,S,startswith,Channel Type,On Premise,exact,1.0,20,20,0,0.1,1
+Licensee Number,S,startswith,State,MD,exact,1.0,20,20,0,0.1,1
+Zip,20817,startswith,City,BETHESDA,exact,1.0,20,20,0,0.1,1
+Zip,20876,startswith,City,GERMANTOWN,exact,1.0,20,20,0,0.1,1
+Licensee Number,H,startswith,Channel Type,On Premise,exact,0.992366,131,130,1,0.1,1
+Zip,20850,startswith,City,ROCKVILLE,exact,0.988889,90,89,1,0.1,1
+Zip,20878,startswith,City,GAITHERSBURG,exact,0.987952,83,82,1,0.1,1
+Zip,20815,startswith,City,CHEVY CHASE,exact,0.961538,26,25,1,0.1,1
+Zip,20832,startswith,City,OLNEY,exact,0.958333,24,23,1,0.1,1
+Zip,20912,startswith,City,TAKOMA PARK,exact,0.95,20,19,1,0.1,1
+Location,49,startswith,Channel Type,On Premise,exact,0.944444,36,34,2,0.1,1
+Street,49,startswith,Channel Type,On Premise,exact,0.944444,36,34,2,0.1,1
+Licensee Number,B,startswith,Channel Type,On Premise,exact,0.9424,625,589,36,0.1,1
+Zip,20852,startswith,City,ROCKVILLE,exact,0.936842,95,89,6,0.1,1
+Licensee Number,D,startswith,Channel Type,On/Off-Premise,exact,0.917526,97,89,8,0.1,5
+Licensee Name,LA ,startswith,Channel Type,On Premise,exact,0.916667,24,22,2,0.1,1
+Zip,2090,startswith,City,SILVER SPRING,exact,0.905063,158,143,15,0.1,1
+Location,71,startswith,Channel Type,On Premise,exact,0.904762,21,19,2,0.1,1
+Location,71,startswith,City,BETHESDA,exact,0.904762,21,19,2,0.1,1
+Street,71,startswith,Channel Type,On Premise,exact,0.904762,21,19,2,0.1,1
+Street,71,startswith,City,BETHESDA,exact,0.904762,21,19,2,0.1,1
+Account Name,THE,startswith,Channel Type,On Premise,exact,0.9,20,18,2,0.1,2
+Licensee Name,LE,startswith,Channel Type,On Premise,exact,0.9,20,18,2,0.1,1
+Licensee Name,EL ,startswith,Channel Type,On Premise,exact,0.9,20,18,2,0.1,1
+Zip,20817,startswith,Channel Type,On Premise,exact,0.9,20,18,2,0.1,1
