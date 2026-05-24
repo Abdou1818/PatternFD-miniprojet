@@ -12,7 +12,8 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# Les notebooks de notebooks/ sont versionnés ; les .ipynb à la racine non.
+/*.ipynb
 
 # macOS
 .DS_Store
