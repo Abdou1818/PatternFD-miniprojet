@@ -1,1037 +1,647 @@
 col_X,pattern_X,match_type_X,col_Y,pattern_Y,match_type_Y,confidence,n_matching_X,n_valid,n_violations,epsilon,generalized_from
-Department,PO,startswith,Department Name,Department of Police,exact,1.0,1835,1835,0,0.0,2
-Department,HH,startswith,Department Name,Department of Health and Human Services,exact,1.0,1512,1512,0,0.0,2
-Department,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,1392,1392,0,0.0,1
-Department,FR,startswith,Department Name,Fire and Rescue Services,exact,1.0,1281,1281,0,0.0,2
-Department Name,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,1281,1281,0,0.0,1
-Department Name,F,startswith,Department,FRS,exact,1.0,1281,1281,0,0.0,4
-Department,DO,startswith,Department Name,Department of Transportation,exact,1.0,1199,1199,0,0.0,2
-Position Title,Po,startswith,Department,POL,exact,1.0,1172,1172,0,0.0,1
-Position Title,Po,startswith,Department Name,Department of Police,exact,1.0,1172,1172,0,0.0,1
-Position Title,Fir,startswith,Assignment Category,Fulltime-Regular,exact,1.0,951,951,0,0.0,1
-Division,St,startswith,Assignment Category,Fulltime-Regular,exact,1.0,937,937,0,0.0,1
-Division,Sta,startswith,Department,FRS,exact,1.0,922,922,0,0.0,1
-Division,Sta,startswith,Department Name,Fire and Rescue Services,exact,1.0,922,922,0,0.0,1
-Division,PS,startswith,Department,POL,exact,1.0,900,900,0,0.0,1
-Division,PS,startswith,Department Name,Department of Police,exact,1.0,900,900,0,0.0,1
-Division,Transit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,773,773,0,0.0,1
-Division,Transit,startswith,Department,DOT,exact,1.0,773,773,0,0.0,1
-Division,Transit,startswith,Department Name,Department of Transportation,exact,1.0,773,773,0,0.0,1
-Position Title,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,670,670,0,0.0,1
-Position Title,Firefighter,startswith,Department,FRS,exact,1.0,651,651,0,0.0,1
-Position Title,Firefighter,startswith,Department Name,Fire and Rescue Services,exact,1.0,651,651,0,0.0,1
-Department,CO,startswith,Assignment Category,Fulltime-Regular,exact,1.0,494,494,0,0.0,1
-Department,CO,startswith,Department Name,Correction and Rehabilitation,exact,1.0,494,494,0,0.0,2
-Department Name,Cor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,494,494,0,0.0,1
-Department Name,Cor,startswith,Department,COR,exact,1.0,494,494,0,0.0,2
-Underfilled Job Title,P,startswith,Assignment Category,Fulltime-Regular,exact,1.0,478,478,0,0.0,1
-Department,DL,startswith,Department Name,Department of Liquor Control,exact,1.0,414,414,0,0.0,2
-Position Title,Cor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,402,402,0,0.0,1
-Position Title,Cor,startswith,Department,COR,exact,1.0,402,402,0,0.0,1
-Position Title,Cor,startswith,Department Name,Correction and Rehabilitation,exact,1.0,402,402,0,0.0,1
-Department,DG,startswith,Department Name,Department of General Services,exact,1.0,400,400,0,0.0,2
-Division,DS,startswith,Assignment Category,Fulltime-Regular,exact,1.0,400,400,0,0.0,1
-Division,DS,startswith,Department,COR,exact,1.0,400,400,0,0.0,1
-Division,DS,startswith,Department Name,Correction and Rehabilitation,exact,1.0,400,400,0,0.0,1
-Department,L,startswith,Department Name,Department of Public Libraries,exact,1.0,385,385,0,0.0,3
-Division,FS,startswith,Department,POL,exact,1.0,368,368,0,0.0,1
-Division,FS,startswith,Department Name,Department of Police,exact,1.0,368,368,0,0.0,1
-Position Title,Lib,startswith,Department,LIB,exact,1.0,316,316,0,0.0,3
-Position Title,Lib,startswith,Department Name,Department of Public Libraries,exact,1.0,316,316,0,0.0,3
-Division,School,startswith,Department,HHS,exact,1.0,314,314,0,0.0,1
-Division,School,startswith,Department Name,Department of Health and Human Services,exact,1.0,314,314,0,0.0,1
-Underfilled Job Title,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,299,299,0,0.0,1
-Underfilled Job Title,F,startswith,Department,FRS,exact,1.0,299,299,0,0.0,1
-Underfilled Job Title,F,startswith,Department Name,Fire and Rescue Services,exact,1.0,299,299,0,0.0,1
-Underfilled Job Title,F,startswith,Position Title,Firefighter/Rescuer III,exact,1.0,299,299,0,0.0,4
-Position Title,Mas,startswith,Assignment Category,Fulltime-Regular,exact,1.0,288,288,0,0.0,1
-Division,MS,startswith,Assignment Category,Fulltime-Regular,exact,1.0,287,287,0,0.0,1
-Division,MS,startswith,Department,POL,exact,1.0,287,287,0,0.0,1
-Division,MS,startswith,Department Name,Department of Police,exact,1.0,287,287,0,0.0,1
-Position Title,E,startswith,Assignment Category,Fulltime-Regular,exact,1.0,282,282,0,0.0,1
-Underfilled Job Title,Po,startswith,Department,POL,exact,1.0,278,278,0,0.0,1
-Underfilled Job Title,Po,startswith,Department Name,Department of Police,exact,1.0,278,278,0,0.0,1
-Underfilled Job Title,Po,startswith,Position Title,Police Officer III,exact,1.0,278,278,0,0.0,3
-Division,Hi,startswith,Assignment Category,Fulltime-Regular,exact,1.0,232,232,0,0.0,1
-Division,Hi,startswith,Department,DOT,exact,1.0,232,232,0,0.0,1
-Division,Hi,startswith,Department Name,Department of Transportation,exact,1.0,232,232,0,0.0,1
-Division,IS,startswith,Department,POL,exact,1.0,218,218,0,0.0,1
-Division,IS,startswith,Department Name,Department of Police,exact,1.0,218,218,0,0.0,1
-Division,Fle,startswith,Assignment Category,Fulltime-Regular,exact,1.0,214,214,0,0.0,1
-Position Title,Sc,startswith,Department,HHS,exact,1.0,213,213,0,0.0,1
-Position Title,Sc,startswith,Department Name,Department of Health and Human Services,exact,1.0,213,213,0,0.0,1
-Position Title,Liq,startswith,Department,DLC,exact,1.0,212,212,0,0.0,1
-Position Title,Liq,startswith,Department Name,Department of Liquor Control,exact,1.0,212,212,0,0.0,1
-Department,DP,startswith,Department Name,Department of Permitting Services,exact,1.0,195,195,0,0.0,2
-Position Title,Inc,startswith,Assignment Category,Fulltime-Regular,exact,1.0,195,195,0,0.0,1
-Position Title,Tr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,179,179,0,0.0,1
-Department,S,startswith,Department Name,Sheriff's Office,exact,1.0,170,170,0,0.0,3
-Department Name,S,startswith,Department,SHF,exact,1.0,170,170,0,0.0,4
-Position Title,Cr,startswith,Department,POL,exact,1.0,170,170,0,0.0,1
-Position Title,Cr,startswith,Department Name,Department of Police,exact,1.0,170,170,0,0.0,1
-Position Title,Cro,startswith,Assignment Category,Parttime-Regular,exact,1.0,161,161,0,0.0,2
-Position Title,Cro,startswith,Division,FSB Traffic Division School Safety Section,exact,1.0,161,161,0,0.0,2
-Department,DEP,startswith,Department Name,Department of Environmental Protection,exact,1.0,156,156,0,0.0,1
-Division,Inc,startswith,Department,HHS,exact,1.0,149,149,0,0.0,1
-Division,Inc,startswith,Department Name,Department of Health and Human Services,exact,1.0,149,149,0,0.0,1
-Position Title,Dep,startswith,Assignment Category,Fulltime-Regular,exact,1.0,148,148,0,0.0,1
-Department,DT,startswith,Department Name,Department of Technology Services,exact,1.0,137,137,0,0.0,2
-Department,R,startswith,Department Name,Department of Recreation,exact,1.0,126,126,0,0.0,3
-Position Title,Pe,startswith,Assignment Category,Fulltime-Regular,exact,1.0,116,116,0,0.0,1
-Department,FI,startswith,Department Name,Department of Finance,exact,1.0,111,111,0,0.0,2
-Position Title,Mec,startswith,Assignment Category,Fulltime-Regular,exact,1.0,111,111,0,0.0,1
-Position Title,Mec,startswith,Department,DGS,exact,1.0,111,111,0,0.0,1
-Position Title,Mec,startswith,Department Name,Department of General Services,exact,1.0,111,111,0,0.0,1
-Position Title,Mec,startswith,Gender,M,exact,1.0,111,111,0,0.0,1
-Position Title,W,startswith,Gender,M,exact,1.0,105,105,0,0.0,1
-Division,Adu,startswith,Department,HHS,exact,1.0,97,97,0,0.0,1
-Division,Adu,startswith,Department Name,Department of Health and Human Services,exact,1.0,97,97,0,0.0,1
-Underfilled Job Title,Cor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,92,92,0,0.0,1
-Underfilled Job Title,Cor,startswith,Department,COR,exact,1.0,92,92,0,0.0,2
-Underfilled Job Title,Cor,startswith,Department Name,Correction and Rehabilitation,exact,1.0,92,92,0,0.0,2
-Department,CC,startswith,Department Name,County Council,exact,1.0,91,91,0,0.0,2
-Division,Council,startswith,Department,CCL,exact,1.0,91,91,0,0.0,1
-Division,Council,startswith,Department Name,County Council,exact,1.0,91,91,0,0.0,1
-Position Title,Rec,startswith,Department,REC,exact,1.0,91,91,0,0.0,2
-Position Title,Rec,startswith,Department Name,Department of Recreation,exact,1.0,91,91,0,0.0,2
-Division,Med,startswith,Assignment Category,Fulltime-Regular,exact,1.0,85,85,0,0.0,1
-Division,Transportation,startswith,Department,DOT,exact,1.0,85,85,0,0.0,1
-Division,Transportation,startswith,Department Name,Department of Transportation,exact,1.0,85,85,0,0.0,1
-Division,Sol,startswith,Department,DEP,exact,1.0,78,78,0,0.0,1
-Division,Sol,startswith,Department Name,Department of Environmental Protection,exact,1.0,78,78,0,0.0,1
-Department,HC,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,75,75,0,0.0,2
-Division,Bee,startswith,Department,DLC,exact,1.0,75,75,0,0.0,1
-Division,Bee,startswith,Department Name,Department of Liquor Control,exact,1.0,75,75,0,0.0,1
-Position Title,Transit,startswith,Department,DOT,exact,1.0,75,75,0,0.0,1
-Position Title,Transit,startswith,Department Name,Department of Transportation,exact,1.0,75,75,0,0.0,1
-Department,CA,startswith,Department Name,County Attorney's Office,exact,1.0,73,73,0,0.0,2
-Division,Dir,startswith,Assignment Category,Fulltime-Regular,exact,1.0,71,71,0,0.0,1
-Division,Pa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,70,70,0,0.0,1
-Division,Adm,startswith,Assignment Category,Fulltime-Regular,exact,1.0,70,70,0,0.0,1
-Division,Liq,startswith,Department,DLC,exact,1.0,70,70,0,0.0,1
-Division,Liq,startswith,Department Name,Department of Liquor Control,exact,1.0,70,70,0,0.0,1
-Division,Liq,startswith,Gender,M,exact,1.0,70,70,0,0.0,1
-Division,Medical,startswith,Department,HHS,exact,1.0,69,69,0,0.0,1
-Division,Medical,startswith,Department Name,Department of Health and Human Services,exact,1.0,69,69,0,0.0,1
-Department,CEC,startswith,Department Name,Community Engagement Cluster,exact,1.0,67,67,0,0.0,1
-Division,La,startswith,Assignment Category,Fulltime-Regular,exact,1.0,65,65,0,0.0,1
-Department,OH,startswith,Department Name,Office of Human Resources,exact,1.0,64,64,0,0.0,2
-Division,Pr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,63,63,0,0.0,1
-Division,Court,startswith,Assignment Category,Fulltime-Regular,exact,1.0,62,62,0,0.0,1
-Division,Tea,startswith,Department,DPS,exact,1.0,62,62,0,0.0,1
-Division,Court,startswith,Department,SHF,exact,1.0,62,62,0,0.0,1
-Division,Tea,startswith,Department Name,Department of Permitting Services,exact,1.0,62,62,0,0.0,1
-Division,Court,startswith,Department Name,Sheriff's Office,exact,1.0,62,62,0,0.0,1
-Division,Fie,startswith,Assignment Category,Fulltime-Regular,exact,1.0,60,60,0,0.0,1
-Division,Lan,startswith,Department,DPS,exact,1.0,59,59,0,0.0,1
-Division,Lan,startswith,Department Name,Department of Permitting Services,exact,1.0,59,59,0,0.0,1
-Department,PI,startswith,Assignment Category,Fulltime-Regular,exact,1.0,58,58,0,0.0,1
-Department,PI,startswith,Department Name,Office of Public Information,exact,1.0,58,58,0,0.0,2
-Division,MC,startswith,Assignment Category,Fulltime-Regular,exact,1.0,58,58,0,0.0,1
-Date First Hired,5/3,startswith,Assignment Category,Fulltime-Regular,exact,1.0,55,55,0,0.0,1
-Position Title,Su,startswith,Assignment Category,Fulltime-Regular,exact,1.0,55,55,0,0.0,1
-Position Title,War,startswith,Department,DLC,exact,1.0,55,55,0,0.0,1
-Position Title,War,startswith,Department Name,Department of Liquor Control,exact,1.0,55,55,0,0.0,1
-Division,Ar,startswith,Department,HHS,exact,1.0,49,49,0,0.0,1
-Division,Ar,startswith,Department Name,Department of Health and Human Services,exact,1.0,49,49,0,0.0,1
-Division,Par,startswith,Department,DOT,exact,1.0,48,48,0,0.0,1
-Division,Par,startswith,Department Name,Department of Transportation,exact,1.0,48,48,0,0.0,1
-Division,Fir,startswith,Assignment Category,Fulltime-Regular,exact,1.0,46,46,0,0.0,1
-Division,MC3,startswith,Department,PIO,exact,1.0,46,46,0,0.0,2
-Division,MC3,startswith,Department Name,Office of Public Information,exact,1.0,46,46,0,0.0,2
-Division,En,startswith,Assignment Category,Fulltime-Regular,exact,1.0,44,44,0,0.0,1
-Division,PR,startswith,Assignment Category,Fulltime-Regular,exact,1.0,42,42,0,0.0,1
-Division,PR,startswith,Department,COR,exact,1.0,42,42,0,0.0,1
-Division,PR,startswith,Department Name,Correction and Rehabilitation,exact,1.0,42,42,0,0.0,1
-Division,Information,startswith,Assignment Category,Fulltime-Regular,exact,1.0,41,41,0,0.0,1
-Division,Sh,startswith,Department,SHF,exact,1.0,41,41,0,0.0,1
-Division,Sh,startswith,Department Name,Sheriff's Office,exact,1.0,41,41,0,0.0,1
-Position Title,Wo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,40,40,0,0.0,1
-Division,Hou,startswith,Department,HCA,exact,1.0,39,39,0,0.0,1
-Division,ST,startswith,Department,HHS,exact,1.0,39,39,0,0.0,1
-Division,ST,startswith,Department Name,Department of Health and Human Services,exact,1.0,39,39,0,0.0,1
-Division,Hou,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,39,39,0,0.0,1
-Underfilled Job Title,I,startswith,Assignment Category,Fulltime-Regular,exact,1.0,39,39,0,0.0,1
-Department,CEX,startswith,Department Name,Offices of the County Executive,exact,1.0,38,38,0,0.0,1
-Department Name,Offices,startswith,Department,CEX,exact,1.0,38,38,0,0.0,1
-Position Title,Ac,startswith,Assignment Category,Fulltime-Regular,exact,1.0,38,38,0,0.0,1
-Position Title,Sec,startswith,Assignment Category,Fulltime-Regular,exact,1.0,38,38,0,0.0,1
-Position Title,Security,startswith,Department,POL,exact,1.0,37,37,0,0.0,1
-Position Title,Security,startswith,Department Name,Department of Police,exact,1.0,37,37,0,0.0,1
-Position Title,Security,startswith,Division,FSB Security Services Division,exact,1.0,37,37,0,0.0,1
-Division,Man,startswith,Assignment Category,Fulltime-Regular,exact,1.0,36,36,0,0.0,1
-Date First Hired,2/3,startswith,Assignment Category,Fulltime-Regular,exact,1.0,35,35,0,0.0,1
-Division,2,startswith,Department,HHS,exact,1.0,35,35,0,0.0,1
-Division,2,startswith,Department Name,Department of Health and Human Services,exact,1.0,35,35,0,0.0,1
-Full Name,Sta,startswith,Assignment Category,Fulltime-Regular,exact,1.0,34,34,0,0.0,1
-Department,PR,startswith,Assignment Category,Fulltime-Regular,exact,1.0,32,32,0,0.0,1
-Department,PR,startswith,Department Name,Office of Procurement,exact,1.0,32,32,0,0.0,2
-Position Title,Management,startswith,Assignment Category,Fulltime-Regular,exact,1.0,32,32,0,0.0,1
-Division,Wat,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Division,PT,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Division,Traffic,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Division,PT,startswith,Department,COR,exact,1.0,31,31,0,0.0,1
-Division,Wat,startswith,Department,DEP,exact,1.0,31,31,0,0.0,1
-Division,Traffic,startswith,Department,DOT,exact,1.0,31,31,0,0.0,1
-Division,PT,startswith,Department Name,Correction and Rehabilitation,exact,1.0,31,31,0,0.0,1
-Division,Wat,startswith,Department Name,Department of Environmental Protection,exact,1.0,31,31,0,0.0,1
-Division,Traffic,startswith,Department Name,Department of Transportation,exact,1.0,31,31,0,0.0,1
-Position Title,Di,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Position Title,Con,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Position Title,Cu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.0,1
-Position Title,Cu,startswith,Department,PIO,exact,1.0,31,31,0,0.0,3
-Position Title,Cu,startswith,Department Name,Office of Public Information,exact,1.0,31,31,0,0.0,3
-Position Title,Cu,startswith,Division,MC311,exact,1.0,31,31,0,0.0,3
-Department,OM,startswith,Assignment Category,Fulltime-Regular,exact,1.0,30,30,0,0.0,1
-Department,OM,startswith,Department Name,Office of Management and Budget,exact,1.0,30,30,0,0.0,2
-Full Name,Moo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,30,30,0,0.0,1
-Full Name,Robinson,startswith,Assignment Category,Fulltime-Regular,exact,1.0,30,30,0,0.0,1
-Division,EA,startswith,Department,DTS,exact,1.0,29,29,0,0.0,1
-Division,EA,startswith,Department Name,Department of Technology Services,exact,1.0,29,29,0,0.0,1
-Department,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.0,1
-Department,CU,startswith,Department Name,Community Use of Public Facilities,exact,1.0,28,28,0,0.0,2
-Department Name,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.0,1
-Full Name,Lu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.0,1
-Position Title,Res,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.0,1
-Position Title,Cod,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.0,1
-Position Title,Res,startswith,Department,COR,exact,1.0,28,28,0,0.0,1
-Position Title,Res,startswith,Department Name,Correction and Rehabilitation,exact,1.0,28,28,0,0.0,1
-Position Title,Res,startswith,Division,PRRS Facility and Security,exact,1.0,28,28,0,0.0,2
-Division,ES,startswith,Department,DTS,exact,1.0,27,27,0,0.0,1
-Division,Countywide,startswith,Department,REC,exact,1.0,27,27,0,0.0,1
-Division,Countywide,startswith,Department Name,Department of Recreation,exact,1.0,27,27,0,0.0,1
-Division,ES,startswith,Department Name,Department of Technology Services,exact,1.0,27,27,0,0.0,1
-Department,BOE,startswith,Department Name,Board of Elections,exact,1.0,26,26,0,0.0,1
-Division,Ro,startswith,Department,LIB,exact,1.0,26,26,0,0.0,1
-Division,Ro,startswith,Department Name,Department of Public Libraries,exact,1.0,26,26,0,0.0,1
-Division,Ta,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.0,1
-Division,Ce,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.0,1
-Division,Ce,startswith,Department,DGS,exact,1.0,25,25,0,0.0,1
-Division,Ta,startswith,Department,FIN,exact,1.0,25,25,0,0.0,1
-Division,Ta,startswith,Department Name,Department of Finance,exact,1.0,25,25,0,0.0,1
-Division,Ce,startswith,Department Name,Department of General Services,exact,1.0,25,25,0,0.0,1
-Full Name,Ed,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.0,1
-Full Name,White,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.0,1
-Position Title,Fo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.0,1
-Position Title,Bui,startswith,Department,DGS,exact,1.0,25,25,0,0.0,1
-Position Title,Bui,startswith,Department Name,Department of General Services,exact,1.0,25,25,0,0.0,1
-Position Title,Bui,startswith,Division,Facilities Maintenance,exact,1.0,25,25,0,0.0,1
-Division,Fis,startswith,Assignment Category,Fulltime-Regular,exact,1.0,24,24,0,0.0,1
-Division,Ga,startswith,Department,LIB,exact,1.0,24,24,0,0.0,1
-Division,Ga,startswith,Department Name,Department of Public Libraries,exact,1.0,24,24,0,0.0,1
-Position Title,U,startswith,Assignment Category,Fulltime-Regular,exact,1.0,24,24,0,0.0,1
-Position Title,U,startswith,Department,CEC,exact,1.0,24,24,0,0.0,4
-Position Title,U,startswith,Department Name,Community Engagement Cluster,exact,1.0,24,24,0,0.0,4
-Division,HQ,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Division,Op,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Division,Gen,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Division,HQ,startswith,Department,POL,exact,1.0,23,23,0,0.0,1
-Division,HQ,startswith,Department Name,Department of Police,exact,1.0,23,23,0,0.0,1
-Full Name,Hal,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Full Name,Carter,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Position Title,Al,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.0,1
-Position Title,Al,startswith,Department,DLC,exact,1.0,23,23,0,0.0,1
-Position Title,Forensic,startswith,Department,POL,exact,1.0,23,23,0,0.0,1
-Position Title,Al,startswith,Department Name,Department of Liquor Control,exact,1.0,23,23,0,0.0,1
-Position Title,Forensic,startswith,Department Name,Department of Police,exact,1.0,23,23,0,0.0,1
-Division,ET,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Division,Cod,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Division,Th,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Division,ET,startswith,Department,DTS,exact,1.0,22,22,0,0.0,1
-Division,Cod,startswith,Department,FRS,exact,1.0,22,22,0,0.0,1
-Division,Th,startswith,Department,FRS,exact,1.0,22,22,0,0.0,1
-Division,Qui,startswith,Department,LIB,exact,1.0,22,22,0,0.0,1
-Division,Qui,startswith,Department Name,Department of Public Libraries,exact,1.0,22,22,0,0.0,1
-Division,ET,startswith,Department Name,Department of Technology Services,exact,1.0,22,22,0,0.0,1
-Division,Cod,startswith,Department Name,Fire and Rescue Services,exact,1.0,22,22,0,0.0,1
-Division,Th,startswith,Department Name,Fire and Rescue Services,exact,1.0,22,22,0,0.0,1
-Full Name,Coo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Position Title,Ho,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Position Title,Ca,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.0,1
-Position Title,Ho,startswith,Department,HCA,exact,1.0,22,22,0,0.0,3
-Position Title,Ho,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,22,22,0,0.0,3
-Position Title,Ho,startswith,Division,Housing Code Enforcement,exact,1.0,22,22,0,0.0,3
-Date First Hired,5/5,startswith,Assignment Category,Fulltime-Regular,exact,1.0,21,21,0,0.0,1
-Date First Hired,9/7,startswith,Assignment Category,Fulltime-Regular,exact,1.0,21,21,0,0.0,1
-Division,DO,startswith,Assignment Category,Fulltime-Regular,exact,1.0,21,21,0,0.0,1
-Division,DO,startswith,Department,COR,exact,1.0,21,21,0,0.0,1
-Division,DO,startswith,Department Name,Correction and Rehabilitation,exact,1.0,21,21,0,0.0,1
-Full Name,Bra,startswith,Assignment Category,Fulltime-Regular,exact,1.0,21,21,0,0.0,1
-Division,Con,startswith,Assignment Category,Fulltime-Regular,exact,1.0,20,20,0,0.0,1
-Position Title,Hi,startswith,Assignment Category,Fulltime-Regular,exact,1.0,20,20,0,0.0,1
-Position Title,Hi,startswith,Department,DOT,exact,1.0,20,20,0,0.0,1
-Position Title,Hi,startswith,Department Name,Department of Transportation,exact,1.0,20,20,0,0.0,1
-Division,Hom,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Division,Bui,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Division,Training,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Division,Hom,startswith,Department,HHS,exact,1.0,19,19,0,0.0,1
-Division,Hom,startswith,Department Name,Department of Health and Human Services,exact,1.0,19,19,0,0.0,1
-Full Name,Ni,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Underfilled Job Title,T,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Underfilled Job Title,M,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.0,1
-Underfilled Job Title,Inc,startswith,Department,HHS,exact,1.0,19,19,0,0.0,1
-Underfilled Job Title,Inc,startswith,Department Name,Department of Health and Human Services,exact,1.0,19,19,0,0.0,1
-Underfilled Job Title,Inc,startswith,Position Title,Income Assistance Program Specialist II,exact,1.0,19,19,0,0.0,2
-Division,Lic,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.0,1
-Division,War,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.0,1
-Division,ER,startswith,Department,DTS,exact,1.0,18,18,0,0.0,1
-Division,Dis,startswith,Department,HHS,exact,1.0,18,18,0,0.0,1
-Division,War,startswith,Department,SHF,exact,1.0,18,18,0,0.0,1
-Division,Dis,startswith,Department Name,Department of Health and Human Services,exact,1.0,18,18,0,0.0,1
-Division,ER,startswith,Department Name,Department of Technology Services,exact,1.0,18,18,0,0.0,1
-Division,War,startswith,Department Name,Sheriff's Office,exact,1.0,18,18,0,0.0,1
-Full Name,Fre,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.0,1
-Position Title,Procurement,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.0,1
-Position Title,Procurement,startswith,Department,PRO,exact,1.0,18,18,0,0.0,1
-Position Title,Procurement,startswith,Department Name,Office of Procurement,exact,1.0,18,18,0,0.0,1
-Division,Qua,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Division,Fif,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Division,Su,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Division,Scheduling,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Division,Qua,startswith,Department,DGS,exact,1.0,17,17,0,0.0,1
-Division,Project,startswith,Department,DGS,exact,1.0,17,17,0,0.0,1
-Division,Fif,startswith,Department,FRS,exact,1.0,17,17,0,0.0,1
-Division,Marilyn,startswith,Department,LIB,exact,1.0,17,17,0,0.0,1
-Division,Qua,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.0,1
-Division,Project,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.0,1
-Division,Marilyn,startswith,Department Name,Department of Public Libraries,exact,1.0,17,17,0,0.0,1
-Division,Fif,startswith,Department Name,Fire and Rescue Services,exact,1.0,17,17,0,0.0,1
-Full Name,Bai,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Full Name,Bow,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Full Name,Chi,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Full Name,Don,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Position Title,Mai,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Position Title,HV,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.0,1
-Position Title,HV,startswith,Department,DGS,exact,1.0,17,17,0,0.0,1
-Position Title,HV,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.0,1
-Position Title,HV,startswith,Division,Facilities Maintenance,exact,1.0,17,17,0,0.0,1
-Position Title,HV,startswith,Gender,M,exact,1.0,17,17,0,0.0,1
-Department,OC,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Department,OC,startswith,Department Name,Office of Consumer Protection,exact,1.0,16,16,0,0.0,2
-Division,Mat,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Division,Sec,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Division,Sit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Division,Y,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Division,Sit,startswith,Department,DPS,exact,1.0,16,16,0,0.0,1
-Division,Sec,startswith,Department,FRS,exact,1.0,16,16,0,0.0,1
-Division,First,startswith,Department,FRS,exact,1.0,16,16,0,0.0,1
-Division,Dav,startswith,Department,LIB,exact,1.0,16,16,0,0.0,1
-Division,Y,startswith,Department,REC,exact,1.0,16,16,0,0.0,1
-Division,Sit,startswith,Department Name,Department of Permitting Services,exact,1.0,16,16,0,0.0,1
-Division,Dav,startswith,Department Name,Department of Public Libraries,exact,1.0,16,16,0,0.0,1
-Division,Y,startswith,Department Name,Department of Recreation,exact,1.0,16,16,0,0.0,1
-Division,Sec,startswith,Department Name,Fire and Rescue Services,exact,1.0,16,16,0,0.0,1
-Division,First,startswith,Department Name,Fire and Rescue Services,exact,1.0,16,16,0,0.0,1
-Full Name,As,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Full Name,Cro,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Full Name,Kn,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Full Name,Wel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Full Name,Wr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Full Name,Stevens,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Underfilled Job Title,D,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.0,1
-Underfilled Job Title,D,startswith,Department,SHF,exact,1.0,16,16,0,0.0,4
-Underfilled Job Title,D,startswith,Department Name,Sheriff's Office,exact,1.0,16,16,0,0.0,4
-Underfilled Job Title,D,startswith,Gender,M,exact,1.0,16,16,0,0.0,1
-Underfilled Job Title,D,startswith,Position Title,Deputy Sheriff III,exact,1.0,16,16,0,0.0,4
-Division,Licensure,startswith,Department,DLC,exact,1.0,15,15,0,0.0,1
-Division,Vic,startswith,Department,HHS,exact,1.0,15,15,0,0.0,1
-Division,Vic,startswith,Department Name,Department of Health and Human Services,exact,1.0,15,15,0,0.0,1
-Division,Licensure,startswith,Department Name,Department of Liquor Control,exact,1.0,15,15,0,0.0,1
-Division,Vic,startswith,Gender,F,exact,1.0,15,15,0,0.0,1
-Full Name,Cor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Full Name,Gol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Full Name,Rus,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Full Name,Sco,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Position Title,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Position Title,N,startswith,Department,HHS,exact,1.0,15,15,0,0.0,1
-Position Title,N,startswith,Department Name,Department of Health and Human Services,exact,1.0,15,15,0,0.0,1
-Underfilled Job Title,E,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Underfilled Job Title,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.0,1
-Date First Hired,7/5,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Department,DED,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Department,DED,startswith,Department Name,Department of Economic Development,exact,1.0,14,14,0,0.0,1
-Division,Inv,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,CO,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,Fo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,Div,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,Ab,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,Accounts,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Division,Sto,startswith,Department,DEP,exact,1.0,14,14,0,0.0,1
-Division,CO,startswith,Department,DTS,exact,1.0,14,14,0,0.0,1
-Division,Div,startswith,Department,FIN,exact,1.0,14,14,0,0.0,1
-Division,Accounts,startswith,Department,FIN,exact,1.0,14,14,0,0.0,1
-Division,Fo,startswith,Department,FRS,exact,1.0,14,14,0,0.0,1
-Division,Asp,startswith,Department,LIB,exact,1.0,14,14,0,0.0,1
-Division,Col,startswith,Department,LIB,exact,1.0,14,14,0,0.0,1
-Division,Pat,startswith,Department,POL,exact,1.0,14,14,0,0.0,1
-Division,Ci,startswith,Department,SHF,exact,1.0,14,14,0,0.0,1
-Division,Sto,startswith,Department Name,Department of Environmental Protection,exact,1.0,14,14,0,0.0,1
-Division,Div,startswith,Department Name,Department of Finance,exact,1.0,14,14,0,0.0,1
-Division,Accounts,startswith,Department Name,Department of Finance,exact,1.0,14,14,0,0.0,1
-Division,Pat,startswith,Department Name,Department of Police,exact,1.0,14,14,0,0.0,1
-Division,Asp,startswith,Department Name,Department of Public Libraries,exact,1.0,14,14,0,0.0,1
-Division,Col,startswith,Department Name,Department of Public Libraries,exact,1.0,14,14,0,0.0,1
-Division,CO,startswith,Department Name,Department of Technology Services,exact,1.0,14,14,0,0.0,1
-Division,Fo,startswith,Department Name,Fire and Rescue Services,exact,1.0,14,14,0,0.0,1
-Division,Ci,startswith,Department Name,Sheriff's Office,exact,1.0,14,14,0,0.0,1
-Division,Asp,startswith,Gender,F,exact,1.0,14,14,0,0.0,1
-Division,Ab,startswith,Gender,F,exact,1.0,14,14,0,0.0,1
-Full Name,Ev,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Full Name,Lop,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Full Name,Mcc,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Full Name,Wol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Full Name,Ward,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Position Title,Sa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.0,1
-Position Title,Sa,startswith,Department,DOT,exact,1.0,14,14,0,0.0,1
-Position Title,Transportation,startswith,Department,DOT,exact,1.0,14,14,0,0.0,1
-Position Title,Sa,startswith,Department Name,Department of Transportation,exact,1.0,14,14,0,0.0,1
-Position Title,Transportation,startswith,Department Name,Department of Transportation,exact,1.0,14,14,0,0.0,1
-Position Title,Sa,startswith,Division,Transit Safety and Instruction,exact,1.0,14,14,0,0.0,3
-Position Title,Transportation,startswith,Gender,M,exact,1.0,14,14,0,0.0,1
-Underfilled Job Title,Procurement,startswith,Department,PRO,exact,1.0,14,14,0,0.0,1
-Underfilled Job Title,Procurement,startswith,Department Name,Office of Procurement,exact,1.0,14,14,0,0.0,1
-Underfilled Job Title,Procurement,startswith,Position Title,Procurement Specialist IV,exact,1.0,14,14,0,0.0,1
-Department,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Department,N,startswith,Department Name,Non-Departmental Account,exact,1.0,13,13,0,0.0,3
-Department Name,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Department Name,N,startswith,Department,NDA,exact,1.0,13,13,0,0.0,3
-Division,Res,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Division,Pol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Division,Res,startswith,Department,FRS,exact,1.0,13,13,0,0.0,1
-Division,Access,startswith,Department,HHS,exact,1.0,13,13,0,0.0,1
-Division,Lit,startswith,Department,LIB,exact,1.0,13,13,0,0.0,1
-Division,Access,startswith,Department Name,Department of Health and Human Services,exact,1.0,13,13,0,0.0,1
-Division,Lit,startswith,Department Name,Department of Public Libraries,exact,1.0,13,13,0,0.0,1
-Division,Res,startswith,Department Name,Fire and Rescue Services,exact,1.0,13,13,0,0.0,1
-Full Name,Ada,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Bry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Cle,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Gro,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Hay,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Lea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Pl,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Ti,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Tur,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Collins,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Daniel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Fisher,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Ross,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Full Name,Ti,startswith,Gender,M,exact,1.0,13,13,0,0.0,1
-Position Title,Te,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Position Title,An,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Position Title,An,startswith,Department,POL,exact,1.0,13,13,0,0.0,1
-Position Title,An,startswith,Department Name,Department of Police,exact,1.0,13,13,0,0.0,1
-Position Title,An,startswith,Division,FSB Animal Services Division,exact,1.0,13,13,0,0.0,3
-Position Title,Te,startswith,Gender,M,exact,1.0,13,13,0,0.0,1
-Underfilled Job Title,Ac,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.0,1
-Underfilled Job Title,Tr,startswith,Gender,M,exact,1.0,13,13,0,0.0,1
-Underfilled Job Title,Ac,startswith,Position Title,Accountant/Auditor III,exact,1.0,13,13,0,0.0,3
-Division,Hu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Division,Au,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Division,TB,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Division,Car,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Division,Ear,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,TB,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,Car,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,Maternity,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,Infants,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,Medication,startswith,Department,HHS,exact,1.0,12,12,0,0.0,1
-Division,Tw,startswith,Department,LIB,exact,1.0,12,12,0,0.0,1
-Division,MCE,startswith,Department,NDA,exact,1.0,12,12,0,0.0,2
-Division,Ear,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,TB,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,Car,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,Maternity,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,Infants,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,Medication,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.0,1
-Division,Tw,startswith,Department Name,Department of Public Libraries,exact,1.0,12,12,0,0.0,1
-Division,MCE,startswith,Department Name,Non-Departmental Account,exact,1.0,12,12,0,0.0,2
-Division,Ear,startswith,Gender,F,exact,1.0,12,12,0,0.0,1
-Division,Car,startswith,Gender,F,exact,1.0,12,12,0,0.0,1
-Division,Infants,startswith,Gender,F,exact,1.0,12,12,0,0.0,1
-Full Name,Bak,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Full Name,Kelly,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Position Title,Cou,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.0,1
-Date First Hired,7/7,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Department,OL,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Department,OA,startswith,Department Name,Office of Agriculture,exact,1.0,11,11,0,0.0,2
-Department,OL,startswith,Department Name,Office of Legislative Oversight,exact,1.0,11,11,0,0.0,2
-Division,Pos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Division,Bus,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Division,Reg,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Division,Sig,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Division,Sig,startswith,Department,DOT,exact,1.0,11,11,0,0.0,1
-Division,Pos,startswith,Department,HHS,exact,1.0,11,11,0,0.0,1
-Division,J,startswith,Department,HHS,exact,1.0,11,11,0,0.0,1
-Division,Abu,startswith,Department,HHS,exact,1.0,11,11,0,0.0,1
-Division,Pos,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.0,1
-Division,J,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.0,1
-Division,Abu,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.0,1
-Division,Sig,startswith,Department Name,Department of Transportation,exact,1.0,11,11,0,0.0,1
-Division,Sig,startswith,Gender,M,exact,1.0,11,11,0,0.0,1
-Full Name,Ag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Full Name,Goo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Full Name,Brooks,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Full Name,Parker,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Position Title,Pa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Position Title,La,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Position Title,Be,startswith,Department,HHS,exact,1.0,11,11,0,0.0,1
-Position Title,Be,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.0,1
-Underfilled Job Title,Cod,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.0,1
-Underfilled Job Title,Me,startswith,Department,DGS,exact,1.0,11,11,0,0.0,3
-Underfilled Job Title,Cod,startswith,Department,POL,exact,1.0,11,11,0,0.0,1
-Underfilled Job Title,Me,startswith,Department Name,Department of General Services,exact,1.0,11,11,0,0.0,3
-Underfilled Job Title,Cod,startswith,Department Name,Department of Police,exact,1.0,11,11,0,0.0,1
-Underfilled Job Title,Cod,startswith,Division,FSB Animal Services Division,exact,1.0,11,11,0,0.0,2
-Underfilled Job Title,Me,startswith,Division,Fleet Management Fleet Services,exact,1.0,11,11,0,0.0,3
-Underfilled Job Title,Me,startswith,Gender,M,exact,1.0,11,11,0,0.0,1
-Underfilled Job Title,Cod,startswith,Position Title,Code Enforcement Inspector III,exact,1.0,11,11,0,0.0,2
-Underfilled Job Title,Me,startswith,Position Title,Mechanic Technician II,exact,1.0,11,11,0,0.0,3
-Date First Hired,6/5,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Department,DH,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Department,DH,startswith,Department Name,Office of Emergency Management and Homeland Security,exact,1.0,10,10,0,0.0,2
-Division,Cli,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Division,Nu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Division,Wal,startswith,Department,DLC,exact,1.0,10,10,0,0.0,1
-Division,Lei,startswith,Department,DLC,exact,1.0,10,10,0,0.0,1
-Division,Wes,startswith,Department,DLC,exact,1.0,10,10,0,0.0,1
-Division,Montrose,startswith,Department,DLC,exact,1.0,10,10,0,0.0,1
-Division,Ent,startswith,Department,DTS,exact,1.0,10,10,0,0.0,1
-Division,Pe,startswith,Department,HHS,exact,1.0,10,10,0,0.0,1
-Division,Cli,startswith,Department,HHS,exact,1.0,10,10,0,0.0,1
-Division,Nu,startswith,Department,HHS,exact,1.0,10,10,0,0.0,1
-Division,Head,startswith,Department,HHS,exact,1.0,10,10,0,0.0,1
-Division,Pe,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.0,1
-Division,Cli,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.0,1
-Division,Nu,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.0,1
-Division,Head,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.0,1
-Division,Wal,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.0,1
-Division,Lei,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.0,1
-Division,Wes,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.0,1
-Division,Montrose,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.0,1
-Division,Ent,startswith,Department Name,Department of Technology Services,exact,1.0,10,10,0,0.0,1
-Division,Wo,startswith,Gender,F,exact,1.0,10,10,0,0.0,1
-Full Name,Fal,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Fos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Gib,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Gon,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Hei,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Med,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Mun,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Ry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Full Name,Wes,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.0,1
-Position Title,Council,startswith,Department,CCL,exact,1.0,10,10,0,0.0,1
-Position Title,Med,startswith,Department,HHS,exact,1.0,10,10,0,0.0,1
-Position Title,Council,startswith,Department Name,County Council,exact,1.0,10,10,0,0.0,1
-Position Title,Med,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.0,1
-Underfilled Job Title,Hu,startswith,Department,OHR,exact,1.0,10,10,0,0.0,3
-Underfilled Job Title,Hu,startswith,Department Name,Office of Human Resources,exact,1.0,10,10,0,0.0,3
-Underfilled Job Title,Hu,startswith,Position Title,Human Resources Specialist III,exact,1.0,10,10,0,0.0,3
-Division,Agi,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,Emp,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,Leg,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,U,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,Compliance,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,Marketing,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Division,Marketing,startswith,Department,DED,exact,1.0,9,9,0,0.0,1
-Division,Gos,startswith,Department,DLC,exact,1.0,9,9,0,0.0,1
-Division,Mud,startswith,Department,DLC,exact,1.0,9,9,0,0.0,1
-Division,Dar,startswith,Department,DLC,exact,1.0,9,9,0,0.0,1
-Division,Pi,startswith,Department,DLC,exact,1.0,9,9,0,0.0,1
-Division,Fal,startswith,Department,DLC,exact,1.0,9,9,0,0.0,1
-Division,Agi,startswith,Department,HHS,exact,1.0,9,9,0,0.0,1
-Division,Investigations,startswith,Department,OCP,exact,1.0,9,9,0,0.0,1
-Division,Leg,startswith,Department,OLO,exact,1.0,9,9,0,0.0,2
-Division,Marketing,startswith,Department Name,Department of Economic Development,exact,1.0,9,9,0,0.0,1
-Division,Agi,startswith,Department Name,Department of Health and Human Services,exact,1.0,9,9,0,0.0,1
-Division,Gos,startswith,Department Name,Department of Liquor Control,exact,1.0,9,9,0,0.0,1
-Division,Mud,startswith,Department Name,Department of Liquor Control,exact,1.0,9,9,0,0.0,1
-Division,Dar,startswith,Department Name,Department of Liquor Control,exact,1.0,9,9,0,0.0,1
-Division,Pi,startswith,Department Name,Department of Liquor Control,exact,1.0,9,9,0,0.0,1
-Division,Fal,startswith,Department Name,Department of Liquor Control,exact,1.0,9,9,0,0.0,1
-Division,Investigations,startswith,Department Name,Office of Consumer Protection,exact,1.0,9,9,0,0.0,1
-Division,Leg,startswith,Department Name,Office of Legislative Oversight,exact,1.0,9,9,0,0.0,2
-Division,Investigations,startswith,Position Title,Investigator III,exact,1.0,9,9,0,0.0,1
-Full Name,Fel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Fit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Hag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Haw,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Hou,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Kar,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Kh,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Kl,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Mic,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Owe,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Pea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Ven,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Flores,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Morgan,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Murphy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Full Name,Price,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Position Title,Cri,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Position Title,Mo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Position Title,Property,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Position Title,Confidential,startswith,Department,CCL,exact,1.0,9,9,0,0.0,1
-Position Title,El,startswith,Department,DGS,exact,1.0,9,9,0,0.0,1
-Position Title,Mo,startswith,Department,DOT,exact,1.0,9,9,0,0.0,1
-Position Title,Ba,startswith,Department,POL,exact,1.0,9,9,0,0.0,1
-Position Title,Confidential,startswith,Department Name,County Council,exact,1.0,9,9,0,0.0,1
-Position Title,El,startswith,Department Name,Department of General Services,exact,1.0,9,9,0,0.0,1
-Position Title,Ba,startswith,Department Name,Department of Police,exact,1.0,9,9,0,0.0,1
-Position Title,Mo,startswith,Department Name,Department of Transportation,exact,1.0,9,9,0,0.0,1
-Position Title,Confidential,startswith,Division,Council Members and Staff,exact,1.0,9,9,0,0.0,1
-Position Title,El,startswith,Division,Facilities Maintenance,exact,1.0,9,9,0,0.0,1
-Position Title,Ba,startswith,Division,MSB Personnel Division Background Section,exact,1.0,9,9,0,0.0,3
-Position Title,El,startswith,Gender,M,exact,1.0,9,9,0,0.0,1
-Position Title,Maintenance,startswith,Gender,M,exact,1.0,9,9,0,0.0,1
-Underfilled Job Title,Ho,startswith,Assignment Category,Fulltime-Regular,exact,1.0,9,9,0,0.0,1
-Underfilled Job Title,Ho,startswith,Department,HCA,exact,1.0,9,9,0,0.0,3
-Underfilled Job Title,Ho,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,9,9,0,0.0,3
-Underfilled Job Title,Ho,startswith,Division,Housing Code Enforcement,exact,1.0,9,9,0,0.0,3
-Underfilled Job Title,Ho,startswith,Position Title,Housing Code Inspector III,exact,1.0,9,9,0,0.0,3
-Department,HR,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Department,HR,startswith,Department Name,Office of Human Rights,exact,1.0,8,8,0,0.0,2
-Division,Sin,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Division,Tre,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Division,Ja,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Division,Bud,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Division,Sa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Division,Flo,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Mil,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Ki,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Clo,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Ham,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Seneca,startswith,Department,DLC,exact,1.0,8,8,0,0.0,1
-Division,Pay,startswith,Department,FIN,exact,1.0,8,8,0,0.0,1
-Division,Sin,startswith,Department,HCA,exact,1.0,8,8,0,0.0,1
-Division,Bud,startswith,Department,HHS,exact,1.0,8,8,0,0.0,1
-Division,Ur,startswith,Department,HHS,exact,1.0,8,8,0,0.0,1
-Division,Technology,startswith,Department,LIB,exact,1.0,8,8,0,0.0,1
-Division,Nor,startswith,Department,REC,exact,1.0,8,8,0,0.0,1
-Division,Pay,startswith,Department Name,Department of Finance,exact,1.0,8,8,0,0.0,1
-Division,Bud,startswith,Department Name,Department of Health and Human Services,exact,1.0,8,8,0,0.0,1
-Division,Ur,startswith,Department Name,Department of Health and Human Services,exact,1.0,8,8,0,0.0,1
-Division,Sin,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,8,8,0,0.0,1
-Division,Flo,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Mil,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Ki,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Clo,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Ham,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Seneca,startswith,Department Name,Department of Liquor Control,exact,1.0,8,8,0,0.0,1
-Division,Technology,startswith,Department Name,Department of Public Libraries,exact,1.0,8,8,0,0.0,1
-Division,Nor,startswith,Department Name,Department of Recreation,exact,1.0,8,8,0,0.0,1
-Division,Technology,startswith,Gender,M,exact,1.0,8,8,0,0.0,1
-Full Name,Ce,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Ci,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Dem,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Dom,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Dy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Est,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Fon,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Hun,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Lar,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Lyn,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Mcg,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Mcn,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Pay,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Pau,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Pie,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Por,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Ren,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Rie,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Rom,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Sil,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Sin,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Sol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Sum,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Curry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Ellis,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Kane,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Matthews,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Wallace,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Watkins,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Full Name,Russell,startswith,Gender,M,exact,1.0,8,8,0,0.0,1
-Position Title,Rea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Position Title,Chief,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Position Title,Legal,startswith,Assignment Category,Fulltime-Regular,exact,1.0,8,8,0,0.0,1
-Position Title,Mail,startswith,Department,DGS,exact,1.0,8,8,0,0.0,1
-Position Title,Mail,startswith,Department Name,Department of General Services,exact,1.0,8,8,0,0.0,1
-Position Title,Mail,startswith,Division,Central Duplicating,exact,1.0,8,8,0,0.0,1
-Position Title,Legal,startswith,Gender,F,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Eq,startswith,Department,DOT,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Transportation,startswith,Department,DOT,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Eq,startswith,Department Name,Department of Transportation,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Transportation,startswith,Department Name,Department of Transportation,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Eq,startswith,Division,Highway Services,exact,1.0,8,8,0,0.0,3
-Underfilled Job Title,Transportation,startswith,Division,Transportation Technical Center,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Eq,startswith,Gender,M,exact,1.0,8,8,0,0.0,1
-Underfilled Job Title,Eq,startswith,Position Title,Equipment Operator I,exact,1.0,8,8,0,0.0,3
-Division,Ser,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Rea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Cu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,CI,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Montgomery,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Cable,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Technical,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Senior,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Division,Rea,startswith,Department,DGS,exact,1.0,7,7,0,0.0,1
-Division,Property,startswith,Department,DGS,exact,1.0,7,7,0,0.0,1
-Division,Clarksburg,startswith,Department,DLC,exact,1.0,7,7,0,0.0,1
-Division,Financial,startswith,Department,DLC,exact,1.0,7,7,0,0.0,1
-Division,Cu,startswith,Department,DPS,exact,1.0,7,7,0,0.0,1
-Division,Technical,startswith,Department,HCA,exact,1.0,7,7,0,0.0,1
-Division,Ser,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Ed,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Om,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Wom,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Montgomery,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Senior,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Division,Cat,startswith,Department,LIB,exact,1.0,7,7,0,0.0,1
-Division,Operating,startswith,Department,OMB,exact,1.0,7,7,0,0.0,1
-Division,Rea,startswith,Department Name,Department of General Services,exact,1.0,7,7,0,0.0,1
-Division,Property,startswith,Department Name,Department of General Services,exact,1.0,7,7,0,0.0,1
-Division,Ser,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Ed,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Om,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Wom,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Montgomery,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Senior,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Division,Technical,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,7,7,0,0.0,1
-Division,Clarksburg,startswith,Department Name,Department of Liquor Control,exact,1.0,7,7,0,0.0,1
-Division,Financial,startswith,Department Name,Department of Liquor Control,exact,1.0,7,7,0,0.0,1
-Division,Cu,startswith,Department Name,Department of Permitting Services,exact,1.0,7,7,0,0.0,1
-Division,Cat,startswith,Department Name,Department of Public Libraries,exact,1.0,7,7,0,0.0,1
-Division,Operating,startswith,Department Name,Office of Management and Budget,exact,1.0,7,7,0,0.0,1
-Division,Ed,startswith,Gender,F,exact,1.0,7,7,0,0.0,1
-Division,Financial,startswith,Gender,F,exact,1.0,7,7,0,0.0,1
-Division,Senior,startswith,Gender,F,exact,1.0,7,7,0,0.0,1
-Full Name,Arg,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Aus,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Ay,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Can,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Dou,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Em,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Fin,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Geo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Hai,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Hs,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Hut,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Jef,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Jos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Joy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Mea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Og,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Ort,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Pel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Poo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Ray,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Sk,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Swa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Tri,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Whe,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Wor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Zu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Berry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Boyd,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Frazier,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Grant,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Kennedy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Long,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Patterson,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Rowe,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Full Name,Arg,startswith,Gender,M,exact,1.0,7,7,0,0.0,1
-Full Name,Hai,startswith,Gender,M,exact,1.0,7,7,0,0.0,1
-Full Name,Patterson,startswith,Gender,M,exact,1.0,7,7,0,0.0,1
-Position Title,Au,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Position Title,Paralegal,startswith,Department,CAT,exact,1.0,7,7,0,0.0,1
-Position Title,Den,startswith,Department,HHS,exact,1.0,7,7,0,0.0,1
-Position Title,Paralegal,startswith,Department Name,County Attorney's Office,exact,1.0,7,7,0,0.0,1
-Position Title,Den,startswith,Department Name,Department of Health and Human Services,exact,1.0,7,7,0,0.0,1
-Underfilled Job Title,Ad,startswith,Assignment Category,Fulltime-Regular,exact,1.0,7,7,0,0.0,1
-Underfilled Job Title,As,startswith,Department,CAT,exact,1.0,7,7,0,0.0,3
-Underfilled Job Title,As,startswith,Department Name,County Attorney's Office,exact,1.0,7,7,0,0.0,3
-Underfilled Job Title,As,startswith,Position Title,Assistant County Attorney III,exact,1.0,7,7,0,0.0,3
-Underfilled Job Title,Bus,startswith,Position Title,Senior Business Development Specialist,exact,1.0,7,7,0,0.0,2
-Division,AD,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Division,Ren,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Division,Cap,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Division,Registration,startswith,Department,BOE,exact,1.0,6,6,0,0.0,1
-Division,Polling,startswith,Department,BOE,exact,1.0,6,6,0,0.0,1
-Division,Bur,startswith,Department,DLC,exact,1.0,6,6,0,0.0,1
-Division,Mul,startswith,Department,HCA,exact,1.0,6,6,0,0.0,1
-Division,Ren,startswith,Department,HHS,exact,1.0,6,6,0,0.0,1
-Division,Poo,startswith,Department,LIB,exact,1.0,6,6,0,0.0,1
-Division,Classification,startswith,Department,OHR,exact,1.0,6,6,0,0.0,1
-Division,Records,startswith,Department,OHR,exact,1.0,6,6,0,0.0,1
-Division,Cap,startswith,Department,OMB,exact,1.0,6,6,0,0.0,1
-Division,Sou,startswith,Department,REC,exact,1.0,6,6,0,0.0,1
-Division,Registration,startswith,Department Name,Board of Elections,exact,1.0,6,6,0,0.0,1
-Division,Polling,startswith,Department Name,Board of Elections,exact,1.0,6,6,0,0.0,1
-Division,Ren,startswith,Department Name,Department of Health and Human Services,exact,1.0,6,6,0,0.0,1
-Division,Mul,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,6,6,0,0.0,1
-Division,Bur,startswith,Department Name,Department of Liquor Control,exact,1.0,6,6,0,0.0,1
-Division,Poo,startswith,Department Name,Department of Public Libraries,exact,1.0,6,6,0,0.0,1
-Division,Sou,startswith,Department Name,Department of Recreation,exact,1.0,6,6,0,0.0,1
-Division,Classification,startswith,Department Name,Office of Human Resources,exact,1.0,6,6,0,0.0,1
-Division,Records,startswith,Department Name,Office of Human Resources,exact,1.0,6,6,0,0.0,1
-Division,Cap,startswith,Department Name,Office of Management and Budget,exact,1.0,6,6,0,0.0,1
-Division,Ren,startswith,Gender,F,exact,1.0,6,6,0,0.0,1
-Division,Sou,startswith,Gender,F,exact,1.0,6,6,0,0.0,1
-Division,Nursing,startswith,Position Title,Community Health Nurse II,exact,1.0,6,6,0,0.0,1
-Full Name,Ald,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Bab,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Bet,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Big,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Boo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Bos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Cob,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Cum,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Dar,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Fog,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Fun,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Gh,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Gom,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Gor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Got,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Gut,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Hop,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Hum,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Kee,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Kil,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Kor,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Lem,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Leo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Loc,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Low,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Mag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Max,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Pac,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Pag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Rag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Rea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Rid,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Ril,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Rui,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Rut,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Ses,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Sl,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Sno,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Som,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Sut,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Tro,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Ver,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Wu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Yi,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Zel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Bennett,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Brennan,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Carroll,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Fernandez,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Ford,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Henderson,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Lyons,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Patel,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Reid,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Schmidt,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,Simmons,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Full Name,"Li,",startswith,Gender,F,exact,1.0,6,6,0,0.0,1
-Full Name,Fog,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Full Name,Kee,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Full Name,Phi,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Full Name,Zel,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Full Name,Ford,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Full Name,Patel,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Position Title,Dr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,Ref,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,Plu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,V,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,Wat,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,Printing,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Position Title,Ref,startswith,Department,DEP,exact,1.0,6,6,0,0.0,1
-Position Title,Wat,startswith,Department,DEP,exact,1.0,6,6,0,0.0,1
-Position Title,Plu,startswith,Department,DGS,exact,1.0,6,6,0,0.0,1
-Position Title,Printing,startswith,Department,DGS,exact,1.0,6,6,0,0.0,1
-Position Title,Child,startswith,Department,HHS,exact,1.0,6,6,0,0.0,1
-Position Title,Ref,startswith,Department Name,Department of Environmental Protection,exact,1.0,6,6,0,0.0,1
-Position Title,Wat,startswith,Department Name,Department of Environmental Protection,exact,1.0,6,6,0,0.0,1
-Position Title,Plu,startswith,Department Name,Department of General Services,exact,1.0,6,6,0,0.0,1
-Position Title,Printing,startswith,Department Name,Department of General Services,exact,1.0,6,6,0,0.0,1
-Position Title,Child,startswith,Department Name,Department of Health and Human Services,exact,1.0,6,6,0,0.0,1
-Position Title,Printing,startswith,Division,Central Duplicating,exact,1.0,6,6,0,0.0,1
-Position Title,Child,startswith,Division,Child Welfare Services,exact,1.0,6,6,0,0.0,1
-Position Title,Plu,startswith,Division,Facilities Maintenance,exact,1.0,6,6,0,0.0,1
-Position Title,Ref,startswith,Division,Solid Waste Services Operations,exact,1.0,6,6,0,0.0,2
-Position Title,Wat,startswith,Division,Water Quality Monitoring and Planning,exact,1.0,6,6,0,0.0,2
-Position Title,Child,startswith,Gender,F,exact,1.0,6,6,0,0.0,1
-Position Title,Dr,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Position Title,Plu,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Position Title,Printing,startswith,Gender,M,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,S,startswith,Assignment Category,Fulltime-Regular,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,Th,startswith,Department,HHS,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,Com,startswith,Department,HHS,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,Th,startswith,Department Name,Department of Health and Human Services,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,Com,startswith,Department Name,Department of Health and Human Services,exact,1.0,6,6,0,0.0,1
-Underfilled Job Title,Th,startswith,Position Title,Therapist II,exact,1.0,6,6,0,0.0,3
-Date First Hired,7/4,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Department,OI,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Department,I,startswith,Department Name,Office of Intergovernmental Relations Department,exact,1.0,5,5,0,0.0,3
-Department,OI,startswith,Department Name,Office of the Inspector General,exact,1.0,5,5,0,0.0,2
-Department,I,startswith,Gender,F,exact,1.0,5,5,0,0.0,3
-Division,Ev,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Gr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Fr,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Ri,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,El,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Ret,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Log,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,Kennedy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Division,El,startswith,Department,BOE,exact,1.0,5,5,0,0.0,1
-Division,Gov,startswith,Department,CAT,exact,1.0,5,5,0,0.0,2
-Division,Regional,startswith,Department,CEC,exact,1.0,5,5,0,0.0,1
-Division,Construction,startswith,Department,DEP,exact,1.0,5,5,0,0.0,1
-Division,Policy,startswith,Department,DHS,exact,1.0,5,5,0,0.0,1
-Division,Ret,startswith,Department,DLC,exact,1.0,5,5,0,0.0,1
-Division,Cabin,startswith,Department,DLC,exact,1.0,5,5,0,0.0,1
-Division,Fr,startswith,Department,DTS,exact,1.0,5,5,0,0.0,1
-Division,CIO,startswith,Department,DTS,exact,1.0,5,5,0,0.0,1
-Division,Gr,startswith,Department,FIN,exact,1.0,5,5,0,0.0,1
-Division,Treasury,startswith,Department,FIN,exact,1.0,5,5,0,0.0,1
-Division,Log,startswith,Department,FRS,exact,1.0,5,5,0,0.0,1
-Division,Autism,startswith,Department,HHS,exact,1.0,5,5,0,0.0,1
-Division,Kennedy,startswith,Department,REC,exact,1.0,5,5,0,0.0,1
-Division,Ev,startswith,Department,SHF,exact,1.0,5,5,0,0.0,1
-Division,El,startswith,Department Name,Board of Elections,exact,1.0,5,5,0,0.0,1
-Division,Regional,startswith,Department Name,Community Engagement Cluster,exact,1.0,5,5,0,0.0,1
-Division,Gov,startswith,Department Name,County Attorney's Office,exact,1.0,5,5,0,0.0,2
-Division,Construction,startswith,Department Name,Department of Environmental Protection,exact,1.0,5,5,0,0.0,1
-Division,Gr,startswith,Department Name,Department of Finance,exact,1.0,5,5,0,0.0,1
-Division,Treasury,startswith,Department Name,Department of Finance,exact,1.0,5,5,0,0.0,1
-Division,Autism,startswith,Department Name,Department of Health and Human Services,exact,1.0,5,5,0,0.0,1
-Division,Ret,startswith,Department Name,Department of Liquor Control,exact,1.0,5,5,0,0.0,1
-Division,Cabin,startswith,Department Name,Department of Liquor Control,exact,1.0,5,5,0,0.0,1
-Division,Kennedy,startswith,Department Name,Department of Recreation,exact,1.0,5,5,0,0.0,1
-Division,Fr,startswith,Department Name,Department of Technology Services,exact,1.0,5,5,0,0.0,1
-Division,CIO,startswith,Department Name,Department of Technology Services,exact,1.0,5,5,0,0.0,1
-Division,Log,startswith,Department Name,Fire and Rescue Services,exact,1.0,5,5,0,0.0,1
-Division,Policy,startswith,Department Name,Office of Emergency Management and Homeland Security,exact,1.0,5,5,0,0.0,1
-Division,Ev,startswith,Department Name,Sheriff's Office,exact,1.0,5,5,0,0.0,1
-Division,Autism,startswith,Gender,F,exact,1.0,5,5,0,0.0,1
-Division,Administrative,startswith,Gender,F,exact,1.0,5,5,0,0.0,1
-Division,Construction,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Division,Autism,startswith,Position Title,Program Specialist II,exact,1.0,5,5,0,0.0,1
-Full Name,Alb,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Arn,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Av,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Bax,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Blo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Bol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Cli,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Cul,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,D',startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Dam,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Dol,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Eb,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Fle,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Glo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Gue,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Gui,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Guz,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hec,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hes,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hob,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hoe,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hud,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hy,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Kid,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Kro,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Lak,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,"Le,",startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Leg,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Lyl,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Lit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Log,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Mad,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Mcd,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Mcm,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Met,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Mey,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Nav,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Nw,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Ob,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Od,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Ola,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Ras,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Rin,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Sma,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,St ,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Tar,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Via,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Wag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Wea,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Wen,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Wit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,X,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Zh,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Alvarez,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Banks,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Beall,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Byrd,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Chapman,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Cherry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Delgado,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Foreman,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Hendricks,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Mclaughlin,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Parks,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Perry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Prince,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Ramos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Ricketts,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Santos,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Simpson,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Full Name,Dre,startswith,Department,POL,exact,1.0,5,5,0,0.0,1
-Full Name,Dre,startswith,Department Name,Department of Police,exact,1.0,5,5,0,0.0,1
-Full Name,Fly,startswith,Gender,F,exact,1.0,5,5,0,0.0,1
-Full Name,Bax,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Cli,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,D',startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Hob,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Kro,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Laz,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Log,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Tar,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Vin,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Wag,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Parks,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Pierce,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Plummer,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Full Name,Simpson,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Position Title,Ab,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Position Title,Lic,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Position Title,Communications,startswith,Assignment Category,Fulltime-Regular,exact,1.0,5,5,0,0.0,1
-Position Title,Lic,startswith,Department,COR,exact,1.0,5,5,0,0.0,1
-Position Title,Dis,startswith,Department,DOT,exact,1.0,5,5,0,0.0,1
-Position Title,Communications,startswith,Department,DTS,exact,1.0,5,5,0,0.0,1
-Position Title,Lat,startswith,Department,POL,exact,1.0,5,5,0,0.0,1
-Position Title,Ab,startswith,Department,POL,exact,1.0,5,5,0,0.0,1
-Position Title,Lic,startswith,Department Name,Correction and Rehabilitation,exact,1.0,5,5,0,0.0,1
-Position Title,Lat,startswith,Department Name,Department of Police,exact,1.0,5,5,0,0.0,1
-Position Title,Ab,startswith,Department Name,Department of Police,exact,1.0,5,5,0,0.0,1
-Position Title,Communications,startswith,Department Name,Department of Technology Services,exact,1.0,5,5,0,0.0,1
-Position Title,Dis,startswith,Department Name,Department of Transportation,exact,1.0,5,5,0,0.0,1
-Position Title,Lic,startswith,Division,DS Health Services,exact,1.0,5,5,0,0.0,2
-Position Title,Communications,startswith,Division,ETSD Radio Communications Services,exact,1.0,5,5,0,0.0,1
-Position Title,Dis,startswith,Division,Highway Services,exact,1.0,5,5,0,0.0,2
-Position Title,Lat,startswith,Division,ISB Criminal Investigations Division Forensic Services Section,exact,1.0,5,5,0,0.0,2
-Position Title,Ab,startswith,Division,MSB Management and Budget Division Abandoned Vehicle Section,exact,1.0,5,5,0,0.0,3
-Position Title,Dis,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Position Title,Ab,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Position Title,Communications,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Em,startswith,Department,FRS,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Be,startswith,Department,HHS,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Be,startswith,Department Name,Department of Health and Human Services,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Em,startswith,Department Name,Fire and Rescue Services,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Em,startswith,Division,Fleet,exact,1.0,5,5,0,0.0,3
-Underfilled Job Title,Em,startswith,Gender,M,exact,1.0,5,5,0,0.0,1
-Underfilled Job Title,Be,startswith,Position Title,Behavioral Health Associate Counselor,exact,1.0,5,5,0,0.0,3
-Underfilled Job Title,Em,startswith,Position Title,Emergency Vehicle Mechanic Technician II,exact,1.0,5,5,0,0.0,3
+Department,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,1392,1392,0,0.1,1
+Department Name,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,1281,1281,0,0.1,1
+Department Name,F,startswith,Department,FRS,exact,1.0,1281,1281,0,0.1,5
+Department,DO,startswith,Department Name,Department of Transportation,exact,1.0,1199,1199,0,0.1,2
+Position Title,Po,startswith,Department,POL,exact,1.0,1172,1172,0,0.1,1
+Position Title,Po,startswith,Department Name,Department of Police,exact,1.0,1172,1172,0,0.1,1
+Division,St,startswith,Assignment Category,Fulltime-Regular,exact,1.0,937,937,0,0.1,1
+Division,PS,startswith,Department,POL,exact,1.0,900,900,0,0.1,1
+Division,PS,startswith,Department Name,Department of Police,exact,1.0,900,900,0,0.1,1
+Position Title,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,670,670,0,0.1,1
+Department,CO,startswith,Department Name,Correction and Rehabilitation,exact,1.0,494,494,0,0.1,2
+Department Name,Cor,startswith,Department,COR,exact,1.0,494,494,0,0.1,4
+Underfilled Job Title,P,startswith,Assignment Category,Fulltime-Regular,exact,1.0,478,478,0,0.1,1
+Department,DL,startswith,Department Name,Department of Liquor Control,exact,1.0,414,414,0,0.1,2
+Position Title,Cor,startswith,Department,COR,exact,1.0,402,402,0,0.1,1
+Position Title,Cor,startswith,Department Name,Correction and Rehabilitation,exact,1.0,402,402,0,0.1,1
+Department,DG,startswith,Department Name,Department of General Services,exact,1.0,400,400,0,0.1,2
+Division,DS,startswith,Department,COR,exact,1.0,400,400,0,0.1,1
+Division,DS,startswith,Department Name,Correction and Rehabilitation,exact,1.0,400,400,0,0.1,1
+Department,L,startswith,Department Name,Department of Public Libraries,exact,1.0,385,385,0,0.1,3
+Division,FS,startswith,Department,POL,exact,1.0,368,368,0,0.1,1
+Division,FS,startswith,Department Name,Department of Police,exact,1.0,368,368,0,0.1,1
+Position Title,Lib,startswith,Department,LIB,exact,1.0,316,316,0,0.1,5
+Position Title,Lib,startswith,Department Name,Department of Public Libraries,exact,1.0,316,316,0,0.1,5
+Underfilled Job Title,F,startswith,Assignment Category,Fulltime-Regular,exact,1.0,299,299,0,0.1,1
+Underfilled Job Title,F,startswith,Department,FRS,exact,1.0,299,299,0,0.1,6
+Underfilled Job Title,F,startswith,Department Name,Fire and Rescue Services,exact,1.0,299,299,0,0.1,6
+Underfilled Job Title,F,startswith,Position Title,Firefighter/Rescuer III,exact,1.0,299,299,0,0.1,6
+Division,MS,startswith,Department,POL,exact,1.0,287,287,0,0.1,1
+Division,MS,startswith,Department Name,Department of Police,exact,1.0,287,287,0,0.1,1
+Position Title,E,startswith,Assignment Category,Fulltime-Regular,exact,1.0,282,282,0,0.1,1
+Underfilled Job Title,Po,startswith,Department,POL,exact,1.0,278,278,0,0.1,1
+Underfilled Job Title,Po,startswith,Department Name,Department of Police,exact,1.0,278,278,0,0.1,1
+Underfilled Job Title,Po,startswith,Position Title,Police Officer III,exact,1.0,278,278,0,0.1,5
+Division,Hi,startswith,Department,DOT,exact,1.0,232,232,0,0.1,1
+Division,Hi,startswith,Department Name,Department of Transportation,exact,1.0,232,232,0,0.1,1
+Division,IS,startswith,Department,POL,exact,1.0,218,218,0,0.1,1
+Division,IS,startswith,Department Name,Department of Police,exact,1.0,218,218,0,0.1,1
+Position Title,Sc,startswith,Department,HHS,exact,1.0,213,213,0,0.1,1
+Position Title,Sc,startswith,Department Name,Department of Health and Human Services,exact,1.0,213,213,0,0.1,1
+Position Title,Liq,startswith,Department,DLC,exact,1.0,212,212,0,0.1,1
+Position Title,Liq,startswith,Department Name,Department of Liquor Control,exact,1.0,212,212,0,0.1,1
+Department,DP,startswith,Department Name,Department of Permitting Services,exact,1.0,195,195,0,0.1,2
+Department,S,startswith,Department Name,Sheriff's Office,exact,1.0,170,170,0,0.1,3
+Department Name,S,startswith,Department,SHF,exact,1.0,170,170,0,0.1,6
+Position Title,Cr,startswith,Department,POL,exact,1.0,170,170,0,0.1,1
+Position Title,Cr,startswith,Department Name,Department of Police,exact,1.0,170,170,0,0.1,1
+Division,Inc,startswith,Department,HHS,exact,1.0,149,149,0,0.1,1
+Division,Inc,startswith,Department Name,Department of Health and Human Services,exact,1.0,149,149,0,0.1,1
+Department,DT,startswith,Department Name,Department of Technology Services,exact,1.0,137,137,0,0.1,2
+Department,R,startswith,Department Name,Department of Recreation,exact,1.0,126,126,0,0.1,3
+Department,FI,startswith,Department Name,Department of Finance,exact,1.0,111,111,0,0.1,2
+Position Title,W,startswith,Gender,M,exact,1.0,105,105,0,0.1,1
+Division,Adu,startswith,Department,HHS,exact,1.0,97,97,0,0.1,1
+Division,Adu,startswith,Department Name,Department of Health and Human Services,exact,1.0,97,97,0,0.1,1
+Underfilled Job Title,Cor,startswith,Department,COR,exact,1.0,92,92,0,0.1,4
+Underfilled Job Title,Cor,startswith,Department Name,Correction and Rehabilitation,exact,1.0,92,92,0,0.1,4
+Department,CC,startswith,Department Name,County Council,exact,1.0,91,91,0,0.1,2
+Division,Counc,startswith,Department,CCL,exact,1.0,91,91,0,0.1,2
+Division,Counc,startswith,Department Name,County Council,exact,1.0,91,91,0,0.1,2
+Position Title,Rec,startswith,Department,REC,exact,1.0,91,91,0,0.1,4
+Position Title,Rec,startswith,Department Name,Department of Recreation,exact,1.0,91,91,0,0.1,4
+Division,FSB S,startswith,Assignment Category,Fulltime-Regular,exact,1.0,90,90,0,0.1,1
+Position Title,Tran,startswith,Department,DOT,exact,1.0,89,89,0,0.1,1
+Position Title,Tran,startswith,Department Name,Department of Transportation,exact,1.0,89,89,0,0.1,1
+Division,Sol,startswith,Department,DEP,exact,1.0,78,78,0,0.1,1
+Division,Sol,startswith,Department Name,Department of Environmental Protection,exact,1.0,78,78,0,0.1,1
+Department,HC,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,75,75,0,0.1,2
+Division,Bee,startswith,Department,DLC,exact,1.0,75,75,0,0.1,1
+Division,Bee,startswith,Department Name,Department of Liquor Control,exact,1.0,75,75,0,0.1,1
+Department,CA,startswith,Department Name,County Attorney's Office,exact,1.0,73,73,0,0.1,2
+Division,Liq,startswith,Department,DLC,exact,1.0,70,70,0,0.1,1
+Division,Liq,startswith,Department Name,Department of Liquor Control,exact,1.0,70,70,0,0.1,1
+Division,Liq,startswith,Gender,M,exact,1.0,70,70,0,0.1,1
+Department,CEC,startswith,Department Name,Community Engagement Cluster,exact,1.0,67,67,0,0.1,1
+Division,La,startswith,Assignment Category,Fulltime-Regular,exact,1.0,65,65,0,0.1,1
+Department,OH,startswith,Department Name,Office of Human Resources,exact,1.0,64,64,0,0.1,2
+Division,Tea,startswith,Department,DPS,exact,1.0,62,62,0,0.1,1
+Division,Cour,startswith,Department,SHF,exact,1.0,62,62,0,0.1,1
+Division,Tea,startswith,Department Name,Department of Permitting Services,exact,1.0,62,62,0,0.1,1
+Division,Cour,startswith,Department Name,Sheriff's Office,exact,1.0,62,62,0,0.1,1
+Department,PI,startswith,Department Name,Office of Public Information,exact,1.0,58,58,0,0.1,2
+Division,FSB A,startswith,Assignment Category,Fulltime-Regular,exact,1.0,57,57,0,0.1,1
+Position Title,Su,startswith,Assignment Category,Fulltime-Regular,exact,1.0,55,55,0,0.1,1
+Division,Ar,startswith,Department,HHS,exact,1.0,49,49,0,0.1,1
+Division,Ar,startswith,Department Name,Department of Health and Human Services,exact,1.0,49,49,0,0.1,1
+Division,Par,startswith,Department,DOT,exact,1.0,48,48,0,0.1,1
+Division,Par,startswith,Department Name,Department of Transportation,exact,1.0,48,48,0,0.1,1
+Division,MC3,startswith,Department,PIO,exact,1.0,46,46,0,0.1,3
+Division,MC3,startswith,Department Name,Office of Public Information,exact,1.0,46,46,0,0.1,3
+Division,PR,startswith,Department,COR,exact,1.0,42,42,0,0.1,1
+Division,PR,startswith,Department Name,Correction and Rehabilitation,exact,1.0,42,42,0,0.1,1
+Division,Sh,startswith,Department,SHF,exact,1.0,41,41,0,0.1,1
+Division,Sh,startswith,Department Name,Sheriff's Office,exact,1.0,41,41,0,0.1,1
+Position Title,Wo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,40,40,0,0.1,1
+Division,Hou,startswith,Department,HCA,exact,1.0,39,39,0,0.1,4
+Division,ST,startswith,Department,HHS,exact,1.0,39,39,0,0.1,1
+Division,ST,startswith,Department Name,Department of Health and Human Services,exact,1.0,39,39,0,0.1,1
+Division,Hou,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,39,39,0,0.1,4
+Underfilled Job Title,I,startswith,Assignment Category,Fulltime-Regular,exact,1.0,39,39,0,0.1,1
+Department,CEX,startswith,Department Name,Offices of the County Executive,exact,1.0,38,38,0,0.1,1
+Department Name,Offices,startswith,Department,CEX,exact,1.0,38,38,0,0.1,1
+Division,2,startswith,Department,HHS,exact,1.0,35,35,0,0.1,1
+Division,2,startswith,Department Name,Department of Health and Human Services,exact,1.0,35,35,0,0.1,1
+Department,PR,startswith,Department Name,Office of Procurement,exact,1.0,32,32,0,0.1,2
+Division,Wat,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.1,1
+Division,PT,startswith,Department,COR,exact,1.0,31,31,0,0.1,1
+Division,Wat,startswith,Department,DEP,exact,1.0,31,31,0,0.1,1
+Division,PT,startswith,Department Name,Correction and Rehabilitation,exact,1.0,31,31,0,0.1,1
+Division,Wat,startswith,Department Name,Department of Environmental Protection,exact,1.0,31,31,0,0.1,1
+Position Title,Cu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,31,31,0,0.1,1
+Position Title,Cu,startswith,Department,PIO,exact,1.0,31,31,0,0.1,5
+Position Title,Cu,startswith,Department Name,Office of Public Information,exact,1.0,31,31,0,0.1,5
+Position Title,Cu,startswith,Division,MC311,exact,1.0,31,31,0,0.1,5
+Department,OM,startswith,Department Name,Office of Management and Budget,exact,1.0,30,30,0,0.1,2
+Division,EA,startswith,Department,DTS,exact,1.0,29,29,0,0.1,1
+Division,EA,startswith,Department Name,Department of Technology Services,exact,1.0,29,29,0,0.1,1
+Department,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.1,1
+Department,CU,startswith,Department Name,Community Use of Public Facilities,exact,1.0,28,28,0,0.1,2
+Department Name,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.1,1
+Position Title,Res,startswith,Assignment Category,Fulltime-Regular,exact,1.0,28,28,0,0.1,1
+Position Title,Res,startswith,Department,COR,exact,1.0,28,28,0,0.1,1
+Position Title,Res,startswith,Department Name,Correction and Rehabilitation,exact,1.0,28,28,0,0.1,1
+Position Title,Res,startswith,Division,PRRS Facility and Security,exact,1.0,28,28,0,0.1,4
+Date First Hired,10/15,startswith,Assignment Category,Fulltime-Regular,exact,1.0,27,27,0,0.1,1
+Division,ES,startswith,Department,DTS,exact,1.0,27,27,0,0.1,1
+Division,Countywide,startswith,Department,REC,exact,1.0,27,27,0,0.1,1
+Division,Countywide,startswith,Department Name,Department of Recreation,exact,1.0,27,27,0,0.1,1
+Division,ES,startswith,Department Name,Department of Technology Services,exact,1.0,27,27,0,0.1,1
+Division,Ro,startswith,Department,LIB,exact,1.0,26,26,0,0.1,1
+Division,Ro,startswith,Department Name,Department of Public Libraries,exact,1.0,26,26,0,0.1,1
+Division,Ce,startswith,Assignment Category,Fulltime-Regular,exact,1.0,25,25,0,0.1,1
+Division,Ce,startswith,Department,DGS,exact,1.0,25,25,0,0.1,1
+Division,Ta,startswith,Department,FIN,exact,1.0,25,25,0,0.1,1
+Division,Ta,startswith,Department Name,Department of Finance,exact,1.0,25,25,0,0.1,1
+Division,Ce,startswith,Department Name,Department of General Services,exact,1.0,25,25,0,0.1,1
+Position Title,Bui,startswith,Department,DGS,exact,1.0,25,25,0,0.1,1
+Position Title,Bui,startswith,Department Name,Department of General Services,exact,1.0,25,25,0,0.1,1
+Position Title,Bui,startswith,Division,Facilities Maintenance,exact,1.0,25,25,0,0.1,1
+Division,Ga,startswith,Department,LIB,exact,1.0,24,24,0,0.1,1
+Division,Ga,startswith,Department Name,Department of Public Libraries,exact,1.0,24,24,0,0.1,1
+Position Title,U,startswith,Assignment Category,Fulltime-Regular,exact,1.0,24,24,0,0.1,1
+Position Title,U,startswith,Department,CEC,exact,1.0,24,24,0,0.1,5
+Position Title,U,startswith,Department Name,Community Engagement Cluster,exact,1.0,24,24,0,0.1,5
+Division,Op,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.1,1
+Division,Gen,startswith,Assignment Category,Fulltime-Regular,exact,1.0,23,23,0,0.1,1
+Division,HQ,startswith,Department,POL,exact,1.0,23,23,0,0.1,1
+Division,HQ,startswith,Department Name,Department of Police,exact,1.0,23,23,0,0.1,1
+Position Title,Al,startswith,Department,DLC,exact,1.0,23,23,0,0.1,1
+Position Title,Al,startswith,Department Name,Department of Liquor Control,exact,1.0,23,23,0,0.1,1
+Division,ET,startswith,Department,DTS,exact,1.0,22,22,0,0.1,1
+Division,Cod,startswith,Department,FRS,exact,1.0,22,22,0,0.1,1
+Division,Th,startswith,Department,FRS,exact,1.0,22,22,0,0.1,1
+Division,Qui,startswith,Department,LIB,exact,1.0,22,22,0,0.1,1
+Division,Qui,startswith,Department Name,Department of Public Libraries,exact,1.0,22,22,0,0.1,1
+Division,ET,startswith,Department Name,Department of Technology Services,exact,1.0,22,22,0,0.1,1
+Division,Cod,startswith,Department Name,Fire and Rescue Services,exact,1.0,22,22,0,0.1,1
+Division,Th,startswith,Department Name,Fire and Rescue Services,exact,1.0,22,22,0,0.1,1
+Position Title,Ca,startswith,Assignment Category,Fulltime-Regular,exact,1.0,22,22,0,0.1,1
+Position Title,Ho,startswith,Department,HCA,exact,1.0,22,22,0,0.1,5
+Position Title,Ho,startswith,Department Name,Department of Housing and Community Affairs,exact,1.0,22,22,0,0.1,5
+Position Title,Ho,startswith,Division,Housing Code Enforcement,exact,1.0,22,22,0,0.1,5
+Division,DO,startswith,Department,COR,exact,1.0,21,21,0,0.1,1
+Division,DO,startswith,Department Name,Correction and Rehabilitation,exact,1.0,21,21,0,0.1,1
+Position Title,Hi,startswith,Department,DOT,exact,1.0,20,20,0,0.1,1
+Position Title,Hi,startswith,Department Name,Department of Transportation,exact,1.0,20,20,0,0.1,1
+Date First Hired,12/11,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.1,1
+Date First Hired,4/21,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.1,1
+Date First Hired,4/12,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.1,1
+Division,Hom,startswith,Department,HHS,exact,1.0,19,19,0,0.1,1
+Division,Hom,startswith,Department Name,Department of Health and Human Services,exact,1.0,19,19,0,0.1,1
+Underfilled Job Title,T,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.1,1
+Underfilled Job Title,M,startswith,Assignment Category,Fulltime-Regular,exact,1.0,19,19,0,0.1,1
+Underfilled Job Title,Inc,startswith,Department,HHS,exact,1.0,19,19,0,0.1,4
+Underfilled Job Title,Inc,startswith,Department Name,Department of Health and Human Services,exact,1.0,19,19,0,0.1,4
+Underfilled Job Title,Inc,startswith,Position Title,Income Assistance Program Specialist II,exact,1.0,19,19,0,0.1,4
+Division,Lic,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.1,1
+Division,War,startswith,Assignment Category,Fulltime-Regular,exact,1.0,18,18,0,0.1,1
+Division,ER,startswith,Department,DTS,exact,1.0,18,18,0,0.1,1
+Division,Dis,startswith,Department,HHS,exact,1.0,18,18,0,0.1,1
+Division,War,startswith,Department,SHF,exact,1.0,18,18,0,0.1,1
+Division,Dis,startswith,Department Name,Department of Health and Human Services,exact,1.0,18,18,0,0.1,1
+Division,ER,startswith,Department Name,Department of Technology Services,exact,1.0,18,18,0,0.1,1
+Division,War,startswith,Department Name,Sheriff's Office,exact,1.0,18,18,0,0.1,1
+Position Title,Proc,startswith,Department,PRO,exact,1.0,18,18,0,0.1,3
+Position Title,Proc,startswith,Department Name,Office of Procurement,exact,1.0,18,18,0,0.1,3
+Division,Qua,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.1,1
+Division,Sche,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.1,1
+Division,Su,startswith,Assignment Category,Fulltime-Regular,exact,1.0,17,17,0,0.1,1
+Division,Qua,startswith,Department,DGS,exact,1.0,17,17,0,0.1,1
+Division,Proj,startswith,Department,DGS,exact,1.0,17,17,0,0.1,1
+Division,Fif,startswith,Department,FRS,exact,1.0,17,17,0,0.1,1
+Division,Mari,startswith,Department,LIB,exact,1.0,17,17,0,0.1,1
+Division,Qua,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.1,1
+Division,Proj,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.1,1
+Division,Mari,startswith,Department Name,Department of Public Libraries,exact,1.0,17,17,0,0.1,1
+Division,Fif,startswith,Department Name,Fire and Rescue Services,exact,1.0,17,17,0,0.1,1
+Position Title,HV,startswith,Department,DGS,exact,1.0,17,17,0,0.1,1
+Position Title,HV,startswith,Department Name,Department of General Services,exact,1.0,17,17,0,0.1,1
+Position Title,HV,startswith,Division,Facilities Maintenance,exact,1.0,17,17,0,0.1,1
+Position Title,HV,startswith,Gender,M,exact,1.0,17,17,0,0.1,1
+Date First Hired,10/28,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Department,OC,startswith,Department Name,Office of Consumer Protection,exact,1.0,16,16,0,0.1,2
+Division,Sec,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Division,Sit,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Division,Y,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Division,Sit,startswith,Department,DPS,exact,1.0,16,16,0,0.1,1
+Division,Sec,startswith,Department,FRS,exact,1.0,16,16,0,0.1,1
+Division,Firs,startswith,Department,FRS,exact,1.0,16,16,0,0.1,1
+Division,Dav,startswith,Department,LIB,exact,1.0,16,16,0,0.1,1
+Division,Y,startswith,Department,REC,exact,1.0,16,16,0,0.1,1
+Division,Sit,startswith,Department Name,Department of Permitting Services,exact,1.0,16,16,0,0.1,1
+Division,Dav,startswith,Department Name,Department of Public Libraries,exact,1.0,16,16,0,0.1,1
+Division,Y,startswith,Department Name,Department of Recreation,exact,1.0,16,16,0,0.1,1
+Division,Sec,startswith,Department Name,Fire and Rescue Services,exact,1.0,16,16,0,0.1,1
+Division,Firs,startswith,Department Name,Fire and Rescue Services,exact,1.0,16,16,0,0.1,1
+Full Name,As,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Full Name,Kn,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Underfilled Job Title,D,startswith,Assignment Category,Fulltime-Regular,exact,1.0,16,16,0,0.1,1
+Underfilled Job Title,D,startswith,Department,SHF,exact,1.0,16,16,0,0.1,6
+Underfilled Job Title,D,startswith,Department Name,Sheriff's Office,exact,1.0,16,16,0,0.1,6
+Underfilled Job Title,D,startswith,Gender,M,exact,1.0,16,16,0,0.1,1
+Underfilled Job Title,D,startswith,Position Title,Deputy Sheriff III,exact,1.0,16,16,0,0.1,6
+Date First Hired,8/30,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.1,1
+Division,Licensure,startswith,Department,DLC,exact,1.0,15,15,0,0.1,1
+Division,Vic,startswith,Department,HHS,exact,1.0,15,15,0,0.1,1
+Division,Vic,startswith,Department Name,Department of Health and Human Services,exact,1.0,15,15,0,0.1,1
+Division,Licensure,startswith,Department Name,Department of Liquor Control,exact,1.0,15,15,0,0.1,1
+Position Title,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.1,1
+Position Title,N,startswith,Department,HHS,exact,1.0,15,15,0,0.1,1
+Position Title,N,startswith,Department Name,Department of Health and Human Services,exact,1.0,15,15,0,0.1,1
+Underfilled Job Title,E,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.1,1
+Underfilled Job Title,B,startswith,Assignment Category,Fulltime-Regular,exact,1.0,15,15,0,0.1,1
+Department,DED,startswith,Department Name,Department of Economic Development,exact,1.0,14,14,0,0.1,1
+Division,CO,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.1,1
+Division,Fo,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.1,1
+Division,Sto,startswith,Department,DEP,exact,1.0,14,14,0,0.1,1
+Division,CO,startswith,Department,DTS,exact,1.0,14,14,0,0.1,1
+Division,Acco,startswith,Department,FIN,exact,1.0,14,14,0,0.1,1
+Division,Div,startswith,Department,FIN,exact,1.0,14,14,0,0.1,1
+Division,Fo,startswith,Department,FRS,exact,1.0,14,14,0,0.1,1
+Division,Col,startswith,Department,LIB,exact,1.0,14,14,0,0.1,1
+Division,Pat,startswith,Department,POL,exact,1.0,14,14,0,0.1,1
+Division,Ci,startswith,Department,SHF,exact,1.0,14,14,0,0.1,1
+Division,Sto,startswith,Department Name,Department of Environmental Protection,exact,1.0,14,14,0,0.1,1
+Division,Acco,startswith,Department Name,Department of Finance,exact,1.0,14,14,0,0.1,1
+Division,Div,startswith,Department Name,Department of Finance,exact,1.0,14,14,0,0.1,1
+Division,Pat,startswith,Department Name,Department of Police,exact,1.0,14,14,0,0.1,1
+Division,Col,startswith,Department Name,Department of Public Libraries,exact,1.0,14,14,0,0.1,1
+Division,CO,startswith,Department Name,Department of Technology Services,exact,1.0,14,14,0,0.1,1
+Division,Fo,startswith,Department Name,Fire and Rescue Services,exact,1.0,14,14,0,0.1,1
+Division,Ci,startswith,Department Name,Sheriff's Office,exact,1.0,14,14,0,0.1,1
+Division,Ab,startswith,Gender,F,exact,1.0,14,14,0,0.1,1
+Position Title,Sa,startswith,Assignment Category,Fulltime-Regular,exact,1.0,14,14,0,0.1,1
+Position Title,Sa,startswith,Department,DOT,exact,1.0,14,14,0,0.1,1
+Position Title,Sa,startswith,Department Name,Department of Transportation,exact,1.0,14,14,0,0.1,1
+Position Title,Sa,startswith,Division,Transit Safety and Instruction,exact,1.0,14,14,0,0.1,5
+Position Title,Transportation,startswith,Gender,M,exact,1.0,14,14,0,0.1,1
+Date First Hired,4/28,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.1,1
+Date First Hired,1/7/1,startswith,Department,DOT,exact,1.0,13,13,0,0.1,1
+Date First Hired,1/7/1,startswith,Department Name,Department of Transportation,exact,1.0,13,13,0,0.1,1
+Date First Hired,1/7/1,startswith,Position Title,Bus Operator,exact,1.0,13,13,0,0.1,1
+Department,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.1,1
+Department,N,startswith,Department Name,Non-Departmental Account,exact,1.0,13,13,0,0.1,3
+Department Name,N,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.1,1
+Department Name,N,startswith,Department,NDA,exact,1.0,13,13,0,0.1,5
+Division,Res,startswith,Department,FRS,exact,1.0,13,13,0,0.1,1
+Division,Acce,startswith,Department,HHS,exact,1.0,13,13,0,0.1,1
+Division,Lit,startswith,Department,LIB,exact,1.0,13,13,0,0.1,1
+Division,Acce,startswith,Department Name,Department of Health and Human Services,exact,1.0,13,13,0,0.1,1
+Division,Lit,startswith,Department Name,Department of Public Libraries,exact,1.0,13,13,0,0.1,1
+Division,Res,startswith,Department Name,Fire and Rescue Services,exact,1.0,13,13,0,0.1,1
+Full Name,Ada,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.1,1
+Full Name,Ti,startswith,Assignment Category,Fulltime-Regular,exact,1.0,13,13,0,0.1,1
+Full Name,Ti,startswith,Gender,M,exact,1.0,13,13,0,0.1,1
+Position Title,An,startswith,Department,POL,exact,1.0,13,13,0,0.1,1
+Position Title,An,startswith,Department Name,Department of Police,exact,1.0,13,13,0,0.1,1
+Position Title,An,startswith,Division,FSB Animal Services Division,exact,1.0,13,13,0,0.1,5
+Position Title,Te,startswith,Gender,M,exact,1.0,13,13,0,0.1,1
+Underfilled Job Title,Tr,startswith,Gender,M,exact,1.0,13,13,0,0.1,1
+Underfilled Job Title,Ac,startswith,Position Title,Accountant/Auditor III,exact,1.0,13,13,0,0.1,5
+Division,Car,startswith,Assignment Category,Fulltime-Regular,exact,1.0,12,12,0,0.1,1
+Division,Infa,startswith,Department,HHS,exact,1.0,12,12,0,0.1,1
+Division,TB,startswith,Department,HHS,exact,1.0,12,12,0,0.1,1
+Division,Car,startswith,Department,HHS,exact,1.0,12,12,0,0.1,1
+Division,Maternity,startswith,Department,HHS,exact,1.0,12,12,0,0.1,1
+Division,Tw,startswith,Department,LIB,exact,1.0,12,12,0,0.1,1
+Division,MCE,startswith,Department,NDA,exact,1.0,12,12,0,0.1,3
+Division,Infa,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.1,1
+Division,TB,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.1,1
+Division,Car,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.1,1
+Division,Maternity,startswith,Department Name,Department of Health and Human Services,exact,1.0,12,12,0,0.1,1
+Division,Tw,startswith,Department Name,Department of Public Libraries,exact,1.0,12,12,0,0.1,1
+Division,MCE,startswith,Department Name,Non-Departmental Account,exact,1.0,12,12,0,0.1,3
+Division,Infa,startswith,Gender,F,exact,1.0,12,12,0,0.1,1
+Division,Car,startswith,Gender,F,exact,1.0,12,12,0,0.1,1
+Date First Hired,4/24,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.1,1
+Department,OA,startswith,Department Name,Office of Agriculture,exact,1.0,11,11,0,0.1,2
+Department,OL,startswith,Department Name,Office of Legislative Oversight,exact,1.0,11,11,0,0.1,2
+Division,Sig,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.1,1
+Division,Sig,startswith,Department,DOT,exact,1.0,11,11,0,0.1,1
+Division,Pos,startswith,Department,HHS,exact,1.0,11,11,0,0.1,1
+Division,J,startswith,Department,HHS,exact,1.0,11,11,0,0.1,1
+Division,Abu,startswith,Department,HHS,exact,1.0,11,11,0,0.1,1
+Division,Pos,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.1,1
+Division,J,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.1,1
+Division,Abu,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.1,1
+Division,Sig,startswith,Department Name,Department of Transportation,exact,1.0,11,11,0,0.1,1
+Division,Sig,startswith,Gender,M,exact,1.0,11,11,0,0.1,1
+Full Name,Ag,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.1,1
+Position Title,La,startswith,Assignment Category,Fulltime-Regular,exact,1.0,11,11,0,0.1,1
+Position Title,Be,startswith,Department,HHS,exact,1.0,11,11,0,0.1,1
+Position Title,Be,startswith,Department Name,Department of Health and Human Services,exact,1.0,11,11,0,0.1,1
+Underfilled Job Title,Me,startswith,Department,DGS,exact,1.0,11,11,0,0.1,5
+Underfilled Job Title,Cod,startswith,Department,POL,exact,1.0,11,11,0,0.1,1
+Underfilled Job Title,Me,startswith,Department Name,Department of General Services,exact,1.0,11,11,0,0.1,5
+Underfilled Job Title,Cod,startswith,Department Name,Department of Police,exact,1.0,11,11,0,0.1,1
+Underfilled Job Title,Cod,startswith,Division,FSB Animal Services Division,exact,1.0,11,11,0,0.1,3
+Underfilled Job Title,Me,startswith,Division,Fleet Management Fleet Services,exact,1.0,11,11,0,0.1,5
+Underfilled Job Title,Me,startswith,Gender,M,exact,1.0,11,11,0,0.1,1
+Underfilled Job Title,Cod,startswith,Position Title,Code Enforcement Inspector III,exact,1.0,11,11,0,0.1,3
+Underfilled Job Title,Me,startswith,Position Title,Mechanic Technician II,exact,1.0,11,11,0,0.1,5
+Date First Hired,8/22,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.1,1
+Date First Hired,8/6/1,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Date First Hired,8/6/1,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Date First Hired,8/6/1,startswith,Division,School Health Services,exact,1.0,10,10,0,0.1,1
+Date First Hired,8/6/1,startswith,Gender,F,exact,1.0,10,10,0,0.1,1
+Date First Hired,2/29,startswith,Gender,M,exact,1.0,10,10,0,0.1,1
+Department,DH,startswith,Department Name,Office of Emergency Management and Homeland Security,exact,1.0,10,10,0,0.1,2
+Division,Cli,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.1,1
+Division,Nu,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.1,1
+Division,Wal,startswith,Department,DLC,exact,1.0,10,10,0,0.1,1
+Division,Montr,startswith,Department,DLC,exact,1.0,10,10,0,0.1,1
+Division,Lei,startswith,Department,DLC,exact,1.0,10,10,0,0.1,1
+Division,Wes,startswith,Department,DLC,exact,1.0,10,10,0,0.1,1
+Division,Ent,startswith,Department,DTS,exact,1.0,10,10,0,0.1,1
+Division,Head,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Division,Pe,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Division,Cli,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Division,Nu,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Division,Head,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Division,Pe,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Division,Cli,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Division,Nu,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Division,Wal,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.1,1
+Division,Montr,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.1,1
+Division,Lei,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.1,1
+Division,Wes,startswith,Department Name,Department of Liquor Control,exact,1.0,10,10,0,0.1,1
+Division,Ent,startswith,Department Name,Department of Technology Services,exact,1.0,10,10,0,0.1,1
+Division,Wo,startswith,Gender,F,exact,1.0,10,10,0,0.1,1
+Full Name,Ry,startswith,Assignment Category,Fulltime-Regular,exact,1.0,10,10,0,0.1,1
+Position Title,Counc,startswith,Department,CCL,exact,1.0,10,10,0,0.1,1
+Position Title,Med,startswith,Department,HHS,exact,1.0,10,10,0,0.1,1
+Position Title,Counc,startswith,Department Name,County Council,exact,1.0,10,10,0,0.1,1
+Position Title,Med,startswith,Department Name,Department of Health and Human Services,exact,1.0,10,10,0,0.1,1
+Underfilled Job Title,Hu,startswith,Department,OHR,exact,1.0,10,10,0,0.1,4
+Underfilled Job Title,Hu,startswith,Department Name,Office of Human Resources,exact,1.0,10,10,0,0.1,4
+Underfilled Job Title,Hu,startswith,Position Title,Human Resources Specialist III,exact,1.0,10,10,0,0.1,4
+Position Title,F,startswith,Assignment Category,Fulltime-Regular,exact,0.998031,1016,1014,2,0.1,1
+Position Title,Sc,startswith,Gender,F,exact,0.995305,213,212,1,0.1,1
+Position Title,So,startswith,Department,HHS,exact,0.995261,211,210,1,0.1,1
+Position Title,So,startswith,Department Name,Department of Health and Human Services,exact,0.995261,211,210,1,0.1,1
+Position Title,Inc,startswith,Department,HHS,exact,0.994872,195,194,1,0.1,1
+Position Title,Inc,startswith,Department Name,Department of Health and Human Services,exact,0.994872,195,194,1,0.1,1
+Position Title,D,startswith,Assignment Category,Fulltime-Regular,exact,0.994819,193,192,1,0.1,1
+Underfilled Job Title,C,startswith,Assignment Category,Fulltime-Regular,exact,0.99115,113,112,1,0.1,1
+Position Title,Sc,startswith,Assignment Category,Parttime-Regular,exact,0.99061,213,211,2,0.1,1
+Position Title,Se,startswith,Assignment Category,Fulltime-Regular,exact,0.989041,365,361,4,0.1,1
+Division,T,startswith,Assignment Category,Fulltime-Regular,exact,0.988743,1066,1054,12,0.1,1
+Department,S,startswith,Assignment Category,Fulltime-Regular,exact,0.988235,170,168,2,0.1,1
+Department Name,S,startswith,Assignment Category,Fulltime-Regular,exact,0.988235,170,168,2,0.1,1
+Position Title,M,startswith,Assignment Category,Fulltime-Regular,exact,0.988221,849,839,10,0.1,1
+Division,Bee,startswith,Gender,M,exact,0.986667,75,74,1,0.1,1
+Position Title,Tru,startswith,Department,DLC,exact,0.985714,70,69,1,0.1,1
+Position Title,Tru,startswith,Department Name,Department of Liquor Control,exact,0.985714,70,69,1,0.1,1
+Position Title,Tru,startswith,Gender,M,exact,0.985714,70,69,1,0.1,1
+Division,St,startswith,Department,FRS,exact,0.983991,937,922,15,0.1,1
+Division,St,startswith,Department Name,Fire and Rescue Services,exact,0.983991,937,922,15,0.1,1
+Position Title,I,startswith,Assignment Category,Fulltime-Regular,exact,0.983974,312,307,5,0.1,1
+Division,Fi,startswith,Assignment Category,Fulltime-Regular,exact,0.983333,180,177,3,0.1,1
+Division,I,startswith,Assignment Category,Fulltime-Regular,exact,0.982571,459,451,8,0.1,1
+Position Title,P,startswith,Assignment Category,Fulltime-Regular,exact,0.982506,2115,2078,37,0.1,1
+Position Title,A,startswith,Assignment Category,Fulltime-Regular,exact,0.979167,288,282,6,0.1,1
+Department Name,C,startswith,Assignment Category,Fulltime-Regular,exact,0.978752,753,737,16,0.1,1
+Underfilled Job Title,Cor,startswith,Position Title,Correctional Officer III (Corporal),exact,0.978261,92,90,2,0.1,4
+Full Name,Ru,startswith,Assignment Category,Fulltime-Regular,exact,0.978261,46,45,1,0.1,1
+Division,Fl,startswith,Assignment Category,Fulltime-Regular,exact,0.977477,222,217,5,0.1,1
+Date First Hired,11/28,startswith,Assignment Category,Fulltime-Regular,exact,0.976744,43,42,1,0.1,1
+Position Title,Sc,startswith,Division,School Health Services,exact,0.976526,213,208,5,0.1,5
+Division,P,startswith,Assignment Category,Fulltime-Regular,exact,0.975853,1201,1172,29,0.1,1
+Division,Sh,startswith,Assignment Category,Fulltime-Regular,exact,0.97561,41,40,1,0.1,1
+Position Title,Sec,startswith,Department,POL,exact,0.973684,38,37,1,0.1,1
+Position Title,Sec,startswith,Department Name,Department of Police,exact,0.973684,38,37,1,0.1,1
+Position Title,Sec,startswith,Division,FSB Security Services Division,exact,0.973684,38,37,1,0.1,4
+Department,C,startswith,Assignment Category,Fulltime-Regular,exact,0.973451,791,770,21,0.1,1
+Position Title,T,startswith,Assignment Category,Fulltime-Regular,exact,0.97153,281,273,8,0.1,1
+Date First Hired,11/26,startswith,Assignment Category,Fulltime-Regular,exact,0.970588,34,33,1,0.1,1
+Date First Hired,12/13,startswith,Assignment Category,Fulltime-Regular,exact,0.970588,34,33,1,0.1,1
+Division,Tr,startswith,Department,DOT,exact,0.970524,916,889,27,0.1,1
+Division,Tr,startswith,Department Name,Department of Transportation,exact,0.970524,916,889,27,0.1,1
+Gender,M,startswith,Assignment Category,Fulltime-Regular,exact,0.969601,5395,5231,164,0.1,1
+Division,Chil,startswith,Department,HHS,exact,0.968326,221,214,7,0.1,1
+Division,Chil,startswith,Department Name,Department of Health and Human Services,exact,0.968326,221,214,7,0.1,1
+Date First Hired,11/5,startswith,Assignment Category,Fulltime-Regular,exact,0.967742,31,30,1,0.1,1
+Full Name,Tu,startswith,Assignment Category,Fulltime-Regular,exact,0.967742,31,30,1,0.1,1
+Division,Sc,startswith,Gender,F,exact,0.967066,334,323,11,0.1,1
+Date First Hired,10/8,startswith,Assignment Category,Fulltime-Regular,exact,0.965517,29,28,1,0.1,1
+Date First Hired,4/8,startswith,Assignment Category,Fulltime-Regular,exact,0.965517,29,28,1,0.1,1
+Date First Hired,8/18,startswith,Assignment Category,Fulltime-Regular,exact,0.962963,27,26,1,0.1,1
+Underfilled Job Title,A,startswith,Assignment Category,Fulltime-Regular,exact,0.962963,27,26,1,0.1,1
+Division,H,startswith,Assignment Category,Fulltime-Regular,exact,0.962366,372,358,14,0.1,1
+Date First Hired,8/12,startswith,Assignment Category,Fulltime-Regular,exact,0.961039,77,74,3,0.1,1
+Department,HC,startswith,Assignment Category,Fulltime-Regular,exact,0.96,75,72,3,0.1,1
+Date First Hired,10/30,startswith,Assignment Category,Fulltime-Regular,exact,0.96,25,24,1,0.1,1
+Division,E,startswith,Assignment Category,Fulltime-Regular,exact,0.959459,296,284,12,0.1,1
+Position Title,Me,startswith,Gender,M,exact,0.959016,122,117,5,0.1,1
+Date First Hired,10/21,startswith,Assignment Category,Fulltime-Regular,exact,0.958333,24,23,1,0.1,1
+Division,Beh,startswith,Assignment Category,Fulltime-Regular,exact,0.958333,24,23,1,0.1,1
+Division,D,startswith,Assignment Category,Fulltime-Regular,exact,0.957895,570,546,24,0.1,1
+Division,Fa,startswith,Assignment Category,Fulltime-Regular,exact,0.957627,118,113,5,0.1,1
+Position Title,Co,startswith,Assignment Category,Fulltime-Regular,exact,0.957503,753,721,32,0.1,1
+Date First Hired,12/27,startswith,Assignment Category,Fulltime-Regular,exact,0.956522,23,22,1,0.1,1
+Division,Z,startswith,Assignment Category,Fulltime-Regular,exact,0.956522,23,22,1,0.1,1
+Department,O,startswith,Assignment Category,Fulltime-Regular,exact,0.956204,137,131,6,0.1,1
+Department Name,O,startswith,Assignment Category,Fulltime-Regular,exact,0.955479,292,279,13,0.1,1
+Division,So,startswith,Assignment Category,Fulltime-Regular,exact,0.955056,89,85,4,0.1,1
+Position Title,H,startswith,Assignment Category,Fulltime-Regular,exact,0.954545,88,84,4,0.1,1
+Date First Hired,4/9,startswith,Assignment Category,Fulltime-Regular,exact,0.954545,22,21,1,0.1,1
+Date First Hired,12/4,startswith,Assignment Category,Fulltime-Regular,exact,0.954545,22,21,1,0.1,1
+Date First Hired,11/8,startswith,Assignment Category,Fulltime-Regular,exact,0.954545,22,21,1,0.1,1
+Division,ET,startswith,Gender,M,exact,0.954545,22,21,1,0.1,1
+Division,Th,startswith,Gender,M,exact,0.954545,22,21,1,0.1,1
+Position Title,Cons,startswith,Gender,M,exact,0.954545,22,21,1,0.1,1
+Department,P,startswith,Department Name,Department of Police,exact,0.953247,1925,1835,90,0.1,3
+Date First Hired,8/13,startswith,Assignment Category,Fulltime-Regular,exact,0.952381,21,20,1,0.1,1
+Full Name,Pat,startswith,Gender,M,exact,0.952381,21,20,1,0.1,1
+Position Title,Eq,startswith,Gender,M,exact,0.95122,164,156,8,0.1,1
+Underfilled Job Title,Pe,startswith,Department,DPS,exact,0.95122,82,78,4,0.1,6
+Underfilled Job Title,Pe,startswith,Department Name,Department of Permitting Services,exact,0.95122,82,78,4,0.1,6
+Division,Re,startswith,Assignment Category,Fulltime-Regular,exact,0.95,60,57,3,0.1,1
+Division,Bet,startswith,Department,LIB,exact,0.95,20,19,1,0.1,1
+Division,Bet,startswith,Department Name,Department of Public Libraries,exact,0.95,20,19,1,0.1,1
+Position Title,Hi,startswith,Gender,M,exact,0.95,20,19,1,0.1,1
+Underfilled Job Title,H,startswith,Assignment Category,Fulltime-Regular,exact,0.95,20,19,1,0.1,1
+Underfilled Job Title,F,startswith,Gender,M,exact,0.949833,299,284,15,0.1,1
+Division,M,startswith,Assignment Category,Fulltime-Regular,exact,0.949821,558,530,28,0.1,1
+Department,H,startswith,Department Name,Department of Health and Human Services,exact,0.947962,1595,1512,83,0.1,3
+Date First Hired,4/16,startswith,Assignment Category,Fulltime-Regular,exact,0.947368,38,36,2,0.1,1
+Position Title,Cr,startswith,Assignment Category,Parttime-Regular,exact,0.947059,170,161,9,0.1,1
+Position Title,Cr,startswith,Division,FSB Traffic Division School Safety Section,exact,0.947059,170,161,9,0.1,5
+Division,Sc,startswith,Department,HHS,exact,0.946108,334,316,18,0.1,1
+Division,Sc,startswith,Department Name,Department of Health and Human Services,exact,0.946108,334,316,18,0.1,1
+Date First Hired,8/27,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,54,51,3,0.1,1
+Date First Hired,4/3,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,36,34,2,0.1,1
+Position Title,Cl,startswith,Gender,F,exact,0.944444,36,34,2,0.1,1
+Date First Hired,11/22,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,18,17,1,0.1,1
+Date First Hired,10/10,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,18,17,1,0.1,1
+Date First Hired,10/3/,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,18,17,1,0.1,1
+Division,Rec,startswith,Department,OHR,exact,0.944444,18,17,1,0.1,4
+Division,Rec,startswith,Department Name,Office of Human Resources,exact,0.944444,18,17,1,0.1,4
+Full Name,Au,startswith,Assignment Category,Fulltime-Regular,exact,0.944444,18,17,1,0.1,1
+Position Title,Proc,startswith,Division,Procurement Operations Section,exact,0.944444,18,17,1,0.1,3
+Position Title,Em,startswith,Gender,M,exact,0.944444,18,17,1,0.1,1
+Position Title,Th,startswith,Department,HHS,exact,0.94382,89,84,5,0.1,1
+Position Title,Th,startswith,Department Name,Department of Health and Human Services,exact,0.94382,89,84,5,0.1,1
+Date First Hired,6,startswith,Assignment Category,Fulltime-Regular,exact,0.943734,782,738,44,0.1,1
+Division,Me,startswith,Department,HHS,exact,0.942529,87,82,5,0.1,1
+Division,Me,startswith,Department Name,Department of Health and Human Services,exact,0.942529,87,82,5,0.1,1
+Division,St,startswith,Gender,M,exact,0.942369,937,883,54,0.1,1
+Full Name,Rob,startswith,Assignment Category,Fulltime-Regular,exact,0.941176,51,48,3,0.1,1
+Date First Hired,6/7/0,startswith,Department,FRS,exact,0.941176,34,32,2,0.1,1
+Date First Hired,6/7/0,startswith,Department Name,Fire and Rescue Services,exact,0.941176,34,32,2,0.1,1
+Date First Hired,4/5,startswith,Assignment Category,Fulltime-Regular,exact,0.941176,17,16,1,0.1,1
+Division,Mari,startswith,Gender,F,exact,0.941176,17,16,1,0.1,1
+Division,Fif,startswith,Gender,M,exact,0.941176,17,16,1,0.1,1
+Position Title,Supervisory,startswith,Department,HHS,exact,0.941176,17,16,1,0.1,1
+Position Title,Supervisory,startswith,Department Name,Department of Health and Human Services,exact,0.941176,17,16,1,0.1,1
+Position Title,Mas,startswith,Gender,M,exact,0.940972,288,271,17,0.1,1
+Department,D,startswith,Assignment Category,Fulltime-Regular,exact,0.940198,2525,2374,151,0.1,1
+Position Title,Supp,startswith,Gender,M,exact,0.939394,33,31,2,0.1,1
+Date First Hired,10/17,startswith,Assignment Category,Fulltime-Regular,exact,0.938776,49,46,3,0.1,1
+Division,Ar,startswith,Gender,F,exact,0.938776,49,46,3,0.1,1
+Date First Hired,11/3,startswith,Assignment Category,Fulltime-Regular,exact,0.9375,64,60,4,0.1,1
+Date First Hired,12/14,startswith,Assignment Category,Fulltime-Regular,exact,0.9375,16,15,1,0.1,1
+Date First Hired,10/19,startswith,Assignment Category,Fulltime-Regular,exact,0.9375,16,15,1,0.1,1
+Division,Dav,startswith,Gender,F,exact,0.9375,16,15,1,0.1,1
+Division,Sup,startswith,Gender,F,exact,0.9375,16,15,1,0.1,1
+Date First Hired,3,startswith,Assignment Category,Fulltime-Regular,exact,0.93742,783,734,49,0.1,1
+Division,Fl,startswith,Gender,M,exact,0.936937,222,208,14,0.1,1
+Division,A,startswith,Assignment Category,Fulltime-Regular,exact,0.935484,310,290,20,0.1,1
+Division,Hi,startswith,Gender,M,exact,0.935345,232,217,15,0.1,1
+Date First Hired,7,startswith,Assignment Category,Fulltime-Regular,exact,0.935154,879,822,57,0.1,1
+Division,Fir,startswith,Gender,M,exact,0.934783,46,43,3,0.1,1
+Position Title,Legi,startswith,Department,CCL,exact,0.934783,46,43,3,0.1,1
+Position Title,Legi,startswith,Department Name,County Council,exact,0.934783,46,43,3,0.1,1
+Position Title,So,startswith,Assignment Category,Fulltime-Regular,exact,0.933649,211,197,14,0.1,1
+Division,Chi,startswith,Assignment Category,Fulltime-Regular,exact,0.933579,271,253,18,0.1,1
+Date First Hired,12/5,startswith,Assignment Category,Fulltime-Regular,exact,0.933333,15,14,1,0.1,1
+Division,As,startswith,Department,LIB,exact,0.933333,15,14,1,0.1,1
+Division,As,startswith,Department Name,Department of Public Libraries,exact,0.933333,15,14,1,0.1,1
+Division,Dam,startswith,Gender,F,exact,0.933333,15,14,1,0.1,1
+Division,As,startswith,Gender,F,exact,0.933333,15,14,1,0.1,1
+Full Name,Torr,startswith,Assignment Category,Fulltime-Regular,exact,0.933333,15,14,1,0.1,1
+Full Name,Cor,startswith,Gender,M,exact,0.933333,15,14,1,0.1,1
+Position Title,N,startswith,Gender,F,exact,0.933333,15,14,1,0.1,1
+Underfilled Job Title,Pro,startswith,Department,PRO,exact,0.933333,15,14,1,0.1,4
+Underfilled Job Title,Pro,startswith,Department Name,Office of Procurement,exact,0.933333,15,14,1,0.1,4
+Underfilled Job Title,E,startswith,Gender,M,exact,0.933333,15,14,1,0.1,1
+Underfilled Job Title,Pro,startswith,Position Title,Procurement Specialist IV,exact,0.933333,15,14,1,0.1,4
+Position Title,F,startswith,Department,FRS,exact,0.933071,1016,948,68,0.1,7
+Position Title,F,startswith,Department Name,Fire and Rescue Services,exact,0.933071,1016,948,68,0.1,7
+Date First Hired,2,startswith,Assignment Category,Fulltime-Regular,exact,0.932416,799,745,54,0.1,1
+Position Title,O,startswith,Assignment Category,Fulltime-Regular,exact,0.931818,220,205,15,0.1,1
+Full Name,Ku,startswith,Assignment Category,Fulltime-Regular,exact,0.931034,29,27,2,0.1,1
+Position Title,B,startswith,Department,DOT,exact,0.929851,670,623,47,0.1,1
+Position Title,B,startswith,Department Name,Department of Transportation,exact,0.929851,670,623,47,0.1,1
+Date First Hired,12/3,startswith,Assignment Category,Fulltime-Regular,exact,0.929825,57,53,4,0.1,1
+Full Name,An,startswith,Assignment Category,Fulltime-Regular,exact,0.928571,42,39,3,0.1,1
+Date First Hired,11/27,startswith,Assignment Category,Fulltime-Regular,exact,0.928571,28,26,2,0.1,1
+Department,B,startswith,Department Name,Board of Elections,exact,0.928571,28,26,2,0.1,3
+Department Name,B,startswith,Department,BOE,exact,0.928571,28,26,2,0.1,5
+Date First Hired,10/13,startswith,Assignment Category,Fulltime-Regular,exact,0.928571,14,13,1,0.1,1
+Division,Ci,startswith,Assignment Category,Fulltime-Regular,exact,0.928571,14,13,1,0.1,1
+Division,Col,startswith,Gender,F,exact,0.928571,14,13,1,0.1,1
+Position Title,Transportation,startswith,Division,Transportation Technical Center,exact,0.928571,14,13,1,0.1,1
+Underfilled Job Title,Proc,startswith,Division,Procurement Operations Section,exact,0.928571,14,13,1,0.1,3
+Position Title,Le,startswith,Assignment Category,Fulltime-Regular,exact,0.927273,55,51,4,0.1,1
+Date First Hired,9,startswith,Assignment Category,Fulltime-Regular,exact,0.926304,882,817,65,0.1,1
+Position Title,Dep,startswith,Department,SHF,exact,0.925676,148,137,11,0.1,4
+Position Title,Dep,startswith,Department Name,Sheriff's Office,exact,0.925676,148,137,11,0.1,4
+Position Title,Com,startswith,Department,HHS,exact,0.925,280,259,21,0.1,1
+Position Title,Com,startswith,Department Name,Department of Health and Human Services,exact,0.925,280,259,21,0.1,1
+Full Name,Ki,startswith,Assignment Category,Fulltime-Regular,exact,0.925,80,74,6,0.1,1
+Full Name,P,startswith,Assignment Category,Fulltime-Regular,exact,0.924574,411,380,31,0.1,1
+Full Name,F,startswith,Assignment Category,Fulltime-Regular,exact,0.92378,328,303,25,0.1,1
+Full Name,W,startswith,Assignment Category,Fulltime-Regular,exact,0.923554,484,447,37,0.1,1
+Date First Hired,4/2/,startswith,Assignment Category,Fulltime-Regular,exact,0.923077,26,24,2,0.1,1
+Full Name,Del,startswith,Assignment Category,Fulltime-Regular,exact,0.923077,26,24,2,0.1,1
+Date First Hired,4/7,startswith,Assignment Category,Fulltime-Regular,exact,0.923077,13,12,1,0.1,1
+Date First Hired,11/6,startswith,Assignment Category,Fulltime-Regular,exact,0.923077,13,12,1,0.1,1
+Date First Hired,1/5/1,startswith,Department,DOT,exact,0.923077,13,12,1,0.1,1
+Date First Hired,1/5/1,startswith,Department Name,Department of Transportation,exact,0.923077,13,12,1,0.1,1
+Date First Hired,1/7/1,startswith,Gender,M,exact,0.923077,13,12,1,0.1,1
+Date First Hired,1/5/1,startswith,Position Title,Bus Operator,exact,0.923077,13,12,1,0.1,1
+Department,N,startswith,Division,MCERP,exact,0.923077,13,12,1,0.1,3
+Department Name,N,startswith,Division,MCERP,exact,0.923077,13,12,1,0.1,5
+Division,Ea,startswith,Department,HHS,exact,0.923077,13,12,1,0.1,1
+Division,Ea,startswith,Department Name,Department of Health and Human Services,exact,0.923077,13,12,1,0.1,1
+Division,Ea,startswith,Gender,F,exact,0.923077,13,12,1,0.1,1
+Division,Acce,startswith,Gender,F,exact,0.923077,13,12,1,0.1,1
+Division,Res,startswith,Gender,M,exact,0.923077,13,12,1,0.1,1
+Full Name,Dia,startswith,Assignment Category,Fulltime-Regular,exact,0.923077,13,12,1,0.1,1
+Underfilled Job Title,Tr,startswith,Department,DOT,exact,0.923077,13,12,1,0.1,2
+Underfilled Job Title,Tr,startswith,Department Name,Department of Transportation,exact,0.923077,13,12,1,0.1,2
+Department,F,startswith,Department Name,Fire and Rescue Services,exact,0.920259,1392,1281,111,0.1,3
+Full Name,Ve,startswith,Assignment Category,Fulltime-Regular,exact,0.92,25,23,2,0.1,1
+Position Title,Fo,startswith,Department,POL,exact,0.92,25,23,2,0.1,1
+Position Title,Fo,startswith,Department Name,Department of Police,exact,0.92,25,23,2,0.1,1
+Full Name,C,startswith,Assignment Category,Fulltime-Regular,exact,0.919643,672,618,54,0.1,1
+Date First Hired,1/,startswith,Assignment Category,Fulltime-Regular,exact,0.919308,1041,957,84,0.1,1
+Full Name,J,startswith,Assignment Category,Fulltime-Regular,exact,0.918301,306,281,25,0.1,1
+Department,DE,startswith,Department Name,Department of Environmental Protection,exact,0.917647,170,156,14,0.1,2
+Full Name,Ri,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,84,77,7,0.1,1
+Position Title,Cl,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,36,33,3,0.1,1
+Date First Hired,10/11,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,24,22,2,0.1,1
+Division,Beh,startswith,Department,HHS,exact,0.916667,24,22,2,0.1,1
+Division,Beh,startswith,Department Name,Department of Health and Human Services,exact,0.916667,24,22,2,0.1,1
+Full Name,Rod,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,24,22,2,0.1,1
+Date First Hired,4/19,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Date First Hired,11/20,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Date First Hired,4/3/0,startswith,Gender,F,exact,0.916667,12,11,1,0.1,1
+Division,Of,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Division,Hu,startswith,Gender,F,exact,0.916667,12,11,1,0.1,1
+Full Name,Dur,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Full Name,Qui,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Full Name,Ran,startswith,Assignment Category,Fulltime-Regular,exact,0.916667,12,11,1,0.1,1
+Position Title,Forensics,startswith,Division,ISB Criminal Investigations Division Forensic Services Section,exact,0.916667,12,11,1,0.1,1
+Full Name,G,startswith,Assignment Category,Fulltime-Regular,exact,0.915789,475,435,40,0.1,1
+Full Name,Ke,startswith,Assignment Category,Fulltime-Regular,exact,0.914286,70,64,6,0.1,1
+Date First Hired,7/29,startswith,Gender,M,exact,0.913793,58,53,5,0.1,1
+Full Name,Da,startswith,Assignment Category,Fulltime-Regular,exact,0.913043,115,105,10,0.1,1
+Date First Hired,4/22,startswith,Assignment Category,Fulltime-Regular,exact,0.913043,23,21,2,0.1,1
+Date First Hired,8/7/8,startswith,Assignment Category,Fulltime-Regular,exact,0.913043,23,21,2,0.1,1
+Full Name,B,startswith,Assignment Category,Fulltime-Regular,exact,0.912769,791,722,69,0.1,1
+Department,P,startswith,Assignment Category,Fulltime-Regular,exact,0.912727,1925,1757,168,0.1,1
+Full Name,Do,startswith,Assignment Category,Fulltime-Regular,exact,0.912088,91,83,8,0.1,1
+Date First Hired,10/9,startswith,Assignment Category,Fulltime-Regular,exact,0.911765,34,31,3,0.1,1
+Date First Hired,6/7/0,startswith,Gender,M,exact,0.911765,34,31,3,0.1,1
+Full Name,H,startswith,Assignment Category,Fulltime-Regular,exact,0.910891,606,552,54,0.1,1
+Full Name,Ta,startswith,Assignment Category,Fulltime-Regular,exact,0.910448,67,61,6,0.1,1
+Full Name,L,startswith,Assignment Category,Fulltime-Regular,exact,0.910138,434,395,39,0.1,1
+Position Title,Me,startswith,Department,DGS,exact,0.909836,122,111,11,0.1,1
+Position Title,Me,startswith,Department Name,Department of General Services,exact,0.909836,122,111,11,0.1,1
+Division,Bu,startswith,Assignment Category,Fulltime-Regular,exact,0.909091,44,40,4,0.1,1
+Date First Hired,12/10,startswith,Assignment Category,Fulltime-Regular,exact,0.909091,22,20,2,0.1,1
+Date First Hired,2/8/9,startswith,Gender,M,exact,0.909091,22,20,2,0.1,1
+Division,V,startswith,Gender,F,exact,0.909091,22,20,2,0.1,1
+Full Name,U,startswith,Assignment Category,Fulltime-Regular,exact,0.909091,22,20,2,0.1,1
+Division,J,startswith,Assignment Category,Fulltime-Regular,exact,0.909091,11,10,1,0.1,1
+Division,No,startswith,Gender,F,exact,0.909091,11,10,1,0.1,1
+Full Name,Kan,startswith,Assignment Category,Fulltime-Regular,exact,0.909091,11,10,1,0.1,1
+Date First Hired,11/1,startswith,Assignment Category,Fulltime-Regular,exact,0.908745,263,239,24,0.1,1
+Department,FR,startswith,Gender,M,exact,0.908665,1281,1164,117,0.1,2
+Department Name,F,startswith,Gender,M,exact,0.908665,1281,1164,117,0.1,5
+Division,Fac,startswith,Department,DGS,exact,0.908257,109,99,10,0.1,1
+Division,Fac,startswith,Department Name,Department of General Services,exact,0.908257,109,99,10,0.1,1
+Full Name,Al,startswith,Assignment Category,Fulltime-Regular,exact,0.907895,76,69,7,0.1,1
+Division,La,startswith,Department,DPS,exact,0.907692,65,59,6,0.1,1
+Division,La,startswith,Department Name,Department of Permitting Services,exact,0.907692,65,59,6,0.1,1
+Date First Hired,3/2/0,startswith,Department,DOT,exact,0.907407,54,49,5,0.1,1
+Date First Hired,3/2/0,startswith,Department Name,Department of Transportation,exact,0.907407,54,49,5,0.1,1
+Full Name,Va,startswith,Assignment Category,Fulltime-Regular,exact,0.907407,54,49,5,0.1,1
+Full Name,M,startswith,Assignment Category,Fulltime-Regular,exact,0.906897,870,789,81,0.1,1
+Division,Fle,startswith,Department,DGS,exact,0.906542,214,194,20,0.1,1
+Division,Fle,startswith,Department Name,Department of General Services,exact,0.906542,214,194,20,0.1,1
+Full Name,Z,startswith,Assignment Category,Fulltime-Regular,exact,0.90625,64,58,6,0.1,1
+Full Name,Ros,startswith,Assignment Category,Fulltime-Regular,exact,0.90625,32,29,3,0.1,1
+Position Title,Fi,startswith,Gender,M,exact,0.905966,989,896,93,0.1,1
+Position Title,Permitting,startswith,Gender,M,exact,0.905882,85,77,8,0.1,1
+Date First Hired,5,startswith,Assignment Category,Fulltime-Regular,exact,0.905028,537,486,51,0.1,1
+Date First Hired,11/24,startswith,Assignment Category,Fulltime-Regular,exact,0.904762,21,19,2,0.1,1
+Full Name,Or,startswith,Assignment Category,Fulltime-Regular,exact,0.904762,21,19,2,0.1,1
+Full Name,E,startswith,Assignment Category,Fulltime-Regular,exact,0.903409,176,159,17,0.1,1
+Position Title,Wa,startswith,Department,DLC,exact,0.901639,61,55,6,0.1,1
+Position Title,Wa,startswith,Department Name,Department of Liquor Control,exact,0.901639,61,55,6,0.1,1
+Full Name,S,startswith,Assignment Category,Fulltime-Regular,exact,0.90134,821,740,81,0.1,1
+Position Title,Community,startswith,Gender,F,exact,0.901099,273,246,27,0.1,1
+Division,Co,startswith,Assignment Category,Fulltime-Regular,exact,0.90099,303,273,30,0.1,1
+Full Name,N,startswith,Assignment Category,Fulltime-Regular,exact,0.900552,181,163,18,0.1,1
+Underfilled Job Title,Legi,startswith,Department,CCL,exact,0.9,20,18,2,0.1,3
+Underfilled Job Title,Legi,startswith,Department Name,County Council,exact,0.9,20,18,2,0.1,3
+Underfilled Job Title,Legi,startswith,Division,Council Members and Staff,exact,0.9,20,18,2,0.1,3
+Date First Hired,10/14,startswith,Assignment Category,Fulltime-Regular,exact,0.9,10,9,1,0.1,1
+Date First Hired,12/18,startswith,Assignment Category,Fulltime-Regular,exact,0.9,10,9,1,0.1,1
+Date First Hired,2/29,startswith,Department,FRS,exact,0.9,10,9,1,0.1,1
+Date First Hired,2/29,startswith,Department Name,Fire and Rescue Services,exact,0.9,10,9,1,0.1,1
+Date First Hired,5/3/0,startswith,Gender,M,exact,0.9,10,9,1,0.1,1
+Division,Head,startswith,Gender,F,exact,0.9,10,9,1,0.1,1
+Division,Pe,startswith,Gender,F,exact,0.9,10,9,1,0.1,1
+Division,Nu,startswith,Gender,F,exact,0.9,10,9,1,0.1,1
+Full Name,Ow,startswith,Assignment Category,Fulltime-Regular,exact,0.9,10,9,1,0.1,1
+Full Name,Reyno,startswith,Assignment Category,Fulltime-Regular,exact,0.9,10,9,1,0.1,1
+Full Name,Yu,startswith,Assignment Category,Fulltime-Regular,exact,0.9,10,9,1,0.1,1
+Full Name,Fos,startswith,Gender,M,exact,0.9,10,9,1,0.1,1
+Full Name,Hart,startswith,Gender,M,exact,0.9,10,9,1,0.1,1
+Position Title,Counc,startswith,Division,Council Members and Staff,exact,0.9,10,9,1,0.1,2

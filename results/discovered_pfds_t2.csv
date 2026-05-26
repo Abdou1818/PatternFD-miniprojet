@@ -12,7 +12,7 @@ NAME,S,startswith,COUNTRY,United States,exact,1.0,312,312,0,0.1,1
 EMPLOYER_ID,7,startswith,ACTIVE,Y,exact,1.0,311,311,0,0.1,1
 NAME,M,startswith,ACTIVE,Y,exact,1.0,295,295,0,0.1,1
 NAME,M,startswith,COUNTRY,United States,exact,1.0,295,295,0,0.1,1
-ZIP,10,startswith,STATE,NY,exact,1.0,285,285,0,0.1,8
+ZIP,10,startswith,STATE,NY,exact,1.0,285,285,0,0.1,18
 FAX,2,startswith,COUNTRY,United States,exact,1.0,244,244,0,0.1,1
 CREATED_DATE,1,startswith,ACTIVE,Y,exact,1.0,239,239,0,0.1,1
 ADDRESS_1,5,startswith,ACTIVE,Y,exact,1.0,238,238,0,0.1,1
@@ -76,7 +76,7 @@ CITY,P,startswith,COUNTRY,United States,exact,1.0,77,77,0,0.1,1
 ADDRESS_1,O,startswith,COUNTRY,United States,exact,1.0,76,76,0,0.1,1
 FAX,84,startswith,STATE,IL,exact,1.0,74,74,0,0.1,1
 FAX,4,startswith,ACTIVE,Y,exact,1.0,73,73,0,0.1,1
-NAME,Chicago,startswith,STATE,IL,exact,1.0,70,70,0,0.1,1
+NAME,Chica,startswith,STATE,IL,exact,1.0,70,70,0,0.1,1
 ADDRESS_1,203,startswith,STATE,IL,exact,1.0,68,68,0,0.1,1
 NAME,H,startswith,ACTIVE,Y,exact,1.0,68,68,0,0.1,1
 NAME,H,startswith,COUNTRY,United States,exact,1.0,68,68,0,0.1,1
@@ -99,7 +99,7 @@ NAME,Lo,startswith,STATE,IL,exact,1.0,48,48,0,0.1,1
 CITY,O,startswith,ACTIVE,Y,exact,1.0,47,47,0,0.1,1
 CITY,O,startswith,COUNTRY,United States,exact,1.0,47,47,0,0.1,1
 FAX,708,startswith,STATE,IL,exact,1.0,47,47,0,0.1,1
-PHONE,(312),startswith,STATE,IL,exact,1.0,46,46,0,0.1,1
+PHONE,(312,startswith,STATE,IL,exact,1.0,46,46,0,0.1,1
 NAME,SE,startswith,CITY,Chicago,exact,1.0,45,45,0,0.1,1
 ZIP,7,startswith,COUNTRY,United States,exact,1.0,45,45,0,0.1,1
 NAME,Wi,startswith,STATE,IL,exact,1.0,44,44,0,0.1,1
@@ -111,45 +111,546 @@ ADDRESS_2,#,startswith,COUNTRY,United States,exact,1.0,42,42,0,0.1,1
 CITY,E,startswith,COUNTRY,United States,exact,1.0,41,41,0,0.1,1
 FAX,(,startswith,ACTIVE,Y,exact,1.0,41,41,0,0.1,1
 FAX,(,startswith,COUNTRY,United States,exact,1.0,41,41,0,0.1,1
+ADDRESS_1,225 W,startswith,ZIP,60606,exact,1.0,39,39,0,0.1,1
 CITY,R,startswith,ACTIVE,Y,exact,1.0,39,39,0,0.1,1
 CITY,R,startswith,COUNTRY,United States,exact,1.0,39,39,0,0.1,1
-CITY,Sa,startswith,STATE,CA,exact,1.0,39,39,0,0.1,2
+CITY,Sa,startswith,STATE,CA,exact,1.0,39,39,0,0.1,5
 NAME,Sch,startswith,CITY,Chicago,exact,1.0,39,39,0,0.1,1
 NAME,Sch,startswith,STATE,IL,exact,1.0,39,39,0,0.1,1
-ADDRESS_1,158,startswith,CITY,New York,exact,1.0,38,38,0,0.1,2
+ADDRESS_1,158,startswith,CITY,New York,exact,1.0,38,38,0,0.1,1
 ADDRESS_1,158,startswith,STATE,NY,exact,1.0,38,38,0,0.1,1
-ADDRESS_1,158,startswith,ZIP,10036,exact,1.0,38,38,0,0.1,2
+ADDRESS_1,158,startswith,ZIP,10036,exact,1.0,38,38,0,0.1,1
 CITY,I,startswith,ACTIVE,Y,exact,1.0,38,38,0,0.1,1
 CITY,I,startswith,COUNTRY,United States,exact,1.0,38,38,0,0.1,1
 PHONE,217,startswith,STATE,IL,exact,1.0,38,38,0,0.1,1
 STATE,P,startswith,ACTIVE,Y,exact,1.0,36,36,0,0.1,1
 STATE,P,startswith,COUNTRY,United States,exact,1.0,36,36,0,0.1,1
-ZIP,44,startswith,STATE,OH,exact,1.0,36,36,0,0.1,3
+ZIP,44,startswith,STATE,OH,exact,1.0,36,36,0,0.1,1
 STATE,A,startswith,ACTIVE,Y,exact,1.0,35,35,0,0.1,1
+ADDRESS_1,200 S,startswith,CITY,Chicago,exact,1.0,34,34,0,0.1,1
+ADDRESS_1,200 S,startswith,STATE,IL,exact,1.0,34,34,0,0.1,1
 ADDRESS_1,1 N,startswith,STATE,IL,exact,1.0,34,34,0,0.1,1
 NAME,Te,startswith,STATE,IL,exact,1.0,34,34,0,0.1,1
-ZIP,55,startswith,STATE,MN,exact,1.0,34,34,0,0.1,2
+ZIP,55,startswith,STATE,MN,exact,1.0,34,34,0,0.1,5
+ADDRESS_1,222 W,startswith,ZIP,60606,exact,1.0,33,33,0,0.1,1
 NAME,DL,startswith,CITY,Chicago,exact,1.0,33,33,0,0.1,1
-NAME,Key,startswith,CITY,Cleveland,exact,1.0,33,33,0,0.1,1
+NAME,Key,startswith,CITY,Cleveland,exact,1.0,33,33,0,0.1,5
 NAME,DL,startswith,STATE,IL,exact,1.0,33,33,0,0.1,1
-NAME,Key,startswith,STATE,OH,exact,1.0,33,33,0,0.1,1
-NAME,Key,startswith,ZIP,44114,exact,1.0,33,33,0,0.1,1
-NAME,Schain,startswith,ZIP,60602,exact,1.0,33,33,0,0.1,1
+NAME,Key,startswith,STATE,OH,exact,1.0,33,33,0,0.1,5
+NAME,Key,startswith,ZIP,44114,exact,1.0,33,33,0,0.1,5
+NAME,Scha,startswith,ZIP,60602,exact,1.0,33,33,0,0.1,1
 PHONE,(21,startswith,CITY,New York,exact,1.0,33,33,0,0.1,1
 PHONE,(21,startswith,STATE,NY,exact,1.0,33,33,0,0.1,1
-ZIP,80,startswith,STATE,CO,exact,1.0,33,33,0,0.1,1
+ZIP,80,startswith,STATE,CO,exact,1.0,33,33,0,0.1,4
 CITY,Sp,startswith,STATE,IL,exact,1.0,32,32,0,0.1,1
 NAME,Fr,startswith,STATE,IL,exact,1.0,32,32,0,0.1,1
+ADDRESS_1,440 S,startswith,ZIP,60605,exact,1.0,31,31,0,0.1,1
 EMPLOYER_ID,443,startswith,CITY,Chicago,exact,1.0,31,31,0,0.1,1
 EMPLOYER_ID,40,startswith,STATE,IL,exact,1.0,31,31,0,0.1,1
 EMPLOYER_ID,443,startswith,STATE,IL,exact,1.0,31,31,0,0.1,1
-NAME,ComEd,startswith,ZIP,60605,exact,1.0,31,31,0,0.1,1
-PHONE,612,startswith,STATE,MN,exact,1.0,31,31,0,0.1,1
+NAME,ComE,startswith,ZIP,60605,exact,1.0,31,31,0,0.1,2
+PHONE,612,startswith,STATE,MN,exact,1.0,31,31,0,0.1,4
 ADDRESS_1,1 E,startswith,STATE,IL,exact,1.0,30,30,0,0.1,1
 ADDRESS_1,3 ,startswith,STATE,NY,exact,1.0,30,30,0,0.1,1
-ADDRESS_1,3 ,startswith,ZIP,10016,exact,1.0,30,30,0,0.1,2
+ADDRESS_1,3 ,startswith,ZIP,10016,exact,1.0,30,30,0,0.1,4
 ADDRESS_1,1 E,startswith,ZIP,60601,exact,1.0,30,30,0,0.1,1
-CITY,Min,startswith,STATE,MN,exact,1.0,30,30,0,0.1,2
+ADDRESS_1,221 ,startswith,ZIP,60601,exact,1.0,30,30,0,0.1,1
+CITY,Min,startswith,STATE,MN,exact,1.0,30,30,0,0.1,4
+ADDRESS_1,321,startswith,CITY,Chicago,exact,1.0,29,29,0,0.1,1
+ADDRESS_1,321,startswith,STATE,IL,exact,1.0,29,29,0,0.1,1
+ADDRESS_2,N,startswith,ACTIVE,Y,exact,1.0,29,29,0,0.1,1
+ADDRESS_2,N,startswith,COUNTRY,United States,exact,1.0,29,29,0,0.1,1
+NAME,Unis,startswith,STATE,IL,exact,1.0,29,29,0,0.1,1
+NAME,Tr,startswith,STATE,IL,exact,1.0,29,29,0,0.1,1
+STATE,F,startswith,COUNTRY,United States,exact,1.0,29,29,0,0.1,1
+ADDRESS_1,P,startswith,ACTIVE,Y,exact,1.0,28,28,0,0.1,1
+ADDRESS_1,500 N,startswith,CITY,Chicago,exact,1.0,28,28,0,0.1,1
+ADDRESS_1,120 ,startswith,CITY,Chicago,exact,1.0,28,28,0,0.1,1
+ADDRESS_1,P,startswith,COUNTRY,United States,exact,1.0,28,28,0,0.1,1
+ADDRESS_1,120 ,startswith,STATE,IL,exact,1.0,28,28,0,0.1,1
+NAME,Am,startswith,ACTIVE,Y,exact,1.0,28,28,0,0.1,1
+PHONE,303,startswith,STATE,CO,exact,1.0,28,28,0,0.1,3
+PHONE,646-8,startswith,ZIP,10016,exact,1.0,27,27,0,0.1,1
+ADDRESS_1,212,startswith,CITY,Chicago,exact,1.0,26,26,0,0.1,1
+ADDRESS_1,104,startswith,STATE,IL,exact,1.0,26,26,0,0.1,1
+ADDRESS_1,212,startswith,STATE,IL,exact,1.0,26,26,0,0.1,1
+CITY,F,startswith,COUNTRY,United States,exact,1.0,26,26,0,0.1,1
+NAME,AT,startswith,CITY,Chicago,exact,1.0,26,26,0,0.1,1
+NAME,AT,startswith,STATE,IL,exact,1.0,26,26,0,0.1,1
+NAME,AT,startswith,ZIP,60606,exact,1.0,26,26,0,0.1,1
+ADDRESS_1,311,startswith,CITY,Chicago,exact,1.0,25,25,0,0.1,1
+ADDRESS_1,19,startswith,STATE,IL,exact,1.0,25,25,0,0.1,1
+ADDRESS_1,311,startswith,STATE,IL,exact,1.0,25,25,0,0.1,1
+ADDRESS_1,311,startswith,ZIP,60606,exact,1.0,25,25,0,0.1,1
+CITY,It,startswith,STATE,IL,exact,1.0,25,25,0,0.1,1
+FAX,216,startswith,CITY,Cleveland,exact,1.0,25,25,0,0.1,3
+FAX,217,startswith,STATE,IL,exact,1.0,25,25,0,0.1,1
+FAX,216,startswith,STATE,OH,exact,1.0,25,25,0,0.1,3
+FAX,216,startswith,ZIP,44114,exact,1.0,25,25,0,0.1,3
+ZIP,15,startswith,STATE,PA,exact,1.0,25,25,0,0.1,4
+ADDRESS_1,600 W,startswith,CITY,Chicago,exact,1.0,24,24,0,0.1,1
+EMPLOYER_ID,412,startswith,CITY,Chicago,exact,1.0,24,24,0,0.1,1
+EMPLOYER_ID,436,startswith,STATE,IL,exact,1.0,24,24,0,0.1,1
+EMPLOYER_ID,412,startswith,STATE,IL,exact,1.0,24,24,0,0.1,1
+FAX,9,startswith,COUNTRY,United States,exact,1.0,24,24,0,0.1,1
+NAME,X,startswith,ACTIVE,Y,exact,1.0,24,24,0,0.1,1
+NAME,Q,startswith,ACTIVE,Y,exact,1.0,24,24,0,0.1,1
+NAME,X,startswith,COUNTRY,United States,exact,1.0,24,24,0,0.1,1
+NAME,Q,startswith,COUNTRY,United States,exact,1.0,24,24,0,0.1,1
+ZIP,07,startswith,STATE,NJ,exact,1.0,24,24,0,0.1,1
+ADDRESS_1,71,startswith,STATE,IL,exact,1.0,23,23,0,0.1,1
+ADDRESS_1,400,startswith,STATE,IL,exact,1.0,23,23,0,0.1,1
+ADDRESS_1,55 E,startswith,ZIP,60603,exact,1.0,23,23,0,0.1,1
+ADDRESS_1,333 ,startswith,ZIP,60606,exact,1.0,23,23,0,0.1,1
+NAME,Thomp,startswith,STATE,IL,exact,1.0,23,23,0,0.1,1
+NAME,Gov,startswith,STATE,IL,exact,1.0,23,23,0,0.1,1
+NAME,Thomp,startswith,ZIP,60603,exact,1.0,23,23,0,0.1,1
+ADDRESS_1,1 E.,startswith,NAME,Unisys Corp.,exact,1.0,22,22,0,0.1,2
+ADDRESS_1,20 S,startswith,STATE,IL,exact,1.0,22,22,0,0.1,1
+ADDRESS_1,20 S,startswith,ZIP,60603,exact,1.0,22,22,0,0.1,1
+CITY,H,startswith,ACTIVE,Y,exact,1.0,22,22,0,0.1,1
+CITY,H,startswith,COUNTRY,United States,exact,1.0,22,22,0,0.1,1
+EMPLOYER_ID,419,startswith,CITY,Chicago,exact,1.0,22,22,0,0.1,1
+EMPLOYER_ID,419,startswith,STATE,IL,exact,1.0,22,22,0,0.1,1
+NAME,Loo,startswith,CITY,Chicago,exact,1.0,22,22,0,0.1,1
+STATE,W,startswith,ACTIVE,Y,exact,1.0,22,22,0,0.1,1
+ZIP,33,startswith,STATE,FL,exact,1.0,22,22,0,0.1,4
+ZIP,08,startswith,STATE,NJ,exact,1.0,22,22,0,0.1,1
+ADDRESS_1,200 E,startswith,CITY,Chicago,exact,1.0,21,21,0,0.1,1
+ADDRESS_1,200 E,startswith,STATE,IL,exact,1.0,21,21,0,0.1,1
+ADDRESS_1,102,startswith,STATE,IL,exact,1.0,21,21,0,0.1,1
+ADDRESS_1,200 E,startswith,ZIP,60601,exact,1.0,21,21,0,0.1,1
+CITY,Bos,startswith,STATE,MA,exact,1.0,21,21,0,0.1,4
+NAME,BM,startswith,CITY,Chicago,exact,1.0,21,21,0,0.1,1
+NAME,BM,startswith,STATE,IL,exact,1.0,21,21,0,0.1,1
+NAME,BM,startswith,ZIP,60603,exact,1.0,21,21,0,0.1,1
+STATE,V,startswith,ACTIVE,Y,exact,1.0,21,21,0,0.1,1
+STATE,V,startswith,COUNTRY,United States,exact,1.0,21,21,0,0.1,1
+ADDRESS_1,33 W ,startswith,ZIP,60603,exact,1.0,20,20,0,0.1,1
+ADDRESS_1,222 M,startswith,ZIP,60654,exact,1.0,20,20,0,0.1,1
+CITY,Den,startswith,STATE,CO,exact,1.0,20,20,0,0.1,4
+CITY,Pi,startswith,STATE,PA,exact,1.0,20,20,0,0.1,5
+NAME,Fol,startswith,CITY,Chicago,exact,1.0,20,20,0,0.1,1
+NAME,Fol,startswith,STATE,IL,exact,1.0,20,20,0,0.1,1
+STATE,G,startswith,ACTIVE,Y,exact,1.0,20,20,0,0.1,1
+STATE,G,startswith,COUNTRY,United States,exact,1.0,20,20,0,0.1,1
+ZIP,28,startswith,CITY,Charlotte,exact,1.0,20,20,0,0.1,4
+ZIP,802,startswith,CITY,Denver,exact,1.0,20,20,0,0.1,3
+ZIP,152,startswith,CITY,Pittsburgh,exact,1.0,20,20,0,0.1,3
+ZIP,30,startswith,STATE,GA,exact,1.0,20,20,0,0.1,2
+ZIP,28,startswith,STATE,NC,exact,1.0,20,20,0,0.1,4
+ZIP,45,startswith,STATE,OH,exact,1.0,20,20,0,0.1,1
+ADDRESS_1,46,startswith,ACTIVE,Y,exact,1.0,19,19,0,0.1,1
+ADDRESS_1,303,startswith,CITY,Chicago,exact,1.0,19,19,0,0.1,1
+ADDRESS_1,520,startswith,CITY,New York,exact,1.0,19,19,0,0.1,1
+ADDRESS_1,520,startswith,STATE,NY,exact,1.0,19,19,0,0.1,1
+ADDRESS_1,520,startswith,ZIP,10022,exact,1.0,19,19,0,0.1,3
+ADDRESS_1,303,startswith,ZIP,60601,exact,1.0,19,19,0,0.1,1
+EMPLOYER_ID,694,startswith,CREATED_DATE,01/04/2013,exact,1.0,19,19,0,0.1,1
+EMPLOYER_ID,1020,startswith,CREATED_DATE,01/15/2014,exact,1.0,19,19,0,0.1,1
+NAME,Lig,startswith,CITY,Chicago,exact,1.0,19,19,0,0.1,1
+NAME,Xe,startswith,CITY,Washington,exact,1.0,19,19,0,0.1,4
+NAME,Lig,startswith,PHONE,312-920-1500,exact,1.0,19,19,0,0.1,4
+NAME,Xe,startswith,STATE,DC,exact,1.0,19,19,0,0.1,4
+NAME,Xe,startswith,ZIP,20036,exact,1.0,19,19,0,0.1,4
+ZIP,85,startswith,STATE,AZ,exact,1.0,19,19,0,0.1,2
+ADDRESS_1,110 ,startswith,CITY,Chicago,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,1255,startswith,CITY,Chicago,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,1255,startswith,NAME,Comcast,exact,1.0,18,18,0,0.1,2
+ADDRESS_1,55 E ,startswith,NAME,Thompson Coburn LLP,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,110 ,startswith,STATE,IL,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,115,startswith,STATE,IL,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,181,startswith,STATE,IL,exact,1.0,18,18,0,0.1,1
+ADDRESS_1,1255,startswith,STATE,IL,exact,1.0,18,18,0,0.1,1
+CITY,G,startswith,ACTIVE,Y,exact,1.0,18,18,0,0.1,1
+CITY,G,startswith,COUNTRY,United States,exact,1.0,18,18,0,0.1,1
+NAME,Ku,startswith,CITY,Chicago,exact,1.0,18,18,0,0.1,1
+NAME,Ku,startswith,STATE,IL,exact,1.0,18,18,0,0.1,1
+ZIP,22,startswith,STATE,VA,exact,1.0,18,18,0,0.1,4
+ADDRESS_1,43,startswith,ACTIVE,Y,exact,1.0,17,17,0,0.1,1
+ADDRESS_1,37,startswith,CITY,Chicago,exact,1.0,17,17,0,0.1,1
+ADDRESS_1,37,startswith,STATE,IL,exact,1.0,17,17,0,0.1,1
+ADDRESS_2,3,startswith,ACTIVE,Y,exact,1.0,17,17,0,0.1,1
+ADDRESS_2,3,startswith,COUNTRY,United States,exact,1.0,17,17,0,0.1,1
+CITY,We,startswith,STATE,IL,exact,1.0,17,17,0,0.1,1
+CITY,NY,startswith,STATE,NY,exact,1.0,17,17,0,0.1,1
+EMPLOYER_ID,1018,startswith,CREATED_DATE,01/14/2014,exact,1.0,17,17,0,0.1,1
+FAX,303,startswith,STATE,CO,exact,1.0,17,17,0,0.1,2
+FAX,202-3,startswith,ZIP,20036,exact,1.0,17,17,0,0.1,1
+NAME,Sh,startswith,STATE,IL,exact,1.0,17,17,0,0.1,1
+NAME,Jam,startswith,STATE,IL,exact,1.0,17,17,0,0.1,1
+NAME,Chico,startswith,ZIP,60606,exact,1.0,17,17,0,0.1,1
+PHONE,98,startswith,CITY,Charlotte,exact,1.0,17,17,0,0.1,4
+PHONE,98,startswith,STATE,NC,exact,1.0,17,17,0,0.1,4
+PHONE,703,startswith,STATE,VA,exact,1.0,17,17,0,0.1,2
+ADDRESS_1,39 ,startswith,CITY,Chicago,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,130 ,startswith,CITY,Chicago,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,115 ,startswith,CITY,Chicago,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,110 N,startswith,NAME,General Growth Properties,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,39 ,startswith,PHONE,312-920-1500,exact,1.0,16,16,0,0.1,3
+ADDRESS_1,130 ,startswith,STATE,IL,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,130 ,startswith,ZIP,60601,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,33 N,startswith,ZIP,60602,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,39 ,startswith,ZIP,60603,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,115 ,startswith,ZIP,60603,exact,1.0,16,16,0,0.1,1
+ADDRESS_1,222 S,startswith,ZIP,60606,exact,1.0,16,16,0,0.1,1
+ADDRESS_2,NC,startswith,ADDRESS_1,100 N Tryon Street,exact,1.0,16,16,0,0.1,4
+ADDRESS_2,NC,startswith,CITY,Charlotte,exact,1.0,16,16,0,0.1,4
+ADDRESS_2,NC,startswith,STATE,NC,exact,1.0,16,16,0,0.1,4
+ADDRESS_2,NC,startswith,ZIP,28255,exact,1.0,16,16,0,0.1,4
+CITY,c,startswith,ACTIVE,Y,exact,1.0,16,16,0,0.1,1
+CITY,c,startswith,COUNTRY,United States,exact,1.0,16,16,0,0.1,1
+CITY,c,startswith,STATE,IL,exact,1.0,16,16,0,0.1,1
+EMPLOYER_ID,755,startswith,CREATED_DATE,01/21/2013,exact,1.0,16,16,0,0.1,1
+FAX,510,startswith,STATE,CA,exact,1.0,16,16,0,0.1,1
+NAME,Sieb,startswith,CITY,Chicago,exact,1.0,16,16,0,0.1,1
+NAME,"KPMG,",startswith,CITY,Chicago,exact,1.0,16,16,0,0.1,1
+NAME,Tar,startswith,CITY,Minneapolis,exact,1.0,16,16,0,0.1,4
+NAME,Tar,startswith,STATE,MN,exact,1.0,16,16,0,0.1,4
+NAME,Tar,startswith,ZIP,55403,exact,1.0,16,16,0,0.1,4
+NAME,"KPMG,",startswith,ZIP,60601,exact,1.0,16,16,0,0.1,1
+NAME,Kut,startswith,ZIP,60606,exact,1.0,16,16,0,0.1,1
+PHONE,510,startswith,STATE,CA,exact,1.0,16,16,0,0.1,1
+PHONE,201,startswith,STATE,NJ,exact,1.0,16,16,0,0.1,1
+PHONE,612-7,startswith,ZIP,55403,exact,1.0,16,16,0,0.1,1
+ZIP,2825,startswith,ADDRESS_1,100 N Tryon Street,exact,1.0,16,16,0,0.1,2
+ZIP,2825,startswith,ADDRESS_2,NC1-007-22-32,exact,1.0,16,16,0,0.1,2
+ZIP,53,startswith,STATE,WI,exact,1.0,16,16,0,0.1,2
+ADDRESS_1,745,startswith,CITY,New York,exact,1.0,15,15,0,0.1,1
+ADDRESS_1,745,startswith,STATE,NY,exact,1.0,15,15,0,0.1,1
+ADDRESS_1,745,startswith,ZIP,10019,exact,1.0,15,15,0,0.1,1
+EMPLOYER_ID,1028,startswith,CREATED_DATE,01/17/2014,exact,1.0,15,15,0,0.1,1
+FAX,(3,startswith,CITY,Chicago,exact,1.0,15,15,0,0.1,1
+FAX,612,startswith,CITY,Minneapolis,exact,1.0,15,15,0,0.1,3
+FAX,(3,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+FAX,612,startswith,STATE,MN,exact,1.0,15,15,0,0.1,3
+NAME,Bu,startswith,ACTIVE,Y,exact,1.0,15,15,0,0.1,1
+NAME,Al,startswith,ACTIVE,Y,exact,1.0,15,15,0,0.1,1
+NAME,Bu,startswith,CITY,Chicago,exact,1.0,15,15,0,0.1,1
+NAME,Kat,startswith,CITY,Chicago,exact,1.0,15,15,0,0.1,1
+NAME,Sid,startswith,CITY,Chicago,exact,1.0,15,15,0,0.1,1
+NAME,Barc,startswith,CITY,New York,exact,1.0,15,15,0,0.1,1
+NAME,Fos,startswith,STATE,CA,exact,1.0,15,15,0,0.1,4
+NAME,Do,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+NAME,Bu,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+NAME,Ho,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+NAME,Kat,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+NAME,Sid,startswith,STATE,IL,exact,1.0,15,15,0,0.1,1
+NAME,Barc,startswith,STATE,NY,exact,1.0,15,15,0,0.1,1
+NAME,Barc,startswith,ZIP,10019,exact,1.0,15,15,0,0.1,1
+NAME,Sid,startswith,ZIP,60603,exact,1.0,15,15,0,0.1,1
+STATE,K,startswith,ACTIVE,Y,exact,1.0,15,15,0,0.1,1
+STATE,K,startswith,COUNTRY,United States,exact,1.0,15,15,0,0.1,1
+ZIP,48,startswith,STATE,MI,exact,1.0,15,15,0,0.1,1
+ZIP,38,startswith,STATE,TN,exact,1.0,15,15,0,0.1,2
+ADDRESS_1,c,startswith,ACTIVE,Y,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,409,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,1 B,startswith,CITY,New York,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,c,startswith,CITY,San Rafael,exact,1.0,14,14,0,0.1,4
+ADDRESS_1,c,startswith,COUNTRY,United States,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,880,startswith,FAX,727-567-8315,exact,1.0,14,14,0,0.1,3
+ADDRESS_1,880,startswith,NAME,"Raymond James & Assoc., Inc.",exact,1.0,14,14,0,0.1,3
+ADDRESS_1,409,startswith,NAME,"Serafin & Associates, Inc.",exact,1.0,14,14,0,0.1,3
+ADDRESS_1,880,startswith,PHONE,727-567-2868,exact,1.0,14,14,0,0.1,3
+ADDRESS_1,c,startswith,STATE,CA,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,880,startswith,STATE,FL,exact,1.0,14,14,0,0.1,3
+ADDRESS_1,409,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,1 B,startswith,STATE,NY,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,880,startswith,ZIP,33716,exact,1.0,14,14,0,0.1,3
+ADDRESS_1,300 S,startswith,ZIP,60606,exact,1.0,14,14,0,0.1,1
+ADDRESS_1,c,startswith,ZIP,94901,exact,1.0,14,14,0,0.1,4
+CITY,La,startswith,ACTIVE,Y,exact,1.0,14,14,0,0.1,1
+CITY,St. P,startswith,FAX,727-567-8315,exact,1.0,14,14,0,0.1,1
+CITY,St. P,startswith,NAME,"Raymond James & Assoc., Inc.",exact,1.0,14,14,0,0.1,1
+CITY,St. P,startswith,PHONE,727-567-2868,exact,1.0,14,14,0,0.1,1
+CITY,Pho,startswith,STATE,AZ,exact,1.0,14,14,0,0.1,4
+CITY,St. P,startswith,STATE,FL,exact,1.0,14,14,0,0.1,1
+CITY,At,startswith,STATE,GA,exact,1.0,14,14,0,0.1,5
+CITY,Oak ,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+CITY,St. P,startswith,ZIP,33716,exact,1.0,14,14,0,0.1,1
+EMPLOYER_ID,109,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+EMPLOYER_ID,1027,startswith,CREATED_DATE,01/17/2014,exact,1.0,14,14,0,0.1,1
+EMPLOYER_ID,756,startswith,CREATED_DATE,01/22/2013,exact,1.0,14,14,0,0.1,1
+EMPLOYER_ID,109,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+FAX,727,startswith,NAME,"Raymond James & Assoc., Inc.",exact,1.0,14,14,0,0.1,3
+FAX,727,startswith,PHONE,727-567-2868,exact,1.0,14,14,0,0.1,3
+FAX,727,startswith,STATE,FL,exact,1.0,14,14,0,0.1,3
+FAX,727,startswith,ZIP,33716,exact,1.0,14,14,0,0.1,3
+NAME,V,startswith,ACTIVE,Y,exact,1.0,14,14,0,0.1,1
+NAME,Be,startswith,ACTIVE,Y,exact,1.0,14,14,0,0.1,1
+NAME,KeyBank,startswith,ADDRESS_1,127 Public Square,exact,1.0,14,14,0,0.1,1
+NAME,S.,startswith,ADDRESS_1,"221 N LaSalle St., Ste. 820",exact,1.0,14,14,0,0.1,4
+NAME,V,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,Mes,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,Ser,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,Mill,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,S.,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,Ung,startswith,CITY,Chicago,exact,1.0,14,14,0,0.1,1
+NAME,V,startswith,COUNTRY,United States,exact,1.0,14,14,0,0.1,1
+NAME,S.,startswith,FAX,312-424-4262,exact,1.0,14,14,0,0.1,4
+NAME,Ung,startswith,FAX,312-977-4405,exact,1.0,14,14,0,0.1,4
+NAME,S.,startswith,PHONE,312-424-4250,exact,1.0,14,14,0,0.1,4
+NAME,V,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,Ar,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,Mes,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,Ser,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,S.,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,Ung,startswith,STATE,IL,exact,1.0,14,14,0,0.1,1
+NAME,S.,startswith,ZIP,60601,exact,1.0,14,14,0,0.1,1
+NAME,Ung,startswith,ZIP,60602,exact,1.0,14,14,0,0.1,1
+PHONE,727,startswith,FAX,727-567-8315,exact,1.0,14,14,0,0.1,3
+PHONE,727,startswith,NAME,"Raymond James & Assoc., Inc.",exact,1.0,14,14,0,0.1,3
+PHONE,727,startswith,STATE,FL,exact,1.0,14,14,0,0.1,3
+PHONE,727,startswith,ZIP,33716,exact,1.0,14,14,0,0.1,3
+ZIP,303,startswith,CITY,Atlanta,exact,1.0,14,14,0,0.1,1
+ZIP,850,startswith,CITY,Phoenix,exact,1.0,14,14,0,0.1,1
+ZIP,337,startswith,FAX,727-567-8315,exact,1.0,14,14,0,0.1,3
+ZIP,337,startswith,NAME,"Raymond James & Assoc., Inc.",exact,1.0,14,14,0,0.1,3
+ZIP,337,startswith,PHONE,727-567-2868,exact,1.0,14,14,0,0.1,3
+ADDRESS_2,2,startswith,ACTIVE,Y,exact,1.0,13,13,0,0.1,1
+ADDRESS_2,1,startswith,ACTIVE,Y,exact,1.0,13,13,0,0.1,1
+ADDRESS_2,No,startswith,ADDRESS_1,"1800 M Street, NW",exact,1.0,13,13,0,0.1,4
+ADDRESS_2,No,startswith,CITY,Washington,exact,1.0,13,13,0,0.1,4
+ADDRESS_2,2,startswith,COUNTRY,United States,exact,1.0,13,13,0,0.1,1
+ADDRESS_2,1,startswith,COUNTRY,United States,exact,1.0,13,13,0,0.1,1
+ADDRESS_2,No,startswith,STATE,DC,exact,1.0,13,13,0,0.1,4
+ADDRESS_2,1,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+ADDRESS_2,No,startswith,ZIP,20036,exact,1.0,13,13,0,0.1,4
+CITY,Oakb,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+CITY,Ci,startswith,STATE,OH,exact,1.0,13,13,0,0.1,1
+CITY,Ci,startswith,ZIP,45202,exact,1.0,13,13,0,0.1,5
+EMPLOYER_ID,772,startswith,CITY,Chicago,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,698,startswith,CREATED_DATE,01/07/2013,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,702,startswith,CREATED_DATE,01/08/2013,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,758,startswith,CREATED_DATE,01/23/2013,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,772,startswith,CREATED_DATE,01/29/2013,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,698,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,772,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+EMPLOYER_ID,702,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,Ap,startswith,ACTIVE,Y,exact,1.0,13,13,0,0.1,1
+NAME,O,startswith,ACTIVE,Y,exact,1.0,13,13,0,0.1,1
+NAME,LA,startswith,ADDRESS_1,33 W. Monroe,exact,1.0,13,13,0,0.1,4
+NAME,Wal-,startswith,CITY,Bentonville,exact,1.0,13,13,0,0.1,2
+NAME,Ni,startswith,CITY,Chicago,exact,1.0,13,13,0,0.1,1
+NAME,Ru,startswith,CITY,Chicago,exact,1.0,13,13,0,0.1,1
+NAME,Rey,startswith,CITY,Chicago,exact,1.0,13,13,0,0.1,1
+NAME,LA,startswith,CITY,Chicago,exact,1.0,13,13,0,0.1,1
+NAME,O,startswith,COUNTRY,United States,exact,1.0,13,13,0,0.1,1
+NAME,Rey,startswith,PHONE,312-332-0055,exact,1.0,13,13,0,0.1,3
+NAME,LA,startswith,PHONE,312-577-7985,exact,1.0,13,13,0,0.1,4
+NAME,Wal-,startswith,STATE,AR,exact,1.0,13,13,0,0.1,2
+NAME,Ni,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,Pau,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,Ru,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,Rey,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,LA,startswith,STATE,IL,exact,1.0,13,13,0,0.1,1
+NAME,Ni,startswith,ZIP,60602,exact,1.0,13,13,0,0.1,1
+NAME,Wal-,startswith,ZIP,72716,exact,1.0,13,13,0,0.1,2
+PHONE,47,startswith,CITY,Bentonville,exact,1.0,13,13,0,0.1,4
+PHONE,646-7,startswith,CITY,New York,exact,1.0,13,13,0,0.1,1
+PHONE,646-7,startswith,FAX,646-855-1381,exact,1.0,13,13,0,0.1,1
+PHONE,47,startswith,NAME,"Wal-Mart Stores, Inc.",exact,1.0,13,13,0,0.1,4
+PHONE,47,startswith,STATE,AR,exact,1.0,13,13,0,0.1,4
+PHONE,646-7,startswith,ZIP,10036,exact,1.0,13,13,0,0.1,1
+PHONE,47,startswith,ZIP,72716,exact,1.0,13,13,0,0.1,4
+STATE,AR,startswith,CITY,Bentonville,exact,1.0,13,13,0,0.1,1
+STATE,AR,startswith,NAME,"Wal-Mart Stores, Inc.",exact,1.0,13,13,0,0.1,1
+STATE,AR,startswith,ZIP,72716,exact,1.0,13,13,0,0.1,1
+ZIP,60443,startswith,ADDRESS_1,"150 Pierce Rd., Ste. 200",exact,1.0,13,13,0,0.1,1
+ZIP,72,startswith,CITY,Bentonville,exact,1.0,13,13,0,0.1,4
+ZIP,452,startswith,CITY,Cincinnati,exact,1.0,13,13,0,0.1,3
+ZIP,60443,startswith,CITY,Itasca,exact,1.0,13,13,0,0.1,1
+ZIP,60443,startswith,FAX,630-948-666,exact,1.0,13,13,0,0.1,1
+ZIP,60443,startswith,NAME,SUPERVALU d/b/a Jewel-Osco and Save-a-Lot,exact,1.0,13,13,0,0.1,1
+ZIP,72,startswith,NAME,"Wal-Mart Stores, Inc.",exact,1.0,13,13,0,0.1,4
+ZIP,60443,startswith,PHONE,630-948-6425,exact,1.0,13,13,0,0.1,1
+ZIP,72,startswith,STATE,AR,exact,1.0,13,13,0,0.1,4
+ADDRESS_1,702,startswith,CITY,Bentonville,exact,1.0,12,12,0,0.1,3
+ADDRESS_1,230,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,4000,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,210,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,353,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,6808,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,71 ,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,525 W,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,525 W,startswith,FAX,312-902-1061,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,525 W,startswith,NAME,Katten Muchin Rosenman LLP,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,209 W,startswith,NAME,SEIU Health Care IL/IN,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,702,startswith,NAME,"Wal-Mart Stores, Inc.",exact,1.0,12,12,0,0.1,3
+ADDRESS_1,525 W,startswith,PHONE,312-902-5200,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,209 W,startswith,PHONE,312-980-9000,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,702,startswith,STATE,AR,exact,1.0,12,12,0,0.1,3
+ADDRESS_1,210,startswith,STATE,IL,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,525 W,startswith,STATE,IL,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,230,startswith,ZIP,60606,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,71 ,startswith,ZIP,60606,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,209 W,startswith,ZIP,60606,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,4000,startswith,ZIP,60609,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,6808,startswith,ZIP,60638,exact,1.0,12,12,0,0.1,2
+ADDRESS_1,353,startswith,ZIP,60654,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,525 W,startswith,ZIP,60661,exact,1.0,12,12,0,0.1,1
+ADDRESS_1,702,startswith,ZIP,72716,exact,1.0,12,12,0,0.1,3
+ADDRESS_2,4,startswith,ACTIVE,Y,exact,1.0,12,12,0,0.1,1
+ADDRESS_2,M,startswith,ACTIVE,Y,exact,1.0,12,12,0,0.1,1
+ADDRESS_2,4,startswith,COUNTRY,United States,exact,1.0,12,12,0,0.1,1
+ADDRESS_2,M,startswith,COUNTRY,United States,exact,1.0,12,12,0,0.1,1
+CITY,Lom,startswith,STATE,IL,exact,1.0,12,12,0,0.1,1
+CITY,Lom,startswith,ZIP,60148,exact,1.0,12,12,0,0.1,4
+COUNTRY,C,startswith,ACTIVE,Y,exact,1.0,12,12,0,0.1,1
+EMPLOYER_ID,752,startswith,CREATED_DATE,01/18/2013,exact,1.0,12,12,0,0.1,1
+EMPLOYER_ID,1036,startswith,CREATED_DATE,01/20/2014,exact,1.0,12,12,0,0.1,1
+EMPLOYER_ID,780,startswith,CREATED_DATE,02/01/2013,exact,1.0,12,12,0,0.1,1
+FAX,415-3,startswith,PHONE,415-389-6800,exact,1.0,12,12,0,0.1,1
+FAX,612-7,startswith,ZIP,55403,exact,1.0,12,12,0,0.1,1
+NAME,Tris,startswith,ADDRESS_1,"30 W. Monroe St., Ste. 630",exact,1.0,12,12,0,0.1,3
+NAME,Katt,startswith,ADDRESS_1,525 West Monroe St.,exact,1.0,12,12,0,0.1,3
+NAME,McG,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+NAME,Johns,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+NAME,Metropolitan,startswith,CITY,Chicago,exact,1.0,12,12,0,0.1,1
+NAME,J C,startswith,CITY,New York,exact,1.0,12,12,0,0.1,1
+NAME,Tris,startswith,FAX,312-345-1533,exact,1.0,12,12,0,0.1,3
+NAME,Katt,startswith,FAX,312-902-1061,exact,1.0,12,12,0,0.1,3
+NAME,Tris,startswith,PHONE,312-345-9200,exact,1.0,12,12,0,0.1,3
+NAME,Katt,startswith,PHONE,312-902-5200,exact,1.0,12,12,0,0.1,3
+NAME,MK,startswith,STATE,IL,exact,1.0,12,12,0,0.1,1
+NAME,Metropolitan,startswith,STATE,IL,exact,1.0,12,12,0,0.1,1
+NAME,J C,startswith,STATE,NY,exact,1.0,12,12,0,0.1,1
+NAME,J C,startswith,ZIP,10016,exact,1.0,12,12,0,0.1,3
+NAME,Tris,startswith,ZIP,60603,exact,1.0,12,12,0,0.1,1
+NAME,Metropolitan,startswith,ZIP,60606,exact,1.0,12,12,0,0.1,1
+NAME,Katt,startswith,ZIP,60661,exact,1.0,12,12,0,0.1,3
+PHONE,415-3,startswith,FAX,415-388-6874,exact,1.0,12,12,0,0.1,1
+PHONE,302,startswith,STATE,DE,exact,1.0,12,12,0,0.1,1
+PHONE,513,startswith,STATE,OH,exact,1.0,12,12,0,0.1,1
+PHONE,312.3,startswith,ZIP,60602,exact,1.0,12,12,0,0.1,1
+ZIP,60148,startswith,CITY,Lombard,exact,1.0,12,12,0,0.1,1
+ZIP,198,startswith,STATE,DE,exact,1.0,12,12,0,0.1,3
+ADDRESS_1,1 N ,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,53 ,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,1040,startswith,CITY,Rosemont,exact,1.0,11,11,0,0.1,2
+ADDRESS_1,77 We,startswith,FAX,312-997-8531,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,77 We,startswith,NAME,United Airlines,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,77 We,startswith,PHONE,312-997-8088,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,330 N,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,53 ,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,1040,startswith,ZIP,60018,exact,1.0,11,11,0,0.1,2
+ADDRESS_1,77 We,startswith,ZIP,60601,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,53 ,startswith,ZIP,60604,exact,1.0,11,11,0,0.1,2
+ADDRESS_2,s,startswith,ACTIVE,Y,exact,1.0,11,11,0,0.1,1
+ADDRESS_2,s,startswith,COUNTRY,United States,exact,1.0,11,11,0,0.1,1
+ADDRESS_2,s,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+CITY,Wilmi,startswith,STATE,DE,exact,1.0,11,11,0,0.1,2
+CITY,Mil,startswith,STATE,WI,exact,1.0,11,11,0,0.1,4
+CITY,Wilmi,startswith,ZIP,19884,exact,1.0,11,11,0,0.1,2
+CREATED_DATE,11/1,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+CREATED_DATE,11/1,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,ADDRESS_1,100 N Tryon Street,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,ADDRESS_2,NC1-007-22-32,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,CITY,Charlotte,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,1006,startswith,CREATED_DATE,01/09/2014,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,742,startswith,CREATED_DATE,01/16/2013,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,1040,startswith,CREATED_DATE,01/22/2014,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,CREATED_DATE,05/14/2013,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,FAX,704-602-3712,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,PHONE,980-386-3245,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,STATE,NC,exact,1.0,11,11,0,0.1,1
+EMPLOYER_ID,850,startswith,ZIP,28255,exact,1.0,11,11,0,0.1,1
+FAX,704,startswith,ADDRESS_1,100 N Tryon Street,exact,1.0,11,11,0,0.1,3
+FAX,704,startswith,ADDRESS_2,NC1-007-22-32,exact,1.0,11,11,0,0.1,3
+FAX,704,startswith,CITY,Charlotte,exact,1.0,11,11,0,0.1,3
+FAX,704,startswith,CREATED_DATE,05/14/2013,exact,1.0,11,11,0,0.1,3
+FAX,704,startswith,PHONE,980-386-3245,exact,1.0,11,11,0,0.1,3
+FAX,617,startswith,STATE,MA,exact,1.0,11,11,0,0.1,2
+FAX,704,startswith,STATE,NC,exact,1.0,11,11,0,0.1,3
+FAX,703,startswith,STATE,VA,exact,1.0,11,11,0,0.1,2
+FAX,704,startswith,ZIP,28255,exact,1.0,11,11,0,0.1,3
+NAME,AM,startswith,ACTIVE,Y,exact,1.0,11,11,0,0.1,1
+NAME,Z,startswith,ACTIVE,Y,exact,1.0,11,11,0,0.1,1
+NAME,Lawr,startswith,ADDRESS_1,"111 E. Wacker Drive, Suite 2800",exact,1.0,11,11,0,0.1,3
+NAME,BMO C,startswith,ADDRESS_1,115 S. LaSalle  37th Flr,exact,1.0,11,11,0,0.1,1
+NAME,Don,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+NAME,Ur,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+NAME,Sk,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+NAME,Loy,startswith,CITY,Chicago,exact,1.0,11,11,0,0.1,1
+NAME,Loca,startswith,CITY,Rosemont,exact,1.0,11,11,0,0.1,2
+NAME,Z,startswith,COUNTRY,United States,exact,1.0,11,11,0,0.1,1
+NAME,BMO C,startswith,PHONE,312-845-2005,exact,1.0,11,11,0,0.1,1
+NAME,Ur,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+NAME,Sk,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+NAME,Mot,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+NAME,Roo,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+NAME,Loca,startswith,ZIP,60018,exact,1.0,11,11,0,0.1,2
+NAME,Lawr,startswith,ZIP,60601,exact,1.0,11,11,0,0.1,1
+NAME,Das,startswith,ZIP,60606,exact,1.0,11,11,0,0.1,1
+NAME,Loy,startswith,ZIP,60611,exact,1.0,11,11,0,0.1,4
+PHONE,48,startswith,STATE,AZ,exact,1.0,11,11,0,0.1,2
+PHONE,(7,startswith,STATE,IL,exact,1.0,11,11,0,0.1,1
+ZIP,60143,startswith,CITY,Itasca,exact,1.0,11,11,0,0.1,1
+ZIP,532,startswith,CITY,Milwaukee,exact,1.0,11,11,0,0.1,1
+ADDRESS_1,98,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,350 N,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,125 W,startswith,CITY,New York,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,125 W,startswith,NAME,Macquarie Infrastructure and Real Assts Inc,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,125 W,startswith,PHONE,212-231-1000,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,98,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,2 ,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,125 W,startswith,STATE,NY,exact,1.0,10,10,0,0.1,1
+ADDRESS_1,125 W,startswith,ZIP,10019,exact,1.0,10,10,0,0.1,1
+CITY,T,startswith,ACTIVE,Y,exact,1.0,10,10,0,0.1,1
+CITY,Wh,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+CITY,Dee,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+EMPLOYER_ID,1014,startswith,CREATED_DATE,01/13/2014,exact,1.0,10,10,0,0.1,1
+EMPLOYER_ID,804,startswith,CREATED_DATE,03/15/2013,exact,1.0,10,10,0,0.1,1
+EMPLOYER_ID,486,startswith,Year,2011.0,exact,1.0,10,10,0,0.1,1
+EMPLOYER_ID,490,startswith,Year,2011.0,exact,1.0,10,10,0,0.1,1
+EMPLOYER_ID,492,startswith,Year,2011.0,exact,1.0,10,10,0,0.1,1
+NAME,BMO H,startswith,ADDRESS_1,"111 W. Monroe, 12C",exact,1.0,10,10,0,0.1,1
+NAME,Tri-,startswith,ADDRESS_1,1344 W. 43rd St.,exact,1.0,10,10,0,0.1,2
+NAME,Inc,startswith,ADDRESS_1,200 S. Wacker Dr.,exact,1.0,10,10,0,0.1,4
+NAME,AF,startswith,ADDRESS_1,"205 N. Michigan Ave., Ste. 2100",exact,1.0,10,10,0,0.1,5
+NAME,Car,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,Inc,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,Quar,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,AL,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,AF,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,Conl,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,May,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+NAME,BMO H,startswith,FAX,312-293-5811,exact,1.0,10,10,0,0.1,1
+NAME,Nic,startswith,FAX,312-658-0464,exact,1.0,10,10,0,0.1,4
+NAME,Conl,startswith,FAX,312-855-0488,exact,1.0,10,10,0,0.1,3
+NAME,BMO H,startswith,PHONE,312-461-3295,exact,1.0,10,10,0,0.1,1
+NAME,AF,startswith,PHONE,312-641-6060,exact,1.0,10,10,0,0.1,5
+NAME,Nic,startswith,PHONE,312-701-0221,exact,1.0,10,10,0,0.1,4
+NAME,Conl,startswith,PHONE,312-855-8500,exact,1.0,10,10,0,0.1,3
+NAME,Tri-,startswith,PHONE,773-523-0421,exact,1.0,10,10,0,0.1,2
+NAME,Inc,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,Su,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,Quar,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,AL,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,AF,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,Conl,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,May,startswith,STATE,IL,exact,1.0,10,10,0,0.1,1
+NAME,Airp,startswith,STATE,NJ,exact,1.0,10,10,0,0.1,3
+NAME,Airp,startswith,ZIP,07073,exact,1.0,10,10,0,0.1,3
+NAME,Fle,startswith,ZIP,60601,exact,1.0,10,10,0,0.1,1
+NAME,AF,startswith,ZIP,60601,exact,1.0,10,10,0,0.1,1
+NAME,Inc,startswith,ZIP,60606,exact,1.0,10,10,0,0.1,1
+NAME,May,startswith,ZIP,60606,exact,1.0,10,10,0,0.1,1
+NAME,Tri-,startswith,ZIP,60609,exact,1.0,10,10,0,0.1,2
+NAME,Quar,startswith,ZIP,60654,exact,1.0,10,10,0,0.1,3
+PHONE,877-3,startswith,ADDRESS_1,461 5th Avenue,exact,1.0,10,10,0,0.1,1
+PHONE,414,startswith,CITY,Milwaukee,exact,1.0,10,10,0,0.1,3
+PHONE,877-3,startswith,CITY,New York,exact,1.0,10,10,0,0.1,1
+PHONE,877-3,startswith,NAME,US Bancorp,exact,1.0,10,10,0,0.1,1
+PHONE,877-3,startswith,STATE,NY,exact,1.0,10,10,0,0.1,1
+PHONE,414,startswith,STATE,WI,exact,1.0,10,10,0,0.1,3
+PHONE,877-3,startswith,ZIP,10017,exact,1.0,10,10,0,0.1,1
+ZIP,60430,startswith,ADDRESS_1,"600 W. Van Buren, Ste. 909",exact,1.0,10,10,0,0.1,1
+ZIP,0211,startswith,CITY,Boston,exact,1.0,10,10,0,0.1,1
+ZIP,60430,startswith,CITY,Chicago,exact,1.0,10,10,0,0.1,1
+ZIP,9410,startswith,CITY,San Francisco,exact,1.0,10,10,0,0.1,1
+ZIP,60430,startswith,NAME,Roosevelt Group,exact,1.0,10,10,0,0.1,1
+ZIP,60430,startswith,PHONE,312-332-6600,exact,1.0,10,10,0,0.1,1
 CITY,C,startswith,COUNTRY,United States,exact,0.999555,2249,2248,1,0.1,1
 STATE,I,startswith,COUNTRY,United States,exact,0.998806,2513,2510,3,0.1,1
 ADDRESS_1,2,startswith,COUNTRY,United States,exact,0.998663,748,747,1,0.1,1
@@ -158,7 +659,7 @@ ADDRESS_2,S,startswith,ACTIVE,Y,exact,0.997938,485,484,1,0.1,1
 ADDRESS_1,1,startswith,COUNTRY,United States,exact,0.997517,1208,1205,3,0.1,1
 PHONE,7,startswith,COUNTRY,United States,exact,0.997126,348,347,1,0.1,1
 ACTIVE,Y,startswith,COUNTRY,United States,exact,0.996466,3396,3384,12,0.1,1
-Year,2,startswith,COUNTRY,United States,exact,0.996387,3321,3309,12,0.1,9
+Year,2,startswith,COUNTRY,United States,exact,0.996387,3321,3309,12,0.1,15
 ADDRESS_1,3,startswith,COUNTRY,United States,exact,0.996016,502,500,2,0.1,1
 FAX,7,startswith,COUNTRY,United States,exact,0.995833,240,239,1,0.1,1
 CREATED_DATE,1,startswith,COUNTRY,United States,exact,0.995816,239,238,1,0.1,1
@@ -180,11 +681,12 @@ FAX,7,startswith,ACTIVE,Y,exact,0.9875,240,237,3,0.1,1
 EMPLOYER_ID,7,startswith,COUNTRY,United States,exact,0.987138,311,307,4,0.1,1
 STATE,N,startswith,COUNTRY,United States,exact,0.987047,386,381,5,0.1,1
 FAX,6,startswith,COUNTRY,United States,exact,0.986928,153,151,2,0.1,1
+ADDRESS_1,111 E,startswith,ZIP,60601,exact,0.986842,76,75,1,0.1,1
 STATE,DC,startswith,CITY,Washington,exact,0.986842,76,75,1,0.1,1
 NAME,I,startswith,COUNTRY,United States,exact,0.985294,136,134,2,0.1,1
 NAME,Il,startswith,STATE,IL,exact,0.984375,64,63,1,0.1,1
 FAX,8,startswith,ACTIVE,Y,exact,0.983607,122,120,2,0.1,1
-ZIP,606,startswith,CITY,Chicago,exact,0.982637,2131,2094,37,0.1,13
+ZIP,606,startswith,CITY,Chicago,exact,0.982637,2131,2094,37,0.1,1
 PHONE,8,startswith,COUNTRY,United States,exact,0.982353,170,167,3,0.1,1
 ADDRESS_1,44,startswith,CITY,Chicago,exact,0.982143,56,55,1,0.1,1
 ADDRESS_1,44,startswith,STATE,IL,exact,0.982143,56,55,1,0.1,1
@@ -193,88 +695,153 @@ ADDRESS_1,70 ,startswith,CITY,Chicago,exact,0.980769,52,51,1,0.1,1
 ADDRESS_1,70 ,startswith,STATE,IL,exact,0.980769,52,51,1,0.1,1
 ADDRESS_1,70 ,startswith,ZIP,60602,exact,0.980769,52,51,1,0.1,1
 FAX,212,startswith,STATE,NY,exact,0.980392,102,100,2,0.1,1
-FAX,202,startswith,STATE,DC,exact,0.98,50,49,1,0.1,1
+FAX,202,startswith,STATE,DC,exact,0.98,50,49,1,0.1,4
 ADDRESS_1,40,startswith,ACTIVE,Y,exact,0.979167,48,47,1,0.1,1
 PHONE,212,startswith,STATE,NY,exact,0.978378,185,181,4,0.1,1
-PHONE,(312),startswith,CITY,Chicago,exact,0.978261,46,45,1,0.1,1
+PHONE,(312,startswith,CITY,Chicago,exact,0.978261,46,45,1,0.1,1
 NAME,Ge,startswith,STATE,IL,exact,0.97619,42,41,1,0.1,1
 ADDRESS_1,1,startswith,ACTIVE,Y,exact,0.975993,1208,1179,29,0.1,1
+ADDRESS_1,205 N,startswith,ZIP,60601,exact,0.974359,39,38,1,0.1,1
 PHONE,4,startswith,COUNTRY,United States,exact,0.974138,116,113,3,0.1,1
 CITY,A,startswith,ACTIVE,Y,exact,0.974026,77,75,2,0.1,1
 ADDRESS_1,O,startswith,ACTIVE,Y,exact,0.973684,76,74,2,0.1,1
+ADDRESS_1,111 E,startswith,STATE,IL,exact,0.973684,76,74,2,0.1,1
 PHONE,5,startswith,ACTIVE,Y,exact,0.973333,75,73,2,0.1,1
 FAX,4,startswith,COUNTRY,United States,exact,0.972603,73,71,2,0.1,1
 ADDRESS_1,20 ,startswith,CITY,Chicago,exact,0.971429,35,34,1,0.1,1
 FAX,77,startswith,STATE,IL,exact,0.971223,139,135,4,0.1,1
-CITY,Ne,startswith,STATE,NY,exact,0.970909,275,267,8,0.1,2
-ZIP,6,startswith,STATE,IL,exact,0.970905,2509,2436,73,0.1,21
+CITY,Ne,startswith,STATE,NY,exact,0.970909,275,267,8,0.1,1
+ZIP,6,startswith,STATE,IL,exact,0.970905,2509,2436,73,0.1,57
 ADDRESS_1,203,startswith,CITY,Chicago,exact,0.970588,68,66,2,0.1,1
-ADDRESS_1,127,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,1
-ADDRESS_1,127,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,1
-ADDRESS_1,127,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,1
-CITY,Cl,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,3
-CITY,Cl,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,3
-PHONE,216,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,1
+ADDRESS_1,One S,startswith,CITY,Chicago,exact,0.970588,34,33,1,0.1,1
+ADDRESS_1,127,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,3
+ADDRESS_1,One S,startswith,STATE,IL,exact,0.970588,34,33,1,0.1,1
+ADDRESS_1,127,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,3
+ADDRESS_1,127,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,3
+CITY,Cl,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,1
+CITY,Cl,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,5
+PHONE,216,startswith,CITY,Cleveland,exact,0.970588,34,33,1,0.1,3
 PHONE,216,startswith,STATE,OH,exact,0.970588,34,33,1,0.1,1
-PHONE,216,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,1
+PHONE,216,startswith,ZIP,44114,exact,0.970588,34,33,1,0.1,3
 NAME,E,startswith,COUNTRY,United States,exact,0.970149,67,65,2,0.1,1
 STATE,I,startswith,ACTIVE,Y,exact,0.969757,2513,2437,76,0.1,1
 ZIP,6,startswith,ACTIVE,Y,exact,0.969709,2509,2433,76,0.1,1
-COUNTRY,U,startswith,ACTIVE,Y,exact,0.969628,3490,3384,106,0.1,4
+ADDRESS_1,180 ,startswith,CITY,Chicago,exact,0.969697,33,32,1,0.1,1
+COUNTRY,U,startswith,ACTIVE,Y,exact,0.969628,3490,3384,106,0.1,1
 CITY,C,startswith,ACTIVE,Y,exact,0.96932,2249,2180,69,0.1,1
-Year,2,startswith,ACTIVE,Y,exact,0.968985,3321,3218,103,0.1,9
+Year,2,startswith,ACTIVE,Y,exact,0.968985,3321,3218,103,0.1,15
 PHONE,77,startswith,STATE,IL,exact,0.968889,225,218,7,0.1,1
 FAX,5,startswith,ACTIVE,Y,exact,0.96875,64,62,2,0.1,1
 PHONE,63,startswith,STATE,IL,exact,0.968421,95,92,3,0.1,1
 PHONE,84,startswith,STATE,IL,exact,0.968085,94,91,3,0.1,1
 PHONE,212,startswith,CITY,New York,exact,0.967568,185,179,6,0.1,1
 ADDRESS_1,7,startswith,COUNTRY,United States,exact,0.967033,182,176,6,0.1,1
-ZIP,02,startswith,STATE,MA,exact,0.966667,30,29,1,0.1,1
+ZIP,02,startswith,STATE,MA,exact,0.966667,30,29,1,0.1,3
 PHONE,3,startswith,ACTIVE,Y,exact,0.966127,1978,1911,67,0.1,1
 ZIP,1,startswith,ACTIVE,Y,exact,0.966102,354,342,12,0.1,1
+STATE,F,startswith,ACTIVE,Y,exact,0.965517,29,28,1,0.1,1
 CITY,N,startswith,ACTIVE,Y,exact,0.96519,316,305,11,0.1,1
 NAME,U,startswith,COUNTRY,United States,exact,0.965035,143,138,5,0.1,1
 PHONE,6,startswith,ACTIVE,Y,exact,0.964758,227,219,8,0.1,1
+ADDRESS_1,500 N,startswith,STATE,IL,exact,0.964286,28,27,1,0.1,1
 NAME,Com,startswith,STATE,IL,exact,0.963636,55,53,2,0.1,1
+CITY,Pa,startswith,STATE,IL,exact,0.962963,27,26,1,0.1,1
+NAME,Ca,startswith,STATE,IL,exact,0.962963,27,26,1,0.1,1
+CITY,F,startswith,ACTIVE,Y,exact,0.961538,26,25,1,0.1,1
 STATE,N,startswith,ACTIVE,Y,exact,0.96114,386,371,15,0.1,1
 FAX,212,startswith,CITY,New York,exact,0.960784,102,98,4,0.1,1
-FAX,202,startswith,CITY,Washington,exact,0.96,50,48,2,0.1,1
+FAX,202,startswith,CITY,Washington,exact,0.96,50,48,2,0.1,4
 NAME,Mi,startswith,STATE,IL,exact,0.96,50,48,2,0.1,1
+ZIP,60018,startswith,CITY,Rosemont,exact,0.96,25,24,1,0.1,1
 FAX,3,startswith,ACTIVE,Y,exact,0.959561,1459,1400,59,0.1,1
 ZIP,0,startswith,ACTIVE,Y,exact,0.958333,96,92,4,0.1,1
-PHONE,202,startswith,STATE,DC,exact,0.957746,71,68,3,0.1,1
+CREATED_DATE,01/07,startswith,STATE,IL,exact,0.958333,24,23,1,0.1,1
+FAX,9,startswith,ACTIVE,Y,exact,0.958333,24,23,1,0.1,1
+PHONE,202,startswith,STATE,DC,exact,0.957746,71,68,3,0.1,4
 NAME,SE,startswith,STATE,IL,exact,0.955556,45,43,2,0.1,1
 ZIP,7,startswith,ACTIVE,Y,exact,0.955556,45,43,2,0.1,1
+ADDRESS_1,222 N,startswith,ZIP,60601,exact,0.954545,22,21,1,0.1,1
+EMPLOYER_ID,472,startswith,STATE,IL,exact,0.954545,22,21,1,0.1,1
+NAME,Sie,startswith,STATE,IL,exact,0.952381,21,20,1,0.1,1
+NAME,JPM,startswith,STATE,IL,exact,0.952381,21,20,1,0.1,1
+NAME,JPM,startswith,ZIP,60603,exact,0.952381,21,20,1,0.1,1
 ADDRESS_1,2,startswith,ACTIVE,Y,exact,0.951872,748,712,36,0.1,1
+ADDRESS_1,111 ,startswith,CITY,Chicago,exact,0.951389,144,137,7,0.1,1
 CITY,E,startswith,ACTIVE,Y,exact,0.95122,41,39,2,0.1,1
 ADDRESS_1,6,startswith,ACTIVE,Y,exact,0.950355,141,134,7,0.1,1
 PHONE,2,startswith,ACTIVE,Y,exact,0.950131,381,362,19,0.1,1
-CITY,Wa,startswith,STATE,DC,exact,0.95,80,76,4,0.1,3
-ZIP,20,startswith,STATE,DC,exact,0.95,80,76,4,0.1,3
+CITY,Wa,startswith,STATE,DC,exact,0.95,80,76,4,0.1,5
+ZIP,20,startswith,STATE,DC,exact,0.95,80,76,4,0.1,6
+ADDRESS_1,10 S,startswith,CITY,Chicago,exact,0.95,60,57,3,0.1,1
+ADDRESS_1,10 S,startswith,STATE,IL,exact,0.95,60,57,3,0.1,1
+NAME,Jeffe,startswith,CITY,New York,exact,0.95,20,19,1,0.1,1
+NAME,Jeffe,startswith,STATE,NY,exact,0.95,20,19,1,0.1,1
+NAME,Jeffe,startswith,ZIP,10022,exact,0.95,20,19,1,0.1,2
 ZIP,2,startswith,ACTIVE,Y,exact,0.948529,136,129,7,0.1,1
+ADDRESS_1,520,startswith,FAX,212-909-9920,exact,0.947368,19,18,1,0.1,3
+NAME,Hi,startswith,STATE,IL,exact,0.947368,19,18,1,0.1,1
 FAX,64,startswith,STATE,NY,exact,0.945946,37,35,2,0.1,1
 NAME,Nea,startswith,CITY,Chicago,exact,0.945946,37,35,2,0.1,1
 ADDRESS_1,7,startswith,ACTIVE,Y,exact,0.945055,182,172,10,0.1,1
 EMPLOYER_ID,4,startswith,ACTIVE,Y,exact,0.944563,1876,1772,104,0.1,1
 NAME,D,startswith,ACTIVE,Y,exact,0.944444,144,136,8,0.1,1
+ADDRESS_1,155,startswith,CITY,Chicago,exact,0.944444,18,17,1,0.1,1
+ADDRESS_1,233,startswith,CITY,Chicago,exact,0.944444,18,17,1,0.1,1
+ADDRESS_1,155,startswith,STATE,IL,exact,0.944444,18,17,1,0.1,1
+ADDRESS_1,233,startswith,STATE,IL,exact,0.944444,18,17,1,0.1,1
+PHONE,85,startswith,STATE,NJ,exact,0.944444,18,17,1,0.1,1
 FAX,3,startswith,CITY,Chicago,exact,0.943797,1459,1377,82,0.1,1
-PHONE,202,startswith,CITY,Washington,exact,0.943662,71,67,4,0.1,1
+PHONE,202,startswith,CITY,Washington,exact,0.943662,71,67,4,0.1,4
 FAX,646,startswith,CITY,New York,exact,0.942857,35,33,2,0.1,1
 STATE,A,startswith,COUNTRY,United States,exact,0.942857,35,33,2,0.1,1
+NAME,Neal ,startswith,PHONE,312-641-7144,exact,0.941176,34,32,2,0.1,1
+CITY,Par,startswith,PHONE,847-292-1225,exact,0.941176,17,16,1,0.1,3
+CITY,Par,startswith,ZIP,60068,exact,0.941176,17,16,1,0.1,3
+FAX,202-3,startswith,PHONE,202-776-1005,exact,0.941176,17,16,1,0.1,1
+NAME,Sh,startswith,CITY,Chicago,exact,0.941176,17,16,1,0.1,1
+NAME,Teams,startswith,CITY,Park Ridge,exact,0.941176,17,16,1,0.1,2
+NAME,Teams,startswith,PHONE,847-292-1225,exact,0.941176,17,16,1,0.1,2
+NAME,Teams,startswith,ZIP,60068,exact,0.941176,17,16,1,0.1,2
+NAME,Sh,startswith,ZIP,60601,exact,0.941176,17,16,1,0.1,1
+PHONE,98,startswith,ADDRESS_1,100 N Tryon Street,exact,0.941176,17,16,1,0.1,4
+PHONE,98,startswith,ADDRESS_2,NC1-007-22-32,exact,0.941176,17,16,1,0.1,4
+PHONE,98,startswith,ZIP,28255,exact,0.941176,17,16,1,0.1,4
+ZIP,60068,startswith,CITY,Park Ridge,exact,0.941176,17,16,1,0.1,1
+ZIP,60068,startswith,PHONE,847-292-1225,exact,0.941176,17,16,1,0.1,1
+ADDRESS_1,180 ,startswith,ZIP,60601,exact,0.939394,33,31,2,0.1,1
 CITY,W,startswith,ACTIVE,Y,exact,0.938931,131,123,8,0.1,1
 FAX,3,startswith,STATE,IL,exact,0.938314,1459,1369,90,0.1,1
-ZIP,20,startswith,CITY,Washington,exact,0.9375,80,75,5,0.1,3
+ZIP,20,startswith,CITY,Washington,exact,0.9375,80,75,5,0.1,6
+CITY,Me,startswith,STATE,TN,exact,0.9375,16,15,1,0.1,5
+NAME,Mc,startswith,STATE,IL,exact,0.9375,16,15,1,0.1,1
+PHONE,90,startswith,STATE,TN,exact,0.9375,16,15,1,0.1,3
+ZIP,10004,startswith,NAME,Rice Financial Products Company,exact,0.9375,16,15,1,0.1,1
 ADDRESS_1,22,startswith,STATE,IL,exact,0.93722,223,209,14,0.1,1
-ZIP,10,startswith,CITY,New York,exact,0.936842,285,267,18,0.1,7
+ZIP,10,startswith,CITY,New York,exact,0.936842,285,267,18,0.1,16
 NAME,Ch,startswith,CITY,Chicago,exact,0.93578,109,102,7,0.1,1
 EMPLOYER_ID,40,startswith,CITY,Chicago,exact,0.935484,31,29,2,0.1,1
-PHONE,612,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,1
-ZIP,554,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,1
+PHONE,612,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,4
+ZIP,554,startswith,CITY,Minneapolis,exact,0.935484,31,29,2,0.1,4
 FAX,2,startswith,ACTIVE,Y,exact,0.934426,244,228,16,0.1,1
 PHONE,5,startswith,COUNTRY,United States,exact,0.933333,75,70,5,0.1,1
 ADDRESS_1,1 E,startswith,CITY,Chicago,exact,0.933333,30,28,2,0.1,1
 EMPLOYER_ID,426,startswith,CITY,Chicago,exact,0.933333,30,28,2,0.1,1
 EMPLOYER_ID,426,startswith,STATE,IL,exact,0.933333,30,28,2,0.1,1
+NAME,Unit,startswith,CITY,Chicago,exact,0.933333,30,28,2,0.1,1
+NAME,Unit,startswith,STATE,IL,exact,0.933333,30,28,2,0.1,1
+ADDRESS_1,745,startswith,NAME,"Barclays Capital, Inc.",exact,0.933333,15,14,1,0.1,3
+ADDRESS_1,227,startswith,ZIP,60606,exact,0.933333,15,14,1,0.1,1
+CITY,San R,startswith,ZIP,94901,exact,0.933333,15,14,1,0.1,1
+CREATED_DATE,01/23,startswith,STATE,IL,exact,0.933333,15,14,1,0.1,1
+NAME,Ho,startswith,CITY,Chicago,exact,0.933333,15,14,1,0.1,1
+NAME,Mich,startswith,CITY,Chicago,exact,0.933333,15,14,1,0.1,1
+ZIP,949,startswith,CITY,San Rafael,exact,0.933333,15,14,1,0.1,3
+ADDRESS_1,300,startswith,CITY,Chicago,exact,0.931034,29,27,2,0.1,1
+ADDRESS_1,300,startswith,STATE,IL,exact,0.931034,29,27,2,0.1,1
+CITY,Ro,startswith,STATE,IL,exact,0.931034,29,27,2,0.1,1
+NAME,Tr,startswith,CITY,Chicago,exact,0.931034,29,27,2,0.1,1
+NAME,Unis,startswith,ZIP,60601,exact,0.931034,29,27,2,0.1,1
+STATE,TX,startswith,ACTIVE,Y,exact,0.931034,29,27,2,0.1,1
 ADDRESS_1,30 ,startswith,CITY,Chicago,exact,0.930233,43,40,3,0.1,1
 ADDRESS_1,30 ,startswith,STATE,IL,exact,0.930233,43,40,3,0.1,1
 CITY,C,startswith,STATE,IL,exact,0.928857,2249,2089,160,0.1,1
@@ -283,43 +850,193 @@ ADDRESS_1,35,startswith,STATE,IL,exact,0.928571,56,52,4,0.1,1
 ADDRESS_1,55,startswith,CITY,Chicago,exact,0.928571,42,39,3,0.1,1
 ADDRESS_1,55,startswith,STATE,IL,exact,0.928571,42,39,3,0.1,1
 NAME,Ge,startswith,CITY,Chicago,exact,0.928571,42,39,3,0.1,1
+ADDRESS_1,388,startswith,CITY,New York,exact,0.928571,28,26,2,0.1,1
+ADDRESS_1,388,startswith,STATE,NY,exact,0.928571,28,26,2,0.1,1
+ADDRESS_1,388,startswith,ZIP,10013,exact,0.928571,28,26,2,0.1,3
+EMPLOYER_ID,428,startswith,CITY,Chicago,exact,0.928571,28,26,2,0.1,1
+NAME,Da,startswith,CITY,Chicago,exact,0.928571,28,26,2,0.1,1
+NAME,Da,startswith,STATE,IL,exact,0.928571,28,26,2,0.1,1
+ADDRESS_1,409,startswith,FAX,312-943-8397,exact,0.928571,14,13,1,0.1,3
+ADDRESS_1,1 B,startswith,FAX,646-855-1381,exact,0.928571,14,13,1,0.1,3
+ADDRESS_1,409,startswith,PHONE,312-943-1955,exact,0.928571,14,13,1,0.1,3
+ADDRESS_1,1 B,startswith,PHONE,646-743-1359,exact,0.928571,14,13,1,0.1,3
+ADDRESS_1,1 B,startswith,ZIP,10036,exact,0.928571,14,13,1,0.1,1
+ADDRESS_1,233 S,startswith,ZIP,60606,exact,0.928571,14,13,1,0.1,1
+CITY,Ben,startswith,NAME,"Wal-Mart Stores, Inc.",exact,0.928571,14,13,1,0.1,4
+CITY,Ben,startswith,STATE,AR,exact,0.928571,14,13,1,0.1,4
+CITY,Ben,startswith,ZIP,72716,exact,0.928571,14,13,1,0.1,4
+EMPLOYER_ID,72,startswith,STATE,IL,exact,0.928571,14,13,1,0.1,1
+EMPLOYER_ID,756,startswith,STATE,IL,exact,0.928571,14,13,1,0.1,1
+NAME,SU,startswith,ADDRESS_1,"150 Pierce Rd., Ste. 200",exact,0.928571,14,13,1,0.1,5
+NAME,Ar,startswith,CITY,Chicago,exact,0.928571,14,13,1,0.1,1
+NAME,SU,startswith,CITY,Itasca,exact,0.928571,14,13,1,0.1,5
+NAME,Ser,startswith,FAX,312-943-8397,exact,0.928571,14,13,1,0.1,4
+NAME,SU,startswith,FAX,630-948-666,exact,0.928571,14,13,1,0.1,5
+NAME,Ser,startswith,PHONE,312-943-1955,exact,0.928571,14,13,1,0.1,4
+NAME,SU,startswith,PHONE,630-948-6425,exact,0.928571,14,13,1,0.1,5
+NAME,SU,startswith,STATE,IL,exact,0.928571,14,13,1,0.1,1
+NAME,SU,startswith,ZIP,60443,exact,0.928571,14,13,1,0.1,5
 NAME,La,startswith,STATE,IL,exact,0.926829,41,38,3,0.1,1
 ADDRESS_1,203,startswith,ZIP,60601,exact,0.926471,68,63,5,0.1,1
 PHONE,9,startswith,ACTIVE,Y,exact,0.926471,68,63,5,0.1,1
 PHONE,3,startswith,STATE,IL,exact,0.926188,1978,1832,146,0.1,1
 FAX,63,startswith,STATE,IL,exact,0.925926,81,75,6,0.1,1
+ADDRESS_1,50 ,startswith,CITY,Chicago,exact,0.925926,27,25,2,0.1,1
+ADDRESS_1,50 ,startswith,STATE,IL,exact,0.925926,27,25,2,0.1,1
+ADDRESS_1,50 ,startswith,ZIP,60603,exact,0.925926,27,25,2,0.1,1
+EMPLOYER_ID,452,startswith,STATE,IL,exact,0.925926,27,25,2,0.1,1
 ADDRESS_1,33,startswith,CITY,Chicago,exact,0.925234,107,99,8,0.1,1
+ADDRESS_1,77 ,startswith,CITY,Chicago,exact,0.923077,26,24,2,0.1,1
+ADDRESS_1,50 S,startswith,NAME,Northern Trust Corporation,exact,0.923077,26,24,2,0.1,2
+CITY,Ros,startswith,ZIP,60018,exact,0.923077,26,24,2,0.1,4
+ADDRESS_1,17 ,startswith,CITY,New York,exact,0.923077,13,12,1,0.1,1
+ADDRESS_1,30 W,startswith,FAX,312-345-1533,exact,0.923077,13,12,1,0.1,2
+ADDRESS_1,17 ,startswith,NAME,Rice Financial Products Company,exact,0.923077,13,12,1,0.1,3
+ADDRESS_1,30 W,startswith,NAME,Tristan & Cervantes,exact,0.923077,13,12,1,0.1,2
+ADDRESS_1,30 W,startswith,PHONE,312-345-9200,exact,0.923077,13,12,1,0.1,2
+ADDRESS_1,17 ,startswith,STATE,NY,exact,0.923077,13,12,1,0.1,1
+ADDRESS_1,17 ,startswith,ZIP,10004,exact,0.923077,13,12,1,0.1,3
+ADDRESS_1,30 W,startswith,ZIP,60603,exact,0.923077,13,12,1,0.1,1
+CITY,Ar,startswith,STATE,VA,exact,0.923077,13,12,1,0.1,5
+CITY,Ar,startswith,ZIP,22203,exact,0.923077,13,12,1,0.1,5
+EMPLOYER_ID,698,startswith,CITY,Chicago,exact,0.923077,13,12,1,0.1,1
+EMPLOYER_ID,758,startswith,STATE,IL,exact,0.923077,13,12,1,0.1,1
+EMPLOYER_ID,81,startswith,STATE,IL,exact,0.923077,13,12,1,0.1,1
+NAME,Fl,startswith,CITY,Chicago,exact,0.923077,13,12,1,0.1,1
+NAME,Fl,startswith,STATE,IL,exact,0.923077,13,12,1,0.1,1
+ZIP,222,startswith,CITY,Arlington,exact,0.923077,13,12,1,0.1,3
 FAX,5,startswith,COUNTRY,United States,exact,0.921875,64,59,5,0.1,1
 ADDRESS_1,60,startswith,STATE,IL,exact,0.921053,38,35,3,0.1,1
-NAME,Cit,startswith,CITY,New York,exact,0.921053,38,35,3,0.1,2
-NAME,Cit,startswith,STATE,NY,exact,0.921053,38,35,3,0.1,2
+NAME,Cit,startswith,CITY,New York,exact,0.921053,38,35,3,0.1,1
+NAME,Cit,startswith,STATE,NY,exact,0.921053,38,35,3,0.1,1
 FAX,77,startswith,CITY,Chicago,exact,0.920863,139,128,11,0.1,1
 CITY,D,startswith,COUNTRY,United States,exact,0.920635,63,58,5,0.1,1
 ADDRESS_1,205,startswith,STATE,IL,exact,0.92,50,46,4,0.1,1
+ADDRESS_1,19,startswith,CITY,Chicago,exact,0.92,25,23,2,0.1,1
+ADDRESS_1,150 ,startswith,CITY,Itasca,exact,0.92,25,23,2,0.1,2
+ADDRESS_1,1800,startswith,CITY,Washington,exact,0.92,25,23,2,0.1,1
+ADDRESS_1,1800,startswith,STATE,DC,exact,0.92,25,23,2,0.1,1
+ADDRESS_1,150 ,startswith,STATE,IL,exact,0.92,25,23,2,0.1,1
+ADDRESS_1,1800,startswith,ZIP,20036,exact,0.92,25,23,2,0.1,2
+ADDRESS_1,212 ,startswith,ZIP,60606,exact,0.92,25,23,2,0.1,1
+EMPLOYER_ID,462,startswith,CITY,Chicago,exact,0.92,25,23,2,0.1,1
+EMPLOYER_ID,462,startswith,STATE,IL,exact,0.92,25,23,2,0.1,1
+NAME,Ban,startswith,ACTIVE,Y,exact,0.92,25,23,2,0.1,1
 PHONE,773,startswith,CITY,Chicago,exact,0.918182,220,202,18,0.1,1
 PHONE,3,startswith,CITY,Chicago,exact,0.917594,1978,1815,163,0.1,1
-ZIP,44,startswith,CITY,Cleveland,exact,0.916667,36,33,3,0.1,3
+ZIP,44,startswith,CITY,Cleveland,exact,0.916667,36,33,3,0.1,4
+EMPLOYER_ID,436,startswith,CITY,Chicago,exact,0.916667,24,22,2,0.1,1
+EMPLOYER_ID,438,startswith,STATE,IL,exact,0.916667,24,22,2,0.1,1
+ADDRESS_1,1100,startswith,CITY,Wilmington,exact,0.916667,12,11,1,0.1,2
+ADDRESS_1,1100,startswith,STATE,DE,exact,0.916667,12,11,1,0.1,2
+ADDRESS_1,230,startswith,STATE,IL,exact,0.916667,12,11,1,0.1,1
+ADDRESS_1,461,startswith,STATE,NY,exact,0.916667,12,11,1,0.1,1
+ADDRESS_1,461,startswith,ZIP,10017,exact,0.916667,12,11,1,0.1,3
+ADDRESS_1,1100,startswith,ZIP,19884,exact,0.916667,12,11,1,0.1,2
+ADDRESS_1,300 N,startswith,ZIP,60654,exact,0.916667,12,11,1,0.1,1
+EMPLOYER_ID,1209,startswith,CITY,Chicago,exact,0.916667,12,11,1,0.1,1
+EMPLOYER_ID,780,startswith,CITY,Chicago,exact,0.916667,12,11,1,0.1,1
+EMPLOYER_ID,1209,startswith,STATE,IL,exact,0.916667,12,11,1,0.1,1
+EMPLOYER_ID,62,startswith,STATE,IL,exact,0.916667,12,11,1,0.1,1
+NAME,Dal,startswith,ZIP,60603,exact,0.916667,12,11,1,0.1,1
+PHONE,302,startswith,CITY,Wilmington,exact,0.916667,12,11,1,0.1,1
+PHONE,302,startswith,ZIP,19884,exact,0.916667,12,11,1,0.1,1
+STATE,DE,startswith,CITY,Wilmington,exact,0.916667,12,11,1,0.1,1
+STATE,DE,startswith,ZIP,19884,exact,0.916667,12,11,1,0.1,1
+ZIP,198,startswith,CITY,Wilmington,exact,0.916667,12,11,1,0.1,3
 FAX,6,startswith,ACTIVE,Y,exact,0.915033,153,140,13,0.1,1
 NAME,The,startswith,STATE,IL,exact,0.914894,47,43,4,0.1,1
-ZIP,62,startswith,CITY,Springfield,exact,0.914286,35,32,3,0.1,2
+NAME,Citi,startswith,ZIP,10013,exact,0.914286,35,32,3,0.1,3
+ZIP,62,startswith,CITY,Springfield,exact,0.914286,35,32,3,0.1,4
 ZIP,3,startswith,ACTIVE,Y,exact,0.913793,58,53,5,0.1,1
 NAME,C,startswith,ACTIVE,Y,exact,0.913043,345,315,30,0.1,1
 NAME,Ro,startswith,CITY,Chicago,exact,0.913043,46,42,4,0.1,1
-ZIP,9,startswith,STATE,CA,exact,0.9125,80,73,7,0.1,2
+ADDRESS_1,55 E,startswith,FAX,312-580-2201,exact,0.913043,23,21,2,0.1,2
+EMPLOYER_ID,435,startswith,STATE,IL,exact,0.913043,23,21,2,0.1,1
+NAME,Law,startswith,CITY,Chicago,exact,0.913043,23,21,2,0.1,1
+NAME,Thomp,startswith,FAX,312-580-2201,exact,0.913043,23,21,2,0.1,2
+ZIP,9,startswith,STATE,CA,exact,0.9125,80,73,7,0.1,7
+NAME,Neal ,startswith,FAX,312-641-5137,exact,0.911765,34,31,3,0.1,1
 STATE,D,startswith,ACTIVE,Y,exact,0.909091,88,80,8,0.1,1
 NAME,Th,startswith,CITY,Chicago,exact,0.909091,77,70,7,0.1,1
 NAME,Com,startswith,CITY,Chicago,exact,0.909091,55,50,5,0.1,1
 NAME,Jo,startswith,STATE,IL,exact,0.909091,55,50,5,0.1,1
 NAME,Wi,startswith,CITY,Chicago,exact,0.909091,44,40,4,0.1,1
 ADDRESS_1,77,startswith,STATE,IL,exact,0.909091,33,30,3,0.1,1
-NAME,DL,startswith,FAX,312-236-7516,exact,0.909091,33,30,3,0.1,2
-NAME,DL,startswith,ZIP,60601,exact,0.909091,33,30,3,0.1,2
+NAME,DL,startswith,FAX,312-236-7516,exact,0.909091,33,30,3,0.1,4
+NAME,DL,startswith,ZIP,60601,exact,0.909091,33,30,3,0.1,1
+CITY,Cha,startswith,STATE,NC,exact,0.909091,22,20,2,0.1,4
+CREATED_DATE,04/0,startswith,CITY,Chicago,exact,0.909091,22,20,2,0.1,1
+CREATED_DATE,04/0,startswith,STATE,IL,exact,0.909091,22,20,2,0.1,1
+EMPLOYER_ID,411,startswith,CITY,Chicago,exact,0.909091,22,20,2,0.1,1
+STATE,W,startswith,COUNTRY,United States,exact,0.909091,22,20,2,0.1,1
+ADDRESS_1,134,startswith,CITY,Chicago,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,461 5,startswith,CITY,New York,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,71 S.,startswith,NAME,Mayer Brown LLP,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,134,startswith,NAME,"Tri-Angle Fabrication & Body Co., Inc",exact,0.909091,11,10,1,0.1,3
+ADDRESS_1,461 5,startswith,NAME,US Bancorp,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,134,startswith,PHONE,773-523-0421,exact,0.909091,11,10,1,0.1,3
+ADDRESS_1,461 5,startswith,PHONE,877-356-6249,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,103,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,134,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+ADDRESS_1,1717,startswith,STATE,TX,exact,0.909091,11,10,1,0.1,2
+ADDRESS_1,134,startswith,ZIP,60609,exact,0.909091,11,10,1,0.1,1
+CREATED_DATE,11/07,startswith,CITY,Chicago,exact,0.909091,11,10,1,0.1,1
+CREATED_DATE,02/05,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+CREATED_DATE,11/07,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+CREATED_DATE,12/1,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,487,startswith,CITY,Chicago,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,1207,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,1006,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,487,startswith,Year,2011.0,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,476,startswith,Year,2011.0,exact,0.909091,11,10,1,0.1,1
+EMPLOYER_ID,494,startswith,Year,2011.0,exact,0.909091,11,10,1,0.1,1
+NAME,Macq,startswith,ADDRESS_1,125 W 55th St.,exact,0.909091,11,10,1,0.1,3
+NAME,Das,startswith,ADDRESS_1,"227 W. Monroe St., #3500",exact,0.909091,11,10,1,0.1,4
+NAME,Roo,startswith,ADDRESS_1,"600 W. Van Buren, Ste. 909",exact,0.909091,11,10,1,0.1,4
+NAME,AM,startswith,CITY,Chicago,exact,0.909091,11,10,1,0.1,1
+NAME,Macq,startswith,CITY,New York,exact,0.909091,11,10,1,0.1,1
+NAME,Geor,startswith,FAX,312-641-3625,exact,0.909091,11,10,1,0.1,3
+NAME,Macq,startswith,PHONE,212-231-1000,exact,0.909091,11,10,1,0.1,3
+NAME,Roo,startswith,PHONE,312-332-6600,exact,0.909091,11,10,1,0.1,4
+NAME,Geor,startswith,PHONE,312-641-3611,exact,0.909091,11,10,1,0.1,3
+NAME,AM,startswith,STATE,IL,exact,0.909091,11,10,1,0.1,1
+NAME,Macq,startswith,STATE,NY,exact,0.909091,11,10,1,0.1,1
+NAME,Macq,startswith,ZIP,10019,exact,0.909091,11,10,1,0.1,1
+NAME,Roo,startswith,ZIP,60430,exact,0.909091,11,10,1,0.1,4
+ADDRESS_1,180 N,startswith,STATE,IL,exact,0.90625,32,29,3,0.1,1
 ADDRESS_1,22,startswith,CITY,Chicago,exact,0.90583,223,202,21,0.1,1
+ADDRESS_1,209,startswith,CITY,Chicago,exact,0.904762,21,19,2,0.1,1
+ADDRESS_1,170,startswith,STATE,IL,exact,0.904762,21,19,2,0.1,1
+ADDRESS_1,209,startswith,STATE,IL,exact,0.904762,21,19,2,0.1,1
+EMPLOYER_ID,437,startswith,CITY,Chicago,exact,0.904762,21,19,2,0.1,1
+EMPLOYER_ID,468,startswith,STATE,IL,exact,0.904762,21,19,2,0.1,1
+NAME,An,startswith,ACTIVE,Y,exact,0.904762,21,19,2,0.1,1
+PHONE,202-7,startswith,ZIP,20036,exact,0.904762,21,19,2,0.1,1
+ZIP,10282,startswith,ADDRESS_1,200 West Street,exact,0.904762,21,19,2,0.1,1
+CREATED_DATE,01/08,startswith,STATE,IL,exact,0.903226,31,28,3,0.1,1
 ADDRESS_1,205,startswith,CITY,Chicago,exact,0.9,50,45,5,0.1,1
 EMPLOYER_ID,78,startswith,STATE,IL,exact,0.9,40,36,4,0.1,1
 NAME,No,startswith,STATE,IL,exact,0.9,40,36,4,0.1,1
 EMPLOYER_ID,460,startswith,CITY,Chicago,exact,0.9,30,27,3,0.1,1
-EMPLOYER_ID,73,startswith,CREATED_DATE,01/15/2013,exact,0.9,30,27,3,0.1,1
+EMPLOYER_ID,73,startswith,CREATED_DATE,01/15/2013,exact,0.9,30,27,3,0.1,2
 EMPLOYER_ID,73,startswith,STATE,IL,exact,0.9,30,27,3,0.1,1
 EMPLOYER_ID,460,startswith,STATE,IL,exact,0.9,30,27,3,0.1,1
-NAME,Citigroup,startswith,ZIP,10013,exact,0.9,30,27,3,0.1,1
+ADDRESS_1,33 W ,startswith,NAME,Illinois Restaurant Association,exact,0.9,20,18,2,0.1,1
+NAME,Jeffe,startswith,FAX,212-909-9920,exact,0.9,20,18,2,0.1,2
+PHONE,415-,startswith,STATE,CA,exact,0.9,20,18,2,0.1,1
+ADDRESS_1,54,startswith,CITY,Chicago,exact,0.9,10,9,1,0.1,1
+ADDRESS_1,2 ,startswith,CITY,Chicago,exact,0.9,10,9,1,0.1,1
+ADDRESS_1,1111,startswith,CITY,Oakland,exact,0.9,10,9,1,0.1,2
+ADDRESS_1,105,startswith,CITY,Washington,exact,0.9,10,9,1,0.1,1
+ADDRESS_1,1111,startswith,STATE,CA,exact,0.9,10,9,1,0.1,1
+ADDRESS_1,105,startswith,STATE,DC,exact,0.9,10,9,1,0.1,1
+ADDRESS_1,54,startswith,STATE,IL,exact,0.9,10,9,1,0.1,1
+CITY,Li,startswith,ACTIVE,Y,exact,0.9,10,9,1,0.1,1
+CITY,Li,startswith,STATE,IL,exact,0.9,10,9,1,0.1,1
+NAME,Hil,startswith,CITY,Chicago,exact,0.9,10,9,1,0.1,1
+NAME,Char,startswith,PHONE,312-849-9000,exact,0.9,10,9,1,0.1,1
+NAME,Char,startswith,ZIP,60602,exact,0.9,10,9,1,0.1,1
+PHONE,(415,startswith,FAX,(415) 388-6874,exact,0.9,10,9,1,0.1,2
+ZIP,60628,startswith,ADDRESS_1,1000 E. 111th St.,exact,0.9,10,9,1,0.1,1
+ZIP,60628,startswith,NAME,Chicago Neighborhood Initiatives,exact,0.9,10,9,1,0.1,1
